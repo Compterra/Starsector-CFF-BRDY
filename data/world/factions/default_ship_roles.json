@@ -1,0 +1,325 @@
+{
+	# Corporate security screen: fast, numerous, and exportable.
+	"combatSmallForSmallFleet":{
+		"brdy_robberfly_light":12,
+		"brdy_robberfly_cs":10,
+		"brdy_robberfly_strike":8,
+		"brdy_locust_patrol":12,
+		"brdy_locust_hunter":10,
+		"brdy_locust_strike":9,
+		"brdy_locust_cs":8,
+		"brdy_dragonfly_attack":9,
+		"brdy_dragonfly_striker":6,
+		"brdy_dragonfly_skirmisher":6,
+		"brdy_mantis_attack":7,
+		"brdy_mantis_strike":6,
+		"scarab_attack":6,
+		"scarab_closesupport":5,
+		"scarab_firesupport":4,
+		"brdy_silverfish_standard":3,
+		"brdy_silverfish_cs":3,
+		"brdy_silverfish_mod_standard":3,
+	},
+
+	"combatSmall":{
+		"brdy_robberfly_light":14,
+		"brdy_robberfly_barrage":12,
+		"brdy_robberfly_cs":12,
+		"brdy_robberfly_strike":12,
+		"brdy_locust_patrol":12,
+		"brdy_locust_hunter":12,
+		"brdy_locust_strike":12,
+		"brdy_locust_cs":10,
+		"brdy_dragonfly_attack":10,
+		"brdy_dragonfly_striker":9,
+		"brdy_dragonfly_skirmisher":9,
+		"brdy_dragonfly_elite":7,
+		"brdy_mantis_attack":9,
+		"brdy_mantis_strike":8,
+		"brdy_mantis_barrage":8,
+		"brdy_mantis_assault":5,
+		"brdy_mantis_shatterer":4,
+		"scarab_attack":5,
+		"scarab_closesupport":5,
+		"scarab_pd":5,
+		"brdy_zabrus_attack":4,
+		"brdy_zabrus_support":4,
+		"brdy_silverfish_standard":5,
+		"brdy_silverfish_cs":4,
+		"brdy_silverfish_b_standard":3,
+		"brdy_silverfish_mod_standard":4,
+		"brdy_silverfish_mod_elite":3,
+		"brdy_robberfly_p_raider":2,
+		"brdy_robberfly_p_strike":2,
+		"brdy_robberfly_p_harasser":2,
+		"brdy_silverfish_mod_p_retrofit":1,
+		"brdy_silverfish_mod_p_raider":1,
+		"brdy_zabrus_p_attack":1,
+		"brdy_zabrus_p_support":1,
+	},
+
+	# Corporate line assets: sturdy destroyers and scout-logistics hulls first, shock specialists second.
+	"combatMedium":{
+		"brdy_scorpion_standard":12,
+		"brdy_scorpion_fs":9,
+		"brdy_scorpion_adv":8,
+		"brdy_scorpion_artillery":8,
+		"brdy_scorpion_assault":8,
+		"brdy_eurypterus_standard":11,
+		"brdy_eurypterus_cs":10,
+		"brdy_eurypterus_assault":9,
+		"brdy_eurypterus_pd":8,
+		"brdy_eurypterus_strike":6,
+		"gonodactylus_CS":9,
+		"gonodactylus_elite":8,
+		"gonodactylus_cc":8,
+		"gonodactylus_assault":8,
+		"brdy_megaceras_standard":8,
+		"brdy_megaceras_runner":6,
+		"brdy_megaceras_tactical":6,
+		"brdy_megaceras_weap":5,
+		"brdy_dynastos_standard":3,
+		"brdy_dynastos_elite":2,
+		"brdy_dynastos_lr":2,
+		"desdinova_fastattack":3,
+		"desdinova_cs":3,
+		"desdinova_assault":3,
+		"desdinova_HK":3,
+		"gonodactylus_p_berserker":1,
+		"gonodactylus_p_strike":1,
+	},
+
+	# Command cruisers, carrier-industrial anchors, and rare escalation hulls.
+	"combatLarge":{
+		"brdy_knight_standard":10,
+		"brdy_knight_assault":9,
+		"brdy_knight_support":9,
+		"brdy_knight_elite":6,
+		"brdy_convergence_standard":10,
+		"brdy_convergence_militarized":8,
+		"brdy_convergence_frontier":6,
+		"brdy_antaeus_standard":9,
+		"brdy_antaeus_assault":7,
+		"brdy_antaeus_def":7,
+		"brdy_antaeus_siege":6,
+		"brdy_antaeus_saturation":4,
+		"brdy_stenos_weap":7,
+		"brdy_stenos_exploration":6,
+		"brdy_stenos_militarized":6,
+		"nevermore_assault":3,
+		"nevermore_advanced":3,
+		"nevermore_shock":2,
+		"nevermore_tac":2,
+		"nevermore_strike":1,
+		"brdy_asura_assault":2,
+		"brdy_asura_strike":1,
+		"brdy_imaginos_shock":1,
+		"brdy_imaginos_elite":1,
+		"brdy_nevermore_00_retro":1,
+		"brdy_nevermore_00_elite":1,
+		"brdy_morpheus_proto":1,
+	},
+
+	"combatCapital":{
+		"brdy_kurmaraja_suppression":10,
+		"brdy_kurmaraja_heavy":10,
+		"brdy_kurmaraja_elite":9,
+		"brdy_kurmaraja_artillery":7,
+		"brdy_kurmaraja_advanced":6,
+		"brdy_karkinos_suppression":5,
+		"brdy_karkinos_prototype":4,
+		"brdy_karkinos_elite":4,
+		"brdy_karkinos_assault":4,
+		"brdy_karkinos_obliterator":3,
+		"brdy_morpheus_proto":2,
+		"brdy_nevermore_00_retro":1,
+		"brdy_nevermore_00_elite":1,
+	},
+
+	# Armed logistics are a faction feature, not an accident.
+	"combatFreighterSmall":{
+		"brdy_silverfish_standard":10,
+		"brdy_silverfish_cs":8,
+		"brdy_silverfish_b_standard":8,
+		"brdy_silverfish_b_assault":7,
+		"brdy_silverfish_mod_standard":4,
+		"brdy_silverfish_mod_elite":3,
+		"scarab_closesupport":6,
+		"scarab_attack":6,
+	},
+
+	"combatFreighterMedium":{
+		"brdy_cetonia_standard":10,
+		"brdy_megaceras_standard":10,
+		"brdy_megaceras_runner":8,
+		"brdy_megaceras_tactical":8,
+		"brdy_megaceras_weap":7,
+	},
+
+	"combatFreighterLarge":{
+		"brdy_hawkmoth_armed":6,
+		"brdy_hawkmoth_fortified":5,
+		"brdy_hawkmoth_fs":5,
+		"brdy_convergence_frontier":10,
+		"brdy_convergence_standard":9,
+		"brdy_eschaton_armed":5,
+	},
+
+	"civilianRandom":{
+		"brdy_silverfish_standard":12,
+		"brdy_silverfish_cs":8,
+		"brdy_cetonia_standard":8,
+		"brdy_megaceras_standard":5,
+		"brdy_hawkmoth_armed":3,
+		"brdy_robberfly_light":8,
+		"brdy_robberfly_cs":6,
+		"scarab_closesupport":6,
+		"scarab_attack":5,
+		"mercury_Standard":4,
+		"hermes_Standard":4,
+		"starliner_Standard":3,
+		"nebula_Standard":3,
+		"mudskipper_Standard":2,
+		"fallback":{"freighterSmall":1},
+	},
+
+	"carrierSmall":{
+		"brdy_typheus_support":10,
+		"brdy_typheus_defender":9,
+		"brdy_typheus_elite":8,
+		"brdy_typheus_strike":8,
+		"fallback":{"carrierMedium":1},
+	},
+
+	"carrierMedium":{
+		"brdy_convergence_standard":10,
+		"brdy_convergence_militarized":8,
+		"brdy_convergence_frontier":8,
+		"brdy_knight_support":7,
+		"brdy_knight_standard":5,
+		"brdy_knight_assault":5,
+		"brdy_knight_elite":4,
+		"fallback":{"carrierSmall":2},
+	},
+
+	"carrierLarge":{
+		"brdy_kurmaraja_suppression":3,
+		"brdy_kurmaraja_heavy":3,
+		"brdy_kurmaraja_elite":3,
+		"brdy_kurmaraja_artillery":2,
+		"fallback":{"carrierMedium":2},
+	},
+
+	"phaseSmall":{
+		"brdy_imaginos_shock":1,
+		"brdy_imaginos_elite":1,
+	},
+
+	"phaseMedium":{
+		"brdy_imaginos_shock":1,
+		"brdy_imaginos_elite":1,
+	},
+
+	"phaseLarge":{
+		"brdy_imaginos_shock":1,
+		"brdy_imaginos_elite":1,
+	},
+
+	"phaseCapital":{
+		"brdy_morpheus_proto":1,
+	},
+
+	"freighterSmall":{
+		"brdy_silverfish_standard":12,
+		"brdy_silverfish_cs":6,
+		"scarab_closesupport":4,
+		"mercury_Standard":5,
+		"hermes_Standard":5,
+		"fallback":{"freighterMedium":0.5},
+	},
+
+	"freighterMedium":{
+		"brdy_cetonia_standard":12,
+		"brdy_megaceras_standard":5,
+		"brdy_megaceras_runner":4,
+		"fallback":{"freighterSmall":0.5},
+	},
+
+	"freighterLarge":{
+		"brdy_eschaton_armed":10,
+		"brdy_hawkmoth_armed":4,
+		"brdy_convergence_frontier":3,
+		"fallback":{"freighterMedium":0.5},
+	},
+
+	"tankerSmall":{
+		"fallback":{"tankerMedium":0.5},
+	},
+
+	"tankerMedium":{
+		"brdy_hawkmoth_armed":8,
+		"brdy_hawkmoth_fortified":7,
+		"brdy_hawkmoth_fs":6,
+		"phaeton_Standard":1,
+	},
+
+	"tankerLarge":{
+		"brdy_hawkmoth_fortified":6,
+		"brdy_hawkmoth_fs":5,
+		"brdy_eschaton_armed":3,
+		"fallback":{"tankerMedium":1},
+	},
+
+	"personnelSmall":{
+		"brdy_silverfish_standard":10,
+		"brdy_silverfish_b_standard":6,
+	},
+
+	"personnelMedium":{
+		"brdy_cetonia_standard":10,
+		"brdy_megaceras_standard":3,
+	},
+
+	"personnelLarge":{
+		"brdy_eschaton_armed":7,
+		"brdy_convergence_frontier":3,
+		"fallback":{"personnelMedium":0.5},
+	},
+
+	"linerSmall":{
+		"brdy_silverfish_standard":6,
+		"brdy_silverfish_b_standard":4,
+	},
+
+	"linerMedium":{
+		"brdy_cetonia_standard":6,
+		"brdy_megaceras_standard":3,
+	},
+
+	"linerLarge":{
+		"brdy_eschaton_armed":4,
+		"brdy_convergence_frontier":3,
+		"fallback":{"linerMedium":0.5},
+	},
+
+	"tug":{
+	},
+
+	"crig":{
+	},
+
+	"utility":{
+		"brdy_stenos_exploration":8,
+		"brdy_megaceras_runner":7,
+		"brdy_megaceras_tactical":5,
+		"brdy_cetonia_standard":5,
+		"brdy_silverfish_standard":5,
+		"brdy_hawkmoth_armed":4,
+	},
+
+	"orbitalStationLowTech":{
+	},
+
+	"battlestationLowTech":{
+	},
+}

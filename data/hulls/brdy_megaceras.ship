@@ -1,0 +1,371 @@
+{
+  "bounds": [
+    -80.5,
+    -26.5,
+    -26,
+    -37.5,
+    1.5,
+    -33,
+    8.5,
+    -48.5,
+    34,
+    -51,
+    49.5,
+    -25.5,
+    97.5,
+    -9.5,
+    80.5,
+    0,
+    97.5,
+    9.5,
+    49.5,
+    25.5,
+    34,
+    51,
+    8.5,
+    48.5,
+    1.5,
+    33,
+    -26,
+    37.5,
+    -80.5,
+    26.5
+  ],
+  "builtInMods": [
+    "brfluxmod",
+    "hiressensors"
+  ],
+  "builtInWeapons": {
+    "WS0010": "blinker",
+    "WS0011": "blinker2",
+    "WS0012": "blinker2",
+    "WS0013": "blinker",
+    "WS0014": "blinker",
+    "WS0015": "blinker"
+  },
+  "builtInWings": ["brdy_kutos_wing"],
+  "center": [
+    64,
+    110
+  ],
+  "collisionRadius": 122,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 21,
+      "length": 75,
+      "location": [
+        -72.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 21
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 33.5,
+      "location": [
+        -73.5,
+        5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 33.5,
+      "location": [
+        -73.5,
+        -5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6
+    },
+    {
+      "angle": 162.838074,
+      "contrailSize": 12.680736,
+      "length": 33,
+      "location": [
+        -33.5,
+        37
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 12.680736
+    },
+    {
+      "angle": -162.838074,
+      "contrailSize": 12.680736,
+      "length": 33,
+      "location": [
+        -33.5,
+        -37
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 12.680736
+    },
+    {
+      "angle": 149.62088,
+      "contrailSize": 6.660217,
+      "length": 14,
+      "location": [
+        -33,
+        40
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6.660217
+    },
+    {
+      "angle": -149.62088,
+      "contrailSize": 6.660217,
+      "length": 14,
+      "location": [
+        -33,
+        -40
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6.660217
+    },
+    {
+      "angle": 149.62088,
+      "contrailSize": 128,
+      "length": 14,
+      "location": [
+        5.5,
+        45.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6.6
+    },
+    {
+      "angle": -149.62088,
+      "contrailSize": 128,
+      "length": 14.634219,
+      "location": [
+        5.5,
+        -45.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6.6
+    }
+  ],
+  "height": 220,
+  "hullId": "brdy_megaceras",
+  "hullName": "Megaceras",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 120,
+  "spriteName": "graphics/BR/ships/br_megaceras.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        46,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -38,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 216.869904,
+      "id": "WS0004",
+      "locations": [
+        -4,
+        16.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 216.869904,
+      "id": "WS0005",
+      "locations": [
+        -4,
+        -16.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0003",
+      "locations": [
+        20,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 140,
+      "id": "WS0006",
+      "locations": [
+        -14.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        87.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 140,
+      "id": "WS0008",
+      "locations": [
+        -43,
+        29
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -90,
+      "arc": 140,
+      "id": "WS0009",
+      "locations": [
+        -43,
+        -29
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        14,
+        40.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        14,
+        -40.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        -37.5,
+        55
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        -37.5,
+        -55
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        61,
+        31.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0015",
+      "locations": [
+        61,
+        -27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -43.5,
+        30,
+        -44,
+        -30
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 128
+}

@@ -1,0 +1,25 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "brdy_robberfly",
+    "hullMods": ["brtarget"],
+    "permaMods": [],
+    "variantId": "brdy_robberfly_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "br_fpde"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brdy_linear",
+                "WS0005": "brdy_linear"
+            }
+        }
+    ]
+}

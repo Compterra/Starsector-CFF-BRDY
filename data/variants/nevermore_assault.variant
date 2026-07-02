@@ -1,0 +1,57 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 5,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "brdy_nevermore",
+    "hullMods": [
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "variantId": "nevermore_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "brdy_amlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "brdy_mage_s",
+                "WS0012": "brdy_mage_s",
+                "WS0013": "brdy_mage_s",
+                "WS0014": "brdy_mage_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_dualac",
+                "WS0002": "brdy_dualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_pcc",
+                "WS0004": "brdy_pcc",
+                "WS0007": "brdy_pcc",
+                "WS0008": "brdy_pcc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brvulcan",
+                "WS0006": "brvulcan",
+                "WS0009": "brburst"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 38,
+    "goalVariant": true,
+    "hullId": "brdy_karkinos",
+    "hullMods": [
+        "missleracks",
+        "brassaultop",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_karkinos_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brdy_squallbattery",
+                "WS0006": "brdy_squallbattery"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "voidspear_srm",
+                "WS0010": "voidspear_srm",
+                "WS0015": "voidspear_srm",
+                "WS0016": "voidspear_srm",
+                "WS0019": "voidspearpod",
+                "WS0020": "voidspearpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "br_minishard",
+                "WS0008": "br_minishard",
+                "WS0011": "br_minishard",
+                "WS0012": "br_minishard"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_solenoid",
+                "WS0002": "brdy_solenoid",
+                "WS0003": "brdy_solenoid",
+                "WS0004": "brdy_solenoid"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "br_iwbattery",
+                "WS0014": "br_iwbattery",
+                "WS0017": "brdy_iwcannon",
+                "WS0021": "brvulcan",
+                "WS0022": "brvulcan"
+            }
+        }
+    ]
+}

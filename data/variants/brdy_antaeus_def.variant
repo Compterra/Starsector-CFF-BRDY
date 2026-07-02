@@ -1,0 +1,63 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 3,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "brdy_antaeus",
+    "hullMods": [
+        "brshields",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_antaeus_def",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "brdy_ac",
+                "WS0013": "brdy_ac",
+                "WS0033": "brdy_ac",
+                "WS0034": "brdy_ac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0020": "scalaron_torpedo_small",
+                "WS0021": "scalaron_torpedo_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "brdy_iwcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_antlaser",
+                "WS0002": "brdy_antlaser",
+                "WS0003": "brdy_antlaser",
+                "WS0004": "brdy_antlaser",
+                "WS0005": "brdy_antlaser",
+                "WS0006": "brdy_antlaser",
+                "WS0008": "antshred",
+                "WS0009": "antshred",
+                "WS0010": "antshred",
+                "WS0011": "antshred",
+                "WS0014": "antshred",
+                "WS0015": "antshred",
+                "WS0017": "brburst",
+                "WS0018": "brburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0016": "brdy_pcc"}
+        }
+    ]
+}

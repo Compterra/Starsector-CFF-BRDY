@@ -1,0 +1,76 @@
+{
+  "blackrock_driveyards": {
+    "descriptionOverride": "The ships in this Blackrock fleet have the following operational reputations:",
+    "goodTraitFrequency": {
+      "engine_power": 3,
+      "maneuverability": 2,
+      "mount_durability": 2,
+      "emp_resistance": 2,
+      "damage": 2,
+      "weapon_stability": 3,
+      "turret_rotation": 2,
+      "range": 2,
+      "missile_guidance": 2,
+      "missile_reload": 1,
+      "pd_range": 2,
+      "pd_damage": 2,
+      "overload_time": 2,
+      "flux_capacity": 2,
+      "flux_dissipation": 3,
+      "vent_rate": 4,
+      "shield_raise_rate": 2,
+      "shield_stability": 2,
+      "shield_strength": 2,
+      "fighter_damage": 1,
+      "fighter_speed": 1,
+      "fighter_durability": 1
+    },
+    "badTraitFrequency": {
+      "engine_durability": 2,
+      "malfunction": 1,
+      "sensor_profile": 3,
+      "overload_time": 2,
+      "shield_raise_rate": 1,
+      "shield_stability": 1,
+      "vent_rate": 1,
+      "cursed": 1
+    }
+  },
+  "br_consortium": {
+    "descriptionOverride": "The ships in this Consortium force have the following classified reputations:",
+    "allowFamousFlagshipBarEvent": false,
+    "allowFamousDerelictBarEvent": false,
+    "goodTraitFrequency": {
+      "engine_power": 2,
+      "maneuverability": 3,
+      "mount_durability": 3,
+      "emp_resistance": 3,
+      "damage": 3,
+      "weapon_stability": 3,
+      "turret_rotation": 2,
+      "range": 3,
+      "missile_guidance": 2,
+      "missile_reload": 2,
+      "pd_range": 2,
+      "pd_damage": 2,
+      "overload_time": 3,
+      "flux_capacity": 3,
+      "flux_dissipation": 3,
+      "vent_rate": 4,
+      "shield_raise_rate": 3,
+      "shield_stability": 2,
+      "shield_strength": 2,
+      "fighter_damage": 1,
+      "fighter_speed": 1,
+      "fighter_durability": 1
+    },
+    "badTraitFrequency": {
+      "engine_durability": 2,
+      "malfunction": 2,
+      "sensor_profile": 4,
+      "overload_time": 2,
+      "phase_mad": 1,
+      "cursed": 2
+    }
+  }
+}

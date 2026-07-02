@@ -1,0 +1,118 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Shard Gun,br_minishard,0,,400,600,,40,0,2,20,6,,,,KINETIC,32.5,,0,0.25,1,0,2,10,5,3,,1000,,,,,,,"kinetic7, energy3, SR, brdy_com_bp, brdy_wep_bp, blackrock, brdy_export",,Blackrock,,General,,,,,Each shot has a %s chance to inflict %s extra Energy damage when hitting armor or hull.,20% | 100-150,,,,21038
+Shard Cannon,brdy_ac,1,,600,725,,75,0,2,20,7,,,,KINETIC,65,,0,1.45,4,0.16,0,9,1.5,6,,1050,,,25,,,,"kinetic8, energy4, brdy_com_bp, brdy_wep_bp, blackrock",,Blackrock,,General,,,,,Each shot has an %s chance to inflict %s extra Energy damage when hitting armor or hull.,18% | 150-200,,,,21002
+Dual Shard Cannon,brdy_dualac,2,,2200,775,,75,0,2,12,12,,,,KINETIC,65,,0,1.6,8,0.16,0,9,1.5,6,,1050,,,25,,,,"kinetic12, energy6, brdy_wep_bp, blackrock",,Blackrock,,General,,,,,Each shot has an %s chance to inflict %s extra Energy damage when hitting armor or hull.,18% | 150-200,,,,21003
+Mega Shard Cannon,brdy_hshard,2,,6000,900,,90,0,20,15,22,,,,KINETIC,92.5,,0,0.3,1,,0,6,1,8,,1050,,,25,,,,"kinetic15, energy8, LR, rare_bp, blackrock, brdy_rare",,Blackrock,,General,,,,,Each shot has an %s chance to inflict %s extra Energy damage when hitting armor or hull.,18% | 150-200,,,,21002
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Straff Tactical Cannon,brdy_cc,0,,350,625,,170,0,2,22,5,,,,FRAGMENTATION,35,,0,0.75,2,0.25,0,3,1,6,,1200,,,12,,,,"he6, brdy_com_bp, brdy_wep_bp, blackrock",,Blackrock,,General,,,,,,,,,,21038
+Light Shredder,antshred,0,,80,525,,30,,1,90,2,,,,FRAGMENTATION,2.5,,0,1.4,10,0.05,1,6,4,6,,1325,,,,,,"PD, ANTI_FTR","pd3, SR, brdy_com_bp, blackrock, brdy_export",,Blackrock,,Point Defense,,,,,,,,,,21000
+Shredder,brvulcan,0,,160,500,,30,,1,120,4,,,,FRAGMENTATION,5,,0,1.4,10,0.05,3,12,4,3,,1200,,,10,,,"PD, ANTI_FTR","pd7, SR, brdy_com_bp, brdy_wep_bp, blackrock, brdy_export",,Blackrock,,Point Defense,,,,,,,,,,21000
+Shredder Battery,br_iwbattery,0,,750,600,,30,,1,50,9,,,,FRAGMENTATION,2.5,,0,1.7,20,0.05,3,14,4,3,,1200,,,10,,,"PD, ANTI_FTR","pd12, SR, brdy_com_bp, brdy_wep_bp, blackrock",,Blackrock,,Point Defense,,,,,,,,,,21001
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thunderhead UAC,brdy_thunderhead,1,,1500,600,,55,,2,15,11,,,,KINETIC,42.5,,0,0.13,1,,1,3,1,1.5,,1425,,,10,,,,"kinetic12, SR, rare_bp, brdy_rare, blackrock",,Blackrock,,Anti Shield,,,,,,,,,,21004
+INM Assault Gun,brdy_ag,0,,350,625,,60,,4,20,6,12,2.25,3,HIGH_EXPLOSIVE,50,,0,0.15,1,,2,4,1,1.5,,1100,,,15,,,,"he8, brdy_wep_bp, blackrock, brdy_export",,Blackrock,,Anti Armor,,,,,,,,,,21004
+Volley Gun,brdy_volley,1,0.9,600,625,,540,0,3,18,9,,,,KINETIC,367.5,,0,2.8,1,0,6,6,0,0,,900,,,,,,,"kinetic10, SR, brdy_mil_bp, rare_bp, blackrock",,Blackrock,,Anti Shield,,,,,,,,,,21005
+Ferrogun,brdy_solenoid,1,,2000,825,,345,50,40,14,11,,,,KINETIC,345,,0,2.5,1,,1,1,2,5,,2200,,,60,,,,"kinetic12, brdy_wep_bp, blackrock",,Blackrock,,Anti Shield,,,,,,,,,,21006
+Ferrocannon,brdy_solenoidlarge,3,0.9,7000,925,,765,400,250,10,25,,,,KINETIC,690,,0.5,3,1,,0,0,0,0,,3300,,,220,,,"STRIKE, USE_VS_FRIGATES","kinetic15, LR, brdy_wep_bp, rare_bp, blackrock",,Blackrock,,Anti Shield,,,,,,,,,,21007
+Gale Cannon,brdy_squallgun,0,,1200,650,,650,0,10,13,10,,,,HIGH_EXPLOSIVE,430,,0,2.8,1,,2,6,6,0.5,,1000,,,150,,,,"he12, brdy_wep_bp, blackrock, brdy_export",,Blackrock,,Anti Armor,,,,,,,,,,21008
+Extended Gale Cannon,brdy_galecannon,1,0.9,2200,925,,575,0,10,10,13,,,,HIGH_EXPLOSIVE,597.5,,0,4,1,,1,1,1,5,,1100,,,155,,,,"he13, LR, brdy_mil_bp, brdy_rare, rare_bp, blackrock",,Blackrock,,Anti Armor,,,,,,,,,,21009
+Gale Battery,brdy_squallbattery,2,,5000,925,,590,0,10,8,20,,,,HIGH_EXPLOSIVE,415,,0,4.5,3,0.4,2,8,3,1.5,,875,,,175,,,,"he16, LR, brdy_wep_bp, blackrock",,Blackrock,,Assault,,,,,,,,,,21010
+Linear Pulse Gun,brdy_linear,1,,500,525,,75,0,25,35,7,,,,ENERGY,42.5,,0,0.25,1,0,1,12,2,4,,925,,,20,,,,"energy9, SR, brdy_wep_bp, blackrock",,Blackrock,,General,,,,,,,,,,21011
+Argus Particle Beam,brdy_argussmall,1,,500,500,760,,,0,90,7,2,0.6,,FRAGMENTATION,,322.5,0,0.1,0.2,0.15,,,,,1000000000,,,,,,,"PD, ANTI_FTR","pd7, SR, beam3, brdy_com_bp, brdy_wep_bp, blackrock",,Blackrock,,Point Defense,,,,,,,,,,21012
+Thermal Projector,brburst,2,,2000,600,330,,,1,120,10,,,,HIGH_EXPLOSIVE,,130,0,0.35,,,,,,,5000,,,,,,,"ANTI_FTR, PD, PD_ALSO","pd11, he6, beam8, brdy_mil_bp, brdy_rare, rare_bp, blackrock",,Blackrock,,Anti-Fighter / PD,,,,,,,,,,21013
+Scalaron Blaster,brdy_plasma,3,0.7,2500,750,,1100,500,40,12,12,,,,ENERGY,1200,,0,6,1,,0,0,0,0,,775,,,600,,,"STRIKE,USE_VS_FRIGATES","strike14, brdy_mil_bp, brdy_rare, rare_bp, blackrock",SCB_only,Blackrock,,Strike,,,,,Inflicts an extra %s of the shot's Energy damage and %s of its EMP damage as an electric arc when hitting armor or hull.,10% | 25%,,,,21014
+Sunfire PDE,br_pde,2,,2300,750,707.5,,,0,25,12,,,,HIGH_EXPLOSIVE,,415,0,0.4,1.6,4,,,,,1500,,,,,,,,"strike6, he6, beam5, blackrock, brdy_wep_bp",,Blackrock,,Anti Armor,,,,,"Due to the plasma ray's travel time, closer proximity to the target allows for slightly more burn time and damage.",,,,,21015
+Sunjet PDE,br_fpde,1,,800,625,575,,,0,30,8,,,,HIGH_EXPLOSIVE,,345,0,0.4,1.1,5,,,,,1700,,,,,,,,"strike8, he8, beam7, blackrock, brdy_com_bp, brdy_wep_bp, brdy_export",,Blackrock,,Anti Armor,,,,,"Due to the plasma ray's travel time, closer proximity to the target allows for slightly more burn time and damage.",,,,,21016
+Sunstorm PDE,br_xlpde,2,0.9,5500,900,1200,,,0,20,22,,,,HIGH_EXPLOSIVE,,827.5,0,0.5,2,5,,,,,1400,,,,,,,,"strike15, he15, beam12, brdy_rare, rare_bp, blackrock",,Blackrock,,Anti Armor,,,,,"Due to the plasma ray's travel time, closer proximity to the target allows for slightly more burn time and damage.",,,,,21015
+Ironweaver ADC,brdy_iwcannon,2,,4000,750,,3025,0,3,13,20,4,0.5,3,FRAGMENTATION,460,,0,1,1,,0,6,0,0,,650,,,,,,"ANTI_FTR, PD, PD_ALSO","he14, pd15, brdy_rare, rare_bp, blackrock",,Blackrock,,Area Denial,,,,,,,,,,21017
+Quill Rocket Launcher,brdy_quill,0,,300,925,,110,,5,40,5,56,,,KINETIC,0,,0,4,3,0.1,15,15,10,1,,2050,500,1.2,190,,,DO_NOT_CONSERVE,"rocket7, brdy_wep_bp, blackrock",,Blackrock,,Pressure,,,,,Each rocket has a %s chance to inflict %s extra Energy damage when hitting armor or hull.,25% | 200-250,,,,21018
+Quill Rocket Pod,brdy_quillpod,1,,1800,925,,110,,5,13,10,188,,,KINETIC,0,,0,7,8,0.1,15,15,10,1,,2050,500,1.2,190,,,DO_NOT_CONSERVE,"rocket13, brdy_wep_bp, blackrock",,Blackrock,,Pressure,,,,,Each rocket has a %s chance to inflict %s extra Energy damage when hitting armor or hull.,25% | 200-250,,,,21018
+Achilles LRM,achilles_mrm,1,,550,3000,,770,700,20,30,6,8,0.02,,FRAGMENTATION,0,,0,10,1,,0,0,0,,,300,150,22,275,,,"DO_NOT_AIM, HEATSEEKER, DO_NOT_CONSERVE, GROUP_LINKED","utility9, missile4, brdy_wep_bp, blackrock",,Blackrock,,Anti Engine,,,,,Submunitions inflict an additional %s Energy damage and %s EMP damage when scoring a direct hit on hull or armor.,75 | 500,,,TRUE,21019
+Achilles LRM Pod,achillespod,2,,2200,3000,,770,700,20,13,12,15,0.033333,,FRAGMENTATION,0,,0,10,2,0.5,0,0,0,,,300,150,22,275,,,"DO_NOT_AIM, HEATSEEKER, DO_NOT_CONSERVE, GROUP_LINKED","utility13, missile7, brdy_wep_bp, blackrock",,Blackrock,,Anti Engine,,,,,Submunitions inflict an additional %s Energy damage and %s EMP damage when scoring a direct hit on hull or armor.,75 | 500,,,TRUE,21020
+Fury-class Torpedo (Single),brdy_fury,0,,105,1200,,2750,1000,60,20,2,1,,,ENERGY,300,,0,3,1,,0,0,0,0,,550,350,3,690,,,"STRIKE, USE_VS_FRIGATES","strike3, rocket2, brdy_com_bp, brdy_wep_bp, blackrock, brdy_export",,Blackrock,,Torpedo,,,,,,,,,TRUE,21021
+Fury-class Torpedo Rack,brdy_2xfury,1,,300,1200,,2750,1000,60,15,4,2,,,ENERGY,300,,0,8,1,,0,0,0,0,,550,350,3,690,,,"STRIKE, USE_VS_FRIGATES","strike6, rocket4, brdy_wep_bp, blackrock, brdy_export",,Blackrock,,Torpedo,,,,,,,,,TRUE,21022
+Voidspear MRM,voidspear_srm,0,,350,1600,,440,400,20,30,6,20,,2,ENERGY,175,,0,14,2,0.5,0,0,0,,,375,60,16,190,,,"DO_NOT_AIM, STRIKE, USE_VS_FRIGATES, GROUP_LINKED","utility6, missile8, brdy_wep_bp, blackrock",,Blackrock,,Pressure,,,,,Unstable fusion warheads always inflict %s additional High Explosive damage.,50-100,,,TRUE,21024
+Voidspear MRM Pod,voidspearpod,1,,1500,1600,,440,400,20,13,12,40,,4,ENERGY,175,,0,14,4,0.5,0,0,0,,,375,60,16,190,,,"DO_NOT_AIM, STRIKE, USE_VS_FRIGATES, GROUP_LINKED","utility10, missile10, brdy_wep_bp, blackrock",,Blackrock,,Pressure,,,,,Unstable fusion warheads always inflict %s additional High Explosive damage.,50-100,,,TRUE,21025
+Scalaron Repeater,brdy_scannon,3,0.8,2500,575,,115,80,25,20,12,500,2,50,ENERGY,70,,0.25,0.2,9999,0.125,1,12,2,10,,825,,,6,,,,"energy15, SR, brdy_rare, rare_bp, blackrock",,Blackrock,,General,,,,,,,,,,21026
+Micro Argus PD,brdy_miniargus,0,,200,500,587.5,,,0,120,4,2,0.4,,FRAGMENTATION,,,0,0.1,0.2,0.15,,,,,1000000000,,,,,,,"PD, ANTI_FTR","pd3, SR, beam0, brdy_wep_bp, brdy_com_bp, blackrock, brdy_export",,Blackrock,,Point Defense,,,,,,,,,,21037
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Dart SRM,brdy_afmissile,0,,350,875,,145,0,6,60,4,90,0.1,9,FRAGMENTATION,10,,0,6,9,0.2,20,45,10,10,,500,390,4.2,60,,,"ANTI_FTR, DO_NOT_AIM,  DO_NOT_CONSERVE, GROUP_LINKED","missile1, brdy_com_bp, brdy_wep_bp, blackrock, brdy_export",,Blackrock,,Anti Fighter,,,,,,,,,TRUE,21018
+Dart SRM Launcher,brdy_afmissilebig,1,,700,875,,145,0,6,30,8,158,0.2,18,FRAGMENTATION,20,,0,8,18,0.2,20,45,10,10,,500,390,4.2,60,,,"ANTI_FTR, DO_NOT_AIM,  DO_NOT_CONSERVE, GROUP_LINKED","missile4, brdy_wep_bp, blackrock",,Blackrock,,Anti Fighter,,,,,,,,,TRUE,21018
+Gridfire Submunition,brdy_tacmissile_hax,1,,700,1500,,220,200,12,0,0,1,,,HIGH_EXPLOSIVE,,,0,20,1,,,,,,,750,30,0.75,375,,,"DO_NOT_AIM,  DO_NOT_CONSERVE, SYSTEM","missile3, brdy_wep_bp, blackrock",,Blackrock,,,,,,,,,,,TRUE,21018
+Gridfire MRM Pod,brdy_mage_m,1,,1200,2500,,220,200,8,8,12,15,,,HIGH_EXPLOSIVE,,,0,9.7,4,0.3,,,,,,425,75,10,250,,,"DO_NOT_AIM, STRIKE,USE_VS_FRIGATES","missile14, strike10, brdy_wep_bp, blackrock",,Blackrock,,Finisher,,,,,"Each submunition deals %s High Explosive and EMP damage, for a total of %s potential base and EMP damage per missile. Launches four missiles at once.",200 | 800,,,TRUE,21018
+Gridfire MRM,brdy_mage_s,1,,400,2500,,220,200,8,15,6,8,,,HIGH_EXPLOSIVE,,,0,4.7,2,0.4,,,,,,425,75,10,250,,,"DO_NOT_AIM, STRIKE,USE_VS_FRIGATES","missile9, strike3, brdy_wep_bp, blackrock",,Blackrock,,Finisher,,,,,"Each submunition deals %s High Explosive and EMP damage, for a total of %s potential base and EMP damage per missile. Launches two missiles at once.",200 | 800,,,TRUE,21018
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Particle Lance,brdy_plance,1,,400,725,232.5,,202.5,5,22,5,,,,KINETIC,,187.5,0,1,1,2.7,,,,,4800,,,,,,,,"kinetic5, LR, beam6, brdy_wep_bp, blackrock",,Blackrock,,Anti Small Craft,,,,,,,,,,18
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Particle Rifle,br_particlerifle,1,,1400,825,,130,0,5,11,10,16,2.4,6,FRAGMENTATION,42.5,,0,0.22,1,0,0,5,0.25,2.5,,3300,,,10,,,,"energy10, LR, brdy_wep_bp, blackrock",,Blackrock,,Anti Small Craft,,,,,Inflicts %s additional Energy damage on hits against armor and hull.,30,,,,21011
+Ejector,br_fluxejector,,,,500,,300,1000,15,,,1,0.025,,HIGH_EXPLOSIVE,0,0,0,0.1,1,0.25,0,0,0,0,,40,65,4,500,,,SYSTEM,,,Blackrock,,,,,,,,,,,,21027
+Fury Torpedo Launcher,furylauncher,1,,1000,1150,,2750,1000,60,10,9,6,,,ENERGY,0,,0,10,1,,0,0,0,0,,550,350,3,690,,,"STRIKE, USE_VS_FRIGATES","strike10, rocket10, brdy_wep_bp, blackrock",,Blackrock,,Torpedo,,,,,,,,,TRUE,21022
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antimatter Lance,brdy_amlance,3,,10000,900,,2950,0,50,0,30,2,0.07,,ENERGY,1655,,0.9,8,1,,0,1,2,5,,775,,,1000,,,"STRIKE, USE_VS_FRIGATES, SYSTEM, SHOW_IN_CODEX",,AML_only,Blackrock,,Strike,,,,,Inflicts %s additional Energy damage on hits against armor and hull.,100-200,Has a %s seconds charge-up time before a shot can be fired.,0.9,,21029
+Rage SRM,br_rage_srm,0,,400,1050,,660,0,20,30,4,8,,,HIGH_EXPLOSIVE,0,,0,4,2,0.25,0,0,0,0,,650,180,3,300,,,"GUIDED_POOR, STRIKE, USE_VS_FRIGATES","strike4, missile4, brdy_wep_bp, brdy_com_bp, blackrock, brdy_export",,Blackrock,,Finisher,,,,,,,,,TRUE,21024
+Rage SRM Pod,br_rage_pod,1,,1000,1050,,660,0,20,30,10,25,,,HIGH_EXPLOSIVE,0,,0,10,4,0.25,0,0,0,0,,650,180,3,300,,,"GUIDED_POOR, STRIKE, USE_VS_FRIGATES","strike7, missile8,  brdy_wep_bp, blackrock, brdy_export",,Blackrock,,Finisher,,,,,,,,,TRUE,21024
+Light SPL,scalaron_torpedo_small,3,0.8,750,3000,,440,800,15,0,8,8,0.0333,,ENERGY,400,,0,15,1,,30,0,0,30,,200,150,28,875,,,"DO_NOT_AIM, DO_NOT_CONSERVE, GROUP_LINKED","utility10, missile5, brdy_mil_bp, rare_bp, blackrock",SPL_only,Blackrock,,Long Range Support,,,,,Inflicts an additional %s of the pulse's Energy and EMP damage as an electric arc when hitting armor or hull.,25%,,,TRUE,21024
+Heavy SPL,scalaron_torpedo_med,3,0.75,3000,3000,,880,1500,20,0,14,15,0.0333,,ENERGY,600,,0,15,1,,30,0,0,30,,200,150,30,1500,,,"DO_NOT_AIM, DO_NOT_CONSERVE, GROUP_LINKED","utility15, missile10, rare_bp, brdy_rare, blackrock",SPL_only,Blackrock,,Long Range Support,,,,,Inflicts an additional %s of the pulse's Energy and EMP damage as an electric arc when hitting armor or hull.,25%,,,TRUE,21024
+Bolide Shock Fusor,brdy_bolide,3,0.6,2400,750,,690,0,200,11,14,35,0.1,1,KINETIC,575,,0,5,1,,1,3,3,0.5,,600,,,400,,,"STRIKE,USE_VS_FRIGATES","kinetic14, rare_bp, brdy_mil_bp, brdy_rare, blackrock",,Blackrock,,Anti Shield,,,,,"Always inflicts an additional %s Fragmentation damage, as the projectile explodes violently on impact.",100-200,,,,21009
+Comet Shock Fusor,brdy_comet,2,0.75,800,650,,290,0,60,15,8,70,0.125,1,KINETIC,250,,0,4,1,,2,3,3,1,,700,,,150,,,"STRIKE,USE_VS_FRIGATES","kinetic9, brdy_mil_bp, rare_bp, brdy_rare, blackrock",,Blackrock,,Anti Shield,,,,,"Always inflicts an additional %s Fragmentation damage, as the projectile explodes violently on impact.",50-100,,,,21009
+Burst Cannon,brdy_pcc,1,,600,625,,115,0,10,15,8,6,1,3,ENERGY,120,,0,1.5,3,0.12,2,12,2,6,,600,,,,,,"ANTI_FTR, PD, PD_ALSO","energy7, PD, LR, brdy_wep_bp, blackrock",,Blackrock,,Point Defense (Area),,,,,,,,,,21010
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ESPADA Repeater,brdy_espada,2,,4800,925,,175,200,5,17,17,,,,FRAGMENTATION,45,,0.25,4,16,0.09,1,3,1,12,,2200,,,6,,,,"energy16, brdy_wep_bp, blackrock",,Blackrock,,Suppression,,,,,Inflicts %s additional Energy damage on hits against armor and hull.,30,,,,21014
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Blinker,blinker,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21031
+Blinker 2,blinker2,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21032
+Lens Flare,brlensflare,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21033
+Lens Flare,brlensflare2,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21034
+Lens Flare,brlensflaresmall,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21035
+Lens Flare,brlensflaresmall2,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21036
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scalaron Pulse Beam,brdy_miniargusb,1,,350,275,330,,400,0,360,,,,,ENERGY,,300,0.02,0.24,0.26,0.6,,,,,1000000000,,,,,,,"PD, SYSTEM, SHOW_IN_CODEX",,,Blackrock,,Point Defense,,,,,,,,,,21039
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iw_buckshot,iwshard_clone,1,,0,900,,150,0,3,10,30,,0,,FRAGMENTATION,690,,0,2.6,1,0.1,0,0,0,40,,275,,,5,,,SYSTEM,,,,,,,,,,,,,,,21040
+Volley_buckshot,brdyvolleyshot_clone,1,,0,600,,25,0,3,14,9,,0,,KINETIC,302.5,,0,3.7,1,0.1,0,0,0,40,,450,,,5,,,SYSTEM,,,,,,,,,,,,,,,21041
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,system_asura,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21042
+,system_kurma,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21042
+,lights_imaginos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21043
+,lights_morpheus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21043
+,lights_morpheus2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21043
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Spinal Gale Cannon,brdy_dronegale,2,,2800,925,,300,0,10,12,13,40,0.1,3,HIGH_EXPLOSIVE,400,,0,1.5,1,,3,6,7,5,,1000,,,,,,"SYSTEM, SHOW_IN_CODEX",,,Blackrock,,Close Support,,,,,,,,,,21009
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Raze Cannon,brdy_raze,3,,16000,950,,850,500,500,13,,,,,HIGH_EXPLOSIVE,900,,0,3,1,,1,3,7,5,,850,,,,,,"SYSTEM, SHOW_IN_CODEX",,,Blackrock,,Anti Armor (LR),,,,,,,,,,21008
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WSPR Tac. Missile,br_tacmissile,0,,,725,,110,150,5,60,4,26,,,HIGH_EXPLOSIVE,0,,0,10,1,,1,2,10,10,,300,60,6.2,190,,,"SYSTEM, DO_NOT_AIM,  DO_NOT_CONSERVE",,,Blackrock,,,,,,,,,,,,21018
+Dart SRM (Single),brdy_dart_fighter2,0,,,675,,145,50,5,60,4,26,,,FRAGMENTATION,0,,0,30,1,,20,45,10,10,,475,390,4.2,60,,,"SYSTEM, ANTI_FTR, DO_NOT_AIM,  DO_NOT_CONSERVE",,,Blackrock,,,,,,,,,,,,21018
+Dart SRM Rack,brdy_dart_fighter,0,,,675,,145,50,5,60,4,26,,,FRAGMENTATION,0,,0,5,4,0.25,20,45,10,10,,475,390,4.2,60,,,"SYSTEM, ANTI_FTR, DO_NOT_AIM,  DO_NOT_CONSERVE",,,Blackrock,,,,,,,,,,,,21018
+Voidspear MRM (Fighter Rack),voidspear_ftr,1,,200,1200,,440,400,10,30,6,,,1,ENERGY,95,,0,1000,1,,0,0,0,,,325,60,12,190,,,"SYSTEM, DO_NOT_AIM, STRIKE, USE_VS_FRIGATES",,,Blackrock,,,,,,,,,,,,21024
+Rage SRM (Single),br_rage_ftr,0,,100,925,,660,0,20,30,4,1,,,HIGH_EXPLOSIVE,0,,0,4,1,,0,0,0,0,,650,200,1.8,300,,,"SYSTEM, GUIDED_POOR, STRIKE, USE_VS_FRIGATES",,,Blackrock,,,,,,,,,,,,21024
+Focused P.Lance,brdy_plance_ftr,1,,150,600,115,,200,5,24,5,,,,KINETIC,,115,0,0.5,,,,,,,10000,,,,,,,SYSTEM,,,Blackrock,,,,,,,,,,,,18
+Decoy Flare Launcher (Blackrock),brdy_fighter_flare,,,,200,,10,0,,,,,0,,ENERGY,,,0,0.1,2,0.4,30,30,0,,,200,100,5,500,,,SYSTEM,,,Blackrock,,,,,,,,,,,,37
+Snub-nose Tackler HAC,hellb_cannon,1,,250,600,,20,0,2,18,6,,,,KINETIC,0,,0,0.3,1,,2,4,1,3,,1050,,,,,,SYSTEM,,,Blackrock,,,,,,,,,,,,21038
+Dual Tackler HAC,nadir_cannon,1,,350,925,,35,0,2,18,6,,,,KINETIC,0,,0,2.5,6,0.2,2,4,1,3,,1325,,,,,,SYSTEM,,,Blackrock,,,,,,,,,,,,21038
+Light Burst Cannon,brdy_pcc_ftr,1,,400,825,,115,0,10,10,8,,,,ENERGY,110,,0,2.75,2,0.25,4,4,1,1,,700,,,,,,"SYSTEM, ANTI_FTR, PD, PD_ALSO",,,Blackrock,,,,,,,,,,,,21010
+Plasma Cutter,brdy_plasmacutter,1,,250,400,120,,0,0,360,,,,,HIGH_EXPLOSIVE,,0,0.1,0.25,,,,,,,1000000000,,,,,,,"SYSTEM, ANTI_FTR",,,Blackrock,,,,,,,,,,,,18
+Ajax SRM Rack,achilles_ftr,1,,100,1050,,220,50,10,30,6,4,,,FRAGMENTATION,0,,0,10,3,0.5,0,0,0,,,375,150,9,190,,,"SYSTEM, DO_NOT_AIM, HEATSEEKER, DO_NOT_CONSERVE",,,Blackrock,,,,,,,,,,,,21019
+Type-2 INM AG,krait_inm,0,,300,600,,35,,4,18,6,9,2,3,HIGH_EXPLOSIVE,50,,0,0.15,1,,2,4,1,1.5,,1100,,,,,,SYSTEM,,,Blackrock,,,,,,,,,,,,21004
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pinlight Defense Laser,brdy_antlaser,1,,,500,230,,0,0,180,4,12,3,6,ENERGY,,0,0,0.025,0.075,0.05,,,,,80000,,,,,,,"PD, SYSTEM",,,Blackrock,,Point Defense,,,,,,,,,,21039
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Flash PPC,brdy_stinger,,,5200,825,,460,600,10,0,18,,,,ENERGY,552.5,,0,2.5,1,,1,1,0,5,,1650,,,50,,,"ANTI_FTR,SYSTEM,SHOW_IN_CODEX","strike20, he15, utility20",,Blackrock,,Special,,,,,"Pierces missiles and detonates in a small radius on impact or at maximum range. Direct hits inflict %s additional Energy damage.",5-10,,,,21014
+Integrated Flash SPL,homing_laser_light,3,,2500,1200,,275,400,15,0,8,4,0.05,3,ENERGY,120,,0,15,3,0.25,30,0,0,30,,550,200,5,500,,,"SYSTEM, DO_NOT_AIM",,,,,Special,,,,,,,,,,21024
+Vajra Cannon,brdy_vajra,,,12000,900,,825,,10,0,35,,,,ENERGY,1012.5,,0.45,0.4,9999,0.4,0,4,1,4,,1200,,,,,,"SYSTEM,SHOW_IN_CODEX","strike20, he15, utility20",VAJ_only,Blackrock,,General,,,,,,,,,,21014
+Arclight LFO,homing_laser,3,,2800,925,,280,0,5,0,12,2,0.125,,ENERGY,202.5,,0,0.6,1,,0,0,0,0,,650,250,2.6,800,,,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX",utility20,,Blackrock,,Special,,,,,,,,,TRUE,21024
+Void Buster,brdy_superscalarbeam,3,,16000,900,1200,,,0,0,30,,,,ENERGY,,1105,0.6,0.25,,,,,,,100000,,,,,,,"SYSTEM, SHOW_IN_CODEX",strike20,,Blackrock,,Special,,,,,"Damage grows with the Morpheus' flux level: At zero Flux, beam damage is %s of listed value, at maximum Flux, damage is %s. This applies to any beam weapons mounted on the ship, as well.",50% | 150%,"As long as the beam is sustained, it grants up to %s damage resistance to your ship based on its current flux level, and increasingly lowers the ship's acceleration, increasing your inertia.",50%,,21015
+Repulsor Pulse,brdy_repulsorpulse,3,,,2000,,200,200,15,,,,,,ENERGY,,,0,0,,,0,0,0,0,,600,600,5.5,400,,,SYSTEM,,,Blackrock,,,,,,,,,,,,21024
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hammerclaw,brdy_hammerclaw,0,,10000,1300,,3300,0,1600,0,16,1,0,,KINETIC,0,,0,60,1,0,1,1,1,1,,550,180,2.4,6875,,,"SYSTEM, SHOW_IN_CODEX, STRIKE, USE_VS_FRIGATES",strike20,,Blackrock,,Strike,,,,,"Direct hits will always impart a great deal of kinetic energy, pushing the recieving ship backwards from the point of impact.",,,,TRUE,21028
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rift Cannon,br_damocles,3,,7800,900,,120,50,25,0,20,10,3,,ENERGY,92.5,,0.045,0.045,1,,3,45,7,14,,775,,,,,,"SYSTEM, SHOW_IN_CODEX",strike20,,Blackrock,,Assault,,,,,,,,,,21030
+Quill Cluster Launcher,brdy_quill_serket,0,,300,1150,,110,,5,40,5,8,,,KINETIC,0,,0,4,6,0.1,15,15,10,1,,875,200,1.75,190,,,"DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES, SYSTEM",,,Blackrock,,,,,,,Each rocket has a %s chance to inflict %s extra Energy damage when hitting armor or hull.,25% | 200-250,,,,21018
+Focused Particle Rifle,brdy_nadirgun2,,,4800,925,,225,,10,0,18,,,,FRAGMENTATION,552.5,,0,2.5,1,,1,1,0,5,,1875,,,50,,,SYSTEM,"strike20, he15, utility20",,Blackrock,,Strike,,,,,Inflicts %s additional Energy damage on hits against armor and hull.,30,,,,21014

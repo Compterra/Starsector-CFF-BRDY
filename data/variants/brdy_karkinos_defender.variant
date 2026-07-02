@@ -1,0 +1,61 @@
+{
+    "displayName": "Defender",
+    "fluxCapacitors": 0,
+    "fluxVents": 43,
+    "hullId": "brdy_karkinos",
+    "hullMods": [
+        "targetingunit",
+        "magazines",
+        "fluxbreakers",
+        "eccm"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_karkinos_defender",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "scalaron_torpedo_small",
+                "WS0010": "scalaron_torpedo_small",
+                "WS0015": "scalaron_torpedo_small",
+                "WS0016": "scalaron_torpedo_small",
+                "WS0019": "scalaron_torpedo_med",
+                "WS0020": "scalaron_torpedo_med"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brdy_espada",
+                "WS0006": "brdy_espada",
+                "WS0017": "brdy_espada"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "br_particlerifle",
+                "WS0002": "br_particlerifle",
+                "WS0003": "br_particlerifle",
+                "WS0004": "br_particlerifle"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "brdy_pcc",
+                "WS0008": "brdy_pcc",
+                "WS0011": "brdy_pcc",
+                "WS0012": "brdy_pcc",
+                "WS0013": "br_iwbattery",
+                "WS0014": "br_iwbattery",
+                "WS0021": "brdy_pcc",
+                "WS0022": "brdy_pcc"
+            }
+        }
+    ]
+}

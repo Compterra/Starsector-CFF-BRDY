@@ -1,0 +1,51 @@
+{
+	"id":"brdy_furytorp",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+    "onHitEffect":"data.scripts.weapons.FuryOnHit",	
+	"sprite":"graphics/BR/missiles/br_furytorp.png",
+	"size":[14,23],	
+	"center":[7,11],
+	"collisionRadius":22,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[119,200,137,125],
+	"explosionRadius":200,
+	"armingTime":0.2, # the engine is the payload, very short arm time
+	"flameoutTime":0.6,
+	"noEngineGlowTime":0.3,
+	"fadeTime":0.5,	
+	"explosionSpec":{"duration":0.2f, # not visual
+					 "radius":200,
+					 "coreRadius":70, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":200,
+					 "particleColor":[255,255,137,125]},
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":295,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-11, 0],
+					#"loc":[-14, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[161,234,122,240],
+						"contrailDuration":1.8,
+						"contrailWidthMult":0.6,
+						"contrailWidthAddedFractionAtEnd":6.0,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.15f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[151,214,92,140],
+						"contrailSpawnDistMult":-0.5,						
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":16.0,
+				    "length":95.0,
+				    "angle":180.0}]
+}

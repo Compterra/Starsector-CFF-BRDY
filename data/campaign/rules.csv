@@ -1,0 +1,93 @@
+id,trigger,conditions,script,text,options,notes
+greetingBlackrockFriendly,OpenCommLink,"$faction.id == blackrock_driveyards
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Secure comms protocol complete. Backup redundancy confirmed. Good to see you, colleague.""
+OR
+The Blackrock $personRank greets you with a stiff smile. ""Can I help you with anything, or did you just want to hear my wonderful voice?""
+OR
+""Have you ever taken a skimmer for a little flyby of the Alpha Arcology on Blackrock? It's an amazing experience.""
+OR
+""The Corporate Colors are fire orange, green, white and black. But when you look at our ships, aren't they more... slate and dark green? It's really been bugging me lately.""
+
+$personName stares at you, waiting for some kind of reaction, then shrugs and cuts the comm link.
+OR
+""If you're bored enough to talk to me, you've got time to check out these combat logs. Learn from the best!"" 
+
+Your bridge crew begins to banter loudly as the logs play. $personName regales you with a smug grin as you raise your eyebrows.",,
+greetingBlackrockHostileWeaker,OpenCommLink,"$faction.id == blackrock_driveyards
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"The Blackrock $personRank appears on the viewscreen with $hisOrHer arms crossed. ""Everything here goes on your record. Let us go, and you might still recover your standing with the Corporation.""
+OR
+""Isn't there anything I can do to convince you that this is a bad idea?""
+OR
+""You are about to make some powerful enemies, outsider.""
+
+$personName buries $hisOrHer face in $hisOrHer hands.
+
+""At least, I hope so.""
+
+",cutCommLink:Cut the comm link,
+greetingBlackrockHostileWeakerDefiant,OpenCommLink,"$faction.id == blackrock_driveyards
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"The comm link barely opens before it gets cut off, the audio nothing but a burst of distorted interference.
+OR
+""Ah, to hell with it. Let's see what you're made of.""
+OR
+""So, you open a comm link just to breathe heavily and look your victim in the face. What a great person you are.""
+OR
+The Blackrock $personRank stares at you for a few seconds before cutting the connection.",cutCommLink:Cut the comm link,
+greetingBlackrockHostileStronger,OpenCommLink,"$faction.id == blackrock_driveyards
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""Your name's on a list, Captain. And if we make that list a little shorter, we've done good work today. Power down your drives.""
+OR
+""Looks like we've found another little problem that needs to be taken care of.""
+OR
+""Such a shame..."" 
+
+The comm link cuts out in a burst of static.
+OR
+$personName looks at you for a moment, as if about to say something, and then cuts the comm link.",cutCommLink:Cut the comm link,
+greetingBlackrockNeutral,OpenCommLink,"$faction.id == blackrock_driveyards
+$faction.neutralToPlayer",,"Your comm console pings, flashing a Blackrock Corporation logo and playing back a short, recorded message.
+ 
+<Greetings on behalf of Blackrock Drive Yards. Interested in our exports? Beam a query for personalized catalogues.>
+OR
+Your comm console pings, flashing a Blackrock Corporation logo and playing back a short, recorded message.
+  
+<Leave the past behind and forge a new future in the Sector, for the benefit of all mankind. Beam a query for Blackrock associate programs - make your decision today.>
+OR
+Your comm console pings, flashing a Blackrock Corporation logo and playing back a short, recorded message.
+  
+<Decline is not inevitable. Power is never absolute. Change the Sector as a Blackrock associate.>
+OR
+""Hello, outsider. If you have any questions about my employer, refer to the official info-modules.""
+OR
+""What is Blackrock Drive Yards, you ask? It's a corporation, it's a government... and it's the winning side.""
+OR
+""How did a corporation get to be this big and powerful? It's all in the times, friend.""",cutCommLink:Cut the comm link,
+flavorTextMarketBlackrock,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == blackrock_driveyards","AddText ""Corporate colors line the halls in the stylish-but-utilitarian market district. The endless droning of the latest BRNS news broadcast masks the dull thrum of starship engines that can be heard through the walls. Regular intercom announcements break up the monotony, just as security checkpoints segregate different sections of the market - a symptom of the troubled times you live in."" textGrayColor",,,
+aiCores_turnInResponseBlackrock,AICoresTurnedIn,$faction.id == blackrock_driveyards,FireAll PopulateOptions,"$personName smiles and nods. ""Thank you. You've made the right decision.""
+OR
+""Good trade, good call. I will see you around.""",,
+aiCores_turnInOptionSelBlackrock,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == blackrock_driveyards",FireAll PopulateCoresTurnInOptions,"""Interesting. Very interesting. You know what, I'll offer you a good price for those. I'd rather they didn't end up out on the markets, and we wouldn't want you to accidentally turn them over to Tri-Tachyon... What do you say?""",,
+CMSNRejectHostileText_blackrock_driveyards,CMSNTextRejectHostile,$faction.id == blackrock_driveyards,,"$personName looks at you for a moment, as if about to say something, and then cuts the comm link. Your intel officer chimes in, and redundantly warns you that the call was traced and that you have been identified.",,
+CMSNTextHasOther_blackrock_driveyards,CMSNTextHasOther,$faction.id == blackrock_driveyards,,"""Is that a joke? It's plain as day that you're already on the $theOtherCommissionFaction payroll. You're an amusing fellow, $playerName - but you're also a liability.""",,
+CMSNTextUnsuited_blackrock_driveyards,CMSNTextUnsuited,$faction.id == blackrock_driveyards,,"""$playerName, we appreciate the interest, but maybe you should cut your teeth on some freelance work and get back to us later?""",,
+CMSNTextSuitedPart1_blackrock_driveyards,CMSNTextSuitedPart1,$faction.id == blackrock_driveyards,,"""The Corporation is always looking for new talent, $playerName. Given your record, and the assessment... we should be able to offer you a standard Blackrock associate partnership, with access to standard military surplus, Sector emergency comms, and in-faction IFF. Do you accept?""",,
+CMSNTextSuitedPart2_blackrock_driveyards,CMSNTextSuitedPart2,$faction.id == blackrock_driveyards,,"""If you are ready to proceed, please send an encrypted BioPrint, and I will get the paperwork out of the way. And before you ask... no, you may not sign with a TriPad. Please use a generic terminal. Intel officer will have the link and auth code.""",,
+CMSNTextWelcomePart1_blackrock_driveyards,CMSNTextWelcomePart1,$faction.id == blackrock_driveyards,,"""Welcome to the Corporation, $playerName. Initially, you will only be expected to not act against our interests. Given your compliance, we will take you under our wing, and do our absolute best to make it worth your time.""
+
+""You decide what to make of it - if you feel safer aligned with the Corporation than as an outsider - I completely understand. But if you want to actively assist us in deepening our Sector influence, or in matters of internal security, you may find that you have access to proportionally greater rewards and renown.""",,
+CMSNTextWelcomePart2_blackrock_driveyards,CMSNTextWelcomePart2,$faction.id == blackrock_driveyards,,"""Good luck out there, $playerName.""
+
+$PersonPost $personLastName presents you with a tired smile and waves goodbye.",,
+CMSNTextChangeMind_blackrock_driveyards,CMSNTextChangeMind,$faction.id == blackrock_driveyards,,"""... I see. Please, feel free to get back to us later if you change your mind - again.""",,
+CMSNResignAskToConfirm_blackrock_driveyards,CMSNResignAskToConfirm,$faction.id == blackrock_driveyards,,"""... Yeah, $playerName, times change. If you're sure, we should be able to terminate your affiliation, and begin the paperwork.""",,
+CMSNResignConfirmed_blackrock_driveyards,CMSNResignConfirmed,$faction.id == blackrock_driveyards,,"""We should be... done right about... there. All right, we hope that although you saw it necessary to end our partnership, you will respect the Corporation going forward, and also return any classified assets to your personal intel contact, who should still respect your personal crypt key and be available for one month after termination, following standard operating procedures.""
+
+""And, $playerName? I would lay low for a while, if I were you.""",,
+CMSNResignCancelled_blackrock_driveyards,CMSNResignCancelled,$faction.id == blackrock_driveyards,,"""Were you just trying to make us understand how you feel, $playerName? We are an interstellar corporate faction-state, not a support group. But seriously, please let us know if we can help you serve the Corporation better. We must all work together if we want to maintain our growth in the current climate.""",,
+bar_descBRDY,BarPrintDesc,$faction.id == blackrock_driveyards,ShowImageVisual space_bar,"You are greeted by a wash of bass-heavy music and muted laughter. The entrance leads to a large, anachronistic bar desk surrounded by stools fixed into the floor, and a generous lounge area where spacers eye each other from across worn metal tables. Off-duty personnel hunch over the counter and silently attend to their drinks, while sleek suits converse and blow fragrant smoke from a mezzanine floor overhanging the entire complex.",,

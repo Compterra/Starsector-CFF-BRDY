@@ -1,0 +1,62 @@
+{
+    "displayName": "Siege",
+    "fluxCapacitors": 0,
+    "fluxVents": 29,
+    "goalVariant": true,
+    "hullId": "brdy_antaeus",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "brdy_antaeus_siege",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "brdy_plasma",
+                "WS0018": "brdy_plasma"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0020": "voidspearpod",
+                "WS0021": "voidspearpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "brdy_squallbattery"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "brdy_comet",
+                "WS0011": "brdy_comet",
+                "WS0012": "brdy_comet",
+                "WS0013": "brdy_comet",
+                "WS0033": "brdy_comet",
+                "WS0034": "brdy_comet"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_antlaser",
+                "WS0002": "brdy_antlaser",
+                "WS0003": "brdy_antlaser",
+                "WS0004": "brdy_antlaser",
+                "WS0005": "brdy_antlaser",
+                "WS0006": "brdy_antlaser",
+                "WS0008": "antshred",
+                "WS0009": "antshred",
+                "WS0014": "antshred",
+                "WS0015": "antshred",
+                "WS0016": "antshred"
+            }
+        }
+    ]
+}

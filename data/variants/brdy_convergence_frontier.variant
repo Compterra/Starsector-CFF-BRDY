@@ -1,0 +1,44 @@
+{
+    "displayName": "Frontier",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "brdy_convergence",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "brdy_convergence_frontier",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "achilles_mrm",
+                "WS0006": "achillespod",
+                "WS0007": "achilles_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_galecannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_pcc",
+                "WS0004": "brdy_pcc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_argussmall"}
+        }
+    ],
+    "wings": [
+        "brdy_mosquito_wing",
+        "brdy_serket_wing",
+        "brdy_mosquito_wing"
+    ]
+}

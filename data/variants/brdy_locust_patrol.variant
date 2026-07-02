@@ -1,0 +1,31 @@
+{
+    "displayName": "Patrol",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "brdy_locust",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "brdy_locust_patrol",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "br_minishard",
+                "WS0004": "br_minishard"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_plance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "brdy_argussmall"}
+        }
+    ]
+}

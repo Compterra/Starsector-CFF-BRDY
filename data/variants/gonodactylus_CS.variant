@@ -1,0 +1,49 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "brdy_gonodactylus",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.25,
+    "variantId": "gonodactylus_CS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0006": "brdy_hammerclaw"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "achilles_mrm",
+                "WS0018": "achilles_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0007": "brdy_galecannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_ac",
+                "WS0002": "brdy_ac",
+                "WS0003": "brdy_ac",
+                "WS0004": "brdy_ac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "brvulcan",
+                "WS0019": "brdy_argussmall"
+            }
+        }
+    ]
+}

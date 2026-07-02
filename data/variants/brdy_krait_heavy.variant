@@ -1,0 +1,38 @@
+{
+  "displayName": "Heavy Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "brdy_krait",
+  "hullMods": [],
+  "quality": 0.5,
+  "variantId": "brdy_krait_heavy",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "krait_inm",
+        "WS0002": "krait_inm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "antshred"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "brdy_miniargus"
+      }
+    }
+  ]
+}

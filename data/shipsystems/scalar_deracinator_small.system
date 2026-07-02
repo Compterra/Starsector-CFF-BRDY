@@ -1,0 +1,32 @@
+{
+	"id":"deracinator_small",
+	"type":"TELEPORTER",
+	"aiType":"PHASE_TELEPORTER",
+	"statsScript":"data.shipsystems.scripts.DeracinatorStatsSmall",
+
+	"jitterColor":[17,63,39,254],
+	"jitterCopies":12,
+	"jitterRange":50,
+	"jitterRangeRadiusFraction":0.32,
+
+	"range":1400,
+	#"randomRange":0,
+	#no random range because annoying ship facing randomness after teleport
+	
+    "renderCopyDuringTeleport":false,
+    "vulnerableChargeup":true,
+
+	"fadeActivationSoundOnChargedown":false,
+	#"useSound":"system_teleport",
+	#"useSound":"system_lucifergenactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+		"averageSpeedIncrease":155,
+		"burstMovementPotential":700,	
+		"threatRange":1200,
+		"threatAmount":9,
+		"threatAngle":0,
+		"threatArc":360,		
+	}
+}

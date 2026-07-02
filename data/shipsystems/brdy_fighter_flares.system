@@ -1,0 +1,7 @@
+{
+	"id":"brdy_fighter_flares",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	"weaponDataId":"brdy_fighter_flare",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

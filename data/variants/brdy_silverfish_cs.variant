@@ -1,0 +1,24 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 7,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "brdy_silverfish",
+    "hullMods": [
+        "advancedoptics",
+        "hardened_subsystems",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "brdy_silverfish_cs",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "brdy_plance",
+            "WS0002": "brdy_plance",
+            "WS0003": "brdy_plance"
+        }
+    }]
+}

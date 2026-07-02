@@ -1,0 +1,23 @@
+{
+  "displayName": "Missile Bomber",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "brdy_mosquito",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "brdy_mosquito_variant",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "br_rage_ftr",
+        "WS0003": "br_tacmissile",
+        "WS0004": "br_tacmissile"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,39 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "brdy_zabrus",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "brdy_zabrus_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "br_minishard",
+                "WS0006": "br_minishard"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_afmissilebig",
+                "WS0007": "brdy_afmissilebig",
+                "WS0016": "brdy_afmissilebig"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brvulcan",
+                "WS0003": "brdy_miniargus",
+                "WS0004": "brdy_miniargus"
+            }
+        }
+    ]
+}

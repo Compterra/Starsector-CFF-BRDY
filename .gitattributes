@@ -1,0 +1,25 @@
+# Keep text assets stable across Windows/Linux contributors.
+* text=auto
+
+*.java text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.faction text eol=lf
+*.variant text eol=lf
+*.ship text eol=lf
+*.wpn text eol=lf
+*.proj text eol=lf
+*.system text eol=lf
+*.skin text eol=lf
+*.txt text eol=lf
+*.version text eol=lf
+
+# Binary game/media assets
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ogg binary
+*.fsb binary
+*.wav binary
+*.ico binary

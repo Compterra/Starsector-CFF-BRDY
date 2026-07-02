@@ -1,0 +1,20 @@
+{
+  "playableFaction": false,
+  "startingFaction": false,
+  "enabledByDefault": false,
+  "corvusCompatible": true,
+  "useStrategicAI": false,
+  "noHomeworld": true,
+  "noMissionTarget": true,
+  "allowAgentActions": false,
+  "allowPrisonerActions": false,
+  "rebelFleetSuffix": "Rogues",
+  "startRelationships": {
+    "blackrock_driveyards": 1
+  },
+  "responseFleetName": "Force Response Fleet",
+  "morality": "amoral",
+  "defenceStations": [
+    {"ids": ["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]}
+  ]
+}

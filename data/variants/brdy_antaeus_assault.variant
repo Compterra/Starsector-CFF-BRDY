@@ -1,0 +1,65 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 15,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "brdy_antaeus",
+    "hullMods": [
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_antaeus_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "brdy_espada"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0020": "brdy_quillpod",
+                "WS0021": "brdy_quillpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "brdy_cc",
+                "WS0009": "brdy_cc",
+                "WS0010": "brdy_cc",
+                "WS0011": "brdy_cc",
+                "WS0012": "brdy_cc",
+                "WS0013": "brdy_cc",
+                "WS0033": "brdy_cc",
+                "WS0034": "brdy_cc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "br_particlerifle",
+                "WS0018": "br_particlerifle"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_antlaser",
+                "WS0002": "brdy_antlaser",
+                "WS0003": "brdy_antlaser",
+                "WS0004": "brdy_antlaser",
+                "WS0005": "brdy_antlaser",
+                "WS0006": "brdy_antlaser",
+                "WS0014": "antshred",
+                "WS0015": "antshred",
+                "WS0016": "antshred"
+            }
+        }
+    ]
+}

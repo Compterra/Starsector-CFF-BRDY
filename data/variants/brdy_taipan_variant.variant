@@ -1,0 +1,26 @@
+{
+  "displayName": "Heavy Interceptor",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "brdy_taipan",
+  "hullMods": ["eccm"],
+  "quality": 0.5,
+  "variantId": "brdy_taipan_variant",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "brdy_plance_ftr"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "brdy_dart_fighter",	  
+        "WS0002": "achilles_ftr"
+      }
+    }
+  ]
+}

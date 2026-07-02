@@ -1,0 +1,41 @@
+{
+    "displayName": "Barrage",
+    "fluxCapacitors": 3,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "brdy_mantis",
+    "hullMods": [
+        "missleracks",
+        "eccm"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_mantis_barrage",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_mage_s",
+                "WS0004": "brdy_mage_s"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "voidspearpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brvulcan",
+                "WS0005": "brvulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "br_minishard"}
+        }
+    ]
+}

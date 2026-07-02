@@ -1,0 +1,47 @@
+{
+    "displayName": "Berserker",
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "brdy_gonodactylus_p",
+    "hullMods": [
+        "missleracks",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "variantId": "gonodactylus_p_berserker",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "brdy_hammerclaw"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "brdy_afmissile",
+                "WS0018": "brdy_afmissile",
+                "WS0019": "brdy_afmissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_cc",
+                "WS0002": "brdy_cc",
+                "WS0003": "brdy_cc",
+                "WS0004": "brdy_cc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "br_iwbattery",
+                "WS0008": "vulcan"
+            }
+        }
+    ]
+}

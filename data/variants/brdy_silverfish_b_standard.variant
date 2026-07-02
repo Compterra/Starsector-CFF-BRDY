@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "brdy_silverfish_b",
+    "hullMods": ["turretgyros"],
+    "permaMods": [],
+    "variantId": "brdy_silverfish_b_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_plance",
+                "WS0002": "brdy_plance",
+                "WS0003": "brdy_plance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "scalaron_torpedo_small",
+                "WS0005": "scalaron_torpedo_small"
+            }
+        }
+    ]
+}

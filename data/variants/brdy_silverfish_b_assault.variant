@@ -1,0 +1,30 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 2,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "brdy_silverfish_b",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "quality": 0.75,
+    "variantId": "brdy_silverfish_b_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_afmissilebig",
+                "WS0004": "brdy_afmissilebig",
+                "WS0005": "brdy_afmissilebig"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brvulcan",
+                "WS0003": "brvulcan"
+            }
+        }
+    ]
+}

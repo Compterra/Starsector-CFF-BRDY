@@ -1,0 +1,12 @@
+{
+	"baseHullId":"brdy_robberfly",
+	"skinHullId":"brdy_robberfly_p",
+	"hullName":"Robberfly (P)",
+	"descriptionId":"brdy_robberfly",
+	"descriptionPrefix":"This Robberfly has passed through unlicensed yards and pirate hands, trading clean Blackrock calibration for rough field repairs and a loud paint scheme.",
+	"spriteName":"graphics/BR/ships/skins/robberfly_p.png",
+	"baseValueMult":0.8,
+	"tags":["bp_rare", "pirate_bp", "pirates"],
+	"tech":"Blackrock",	
+	"builtInMods":["degraded_engines"]
+}

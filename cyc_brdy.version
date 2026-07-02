@@ -1,0 +1,13 @@
+{
+    "masterVersionFile":"https://bitbucket.org/thegneissplace/brdy/downloads/cyc_brdy.version",
+    "modName":"Blackrock Drive Yards",
+    "modThreadId":4018,
+    "modNexusId":21,
+    "modVersion":
+    {
+        "major":0,
+        "minor":9,
+        "patch":"6-CFF"
+    },
+    "starsectorVersion":"0.98a-RC8"
+}

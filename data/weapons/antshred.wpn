@@ -1,0 +1,47 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "LINKED",
+  "fireSoundTwo": "iwfire2",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/minishred_hpbarrel.png",
+  "hardpointOffsets": [
+    13.5,
+    0
+  ],
+  "hardpointSprite": "graphics/BR/weapons/brvulcan_hp.png",
+  "id": "antshred",
+  "muzzleFlashSpec": {
+    "length": 14,
+    "particleColor": [
+      255,
+      240,
+      165,
+      250
+    ],
+    "particleCount": 7,
+    "particleDuration": 0.12,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "spread": 4
+  },
+  "projectileSpecId": "brvulcan_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/minishred_tbarrel.png",
+  "turretOffsets": [
+    10.5,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/minishred_turret.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 2
+}

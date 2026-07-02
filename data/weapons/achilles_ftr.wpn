@@ -1,0 +1,59 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "brdy_achilles_ftr_launch",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    13.5,
+    0,
+    16.5,
+    7,
+    9,
+    -7
+  ],
+  "hardpointSprite": "graphics/weapons/missile_autoloader_1x_hardpoint_base.png",
+  "id": "achilles_ftr",
+  "projectileSpecId": "achilles_ftr2",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "SMALL",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 4,
+    "cloudRadius": 8,
+    "particleColor": [
+      100,
+      120,
+      110,
+      100
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    6.5,
+    0,
+    9.5,
+    7,
+    1.5,
+    -7
+  ],
+  "turretSprite": "graphics/weapons/missile_autoloader_1x_turret_base.png",
+  "type": "MISSILE"
+}

@@ -1,0 +1,39 @@
+{
+    "displayName": "Weapons Research",
+    "fluxCapacitors": 17,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "brdy_stenos",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "brdy_stenos_weap",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_comet",
+                "WS0002": "brdy_comet"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0005": "brdy_plasma"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "br_xlpde"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "br_iwbattery",
+                "WS0007": "br_iwbattery"
+            }
+        }
+    ],
+    "wings": []
+}

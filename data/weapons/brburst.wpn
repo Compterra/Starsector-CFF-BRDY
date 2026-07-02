@@ -1,0 +1,63 @@
+{
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    255,
+    95,
+    45,
+    85
+  ],
+  "displayArcRadius": 600,
+  "fireSoundOne": "thermstart",
+  "fireSoundTwo": "thermloop",
+  "fringeColor": [
+    65,
+    39,
+    18,
+    145
+  ],
+  "glowColor": [
+    255,
+    119,
+    120,
+    105
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/BR/weapons/arguspd_hpglow.png",
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointSprite": "graphics/BR/weapons/arguspd_hp_base.png",
+  "hitGlowRadius": 120,
+  "id": "brburst",
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "pixelsPerTexel": 5,
+  "size": "MEDIUM",
+  "specClass": "beam",
+  "textureScrollSpeed": 300,
+  "fringeScrollSpeedMult": 0.5,
+  "textureType": [
+    "graphics/BR/missiles/zigzagger_blurred.png",
+    "graphics/BR/missiles/plasmaray3.png"
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/BR/weapons/arguspd_turretglow.png",
+  "turretOffsets": [
+    -1.5,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/arguspd_turret_base.png",
+  "type": "ENERGY",
+  "width": 120
+}

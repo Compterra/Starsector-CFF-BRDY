@@ -1,0 +1,43 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 1000,
+  "fireSoundTwo": "brdy_bolide_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/bolide_hpbarrel.png",
+  "hardpointOffsets": [
+    25.5,
+    0
+  ],
+  "hardpointSprite": "graphics/BR/weapons/bolide_hpbase.png",
+  "id": "brdy_bolide",
+  "muzzleFlashSpec": {
+    "length": 45,
+   "particleColor":[145,61,200,185],
+    "particleCount": 20,
+    "particleDuration": 0.2,
+    "particleSizeMin": 18,
+    "particleSizeRange": 15,
+    "spread": 8
+  },
+  "projectileSpecId": "brdy_bolide_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/bolide_tbarrel.png",
+  "turretOffsets": [
+    25,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/bolide_tbase.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 6
+}

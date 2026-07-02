@@ -1,0 +1,21 @@
+{
+	"id":"brdy_comet_shot",
+    "onHitEffect":"data.scripts.weapons.CometOnHitEffect",	
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":50.0,
+	"hitGlowRadius":30,
+	"width":13,
+	"fadeTime":0.33,
+	#"fringeColor":[255,125,125,255],
+	#"coreColor":[255,255,255,150],
+	"fringeColor":[144,220,165,129],
+	"coreColor":[255,255,255,255],
+	#"glowColor":[235,120,100,4],
+	#"glowRadius":90,	
+	"textureScrollSpeed":2.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/BR/missiles/bolide_disc3.png"
+}

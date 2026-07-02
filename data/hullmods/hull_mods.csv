@@ -1,0 +1,56 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Blackrock Flux Core,brfluxmod,,,,,,,,TRUE,,0,0,0,0,data.hullmods.BlackrockFlux,"Increases active flux vent rate by 60/50/40/30 percent, depending on ship size.",Increases active flux vent rate.,,graphics/BR/hullmods/br_fluxcore.png
+BRDY Systems Reinforcement,brassaultop,1,,Blackrock,"defensive, special","Defenses, Special",8000,,,,8,15,25,35,data.hullmods.BlackrockAssault,"Increases armor by %s/%s/%s/%s points, depending on hull size, and increases hull integrity by %s. 
+
+Also increases the peak operating time for ships that suffer degraded performance from extended deployment by %s.
+
+Can only be performed on Blackrock hulls.",Increases armor/hull and makes ship more resilient.,S-mod: reduces crew casualties from hull damage by %s.,graphics/BR/hullmods/br_assault.png
+BRDY Strike Suite,brtarget,1,,Blackrock,"offensive, special","Weapons, Special",8000,,,,6,12,18,25,data.hullmods.BlackrockSuite,"Increases ballistic, energy and missile damage by %s. Lowers weapon flux cost by %s. Increases projectile speed by %s.
+
+In addition, extends ballistic and energy weapon range by %s/%s/%s/%s, depending on hull size.
+
+Incompatible with Integrated Targeting Unit, Dedicated Targeting Core or Safety Overrides, and can only be installed on Blackrock hulls.
+",Improves Blackrock weapon output and range.,S-mod: improves autofire precision by %s and recoil recovery by %s.,graphics/BR/hullmods/br_suite.png
+Nanolattice Armor,brimaginosregen,,,Blackrock,,,,,TRUE,,0,0,0,0,data.hullmods.ImaginosRegen,"Passively regenerates lost armor, even while taking damage. Regeneration is strongest at zero flux, weakens as flux rises, and stops entirely at maximum flux.
+
+Overall armor integrity is lower than baseline, but stronger at blocking a constant source of insignificant damage, and will always return to full strength when given enough time.
+
+Also reduces damage taken from nearby ship explosions. In addition, the ship cannot support most shield-related hullmods.",Passively repairs armor.,,graphics/BR/hullmods/br_imaginosregen.png
+BRDY Drive Conversion,brdrive,1,,Blackrock,"engines, special","Engines, Special",8000,,,,12,20,32,40,data.hullmods.BlackrockDrive,"Increases 0-flux speed boost by %s, maximum speed by %s percent, and maximum burn level by %s.
+
+Decreases max turn rate and deceleration by %s percent.
+
+Incompatible with Augmented Drive Field, Unstable Injector or Safety Overrides. Can only be performed on Blackrock hulls.","Increases speed, 0-flux boost and burn.",S-mod: integrated governors reduce the maneuvering penalty to %s.,graphics/BR/hullmods/br_drive.png
+BRDY Dimensional Engine,brdimeng,,,Blackrock,,,,,TRUE,,0,0,0,0,data.hullmods.BlackrockDimensional,"Sustains a rift in space-time, allowing the massive energies that separate the dimensions to be harnessed. Required for powering the most advanced Blackrock technologies.
+
+Increases active flux vent rate by %s/%s/%s/%s percent, depending on ship class.
+
+Energy emissions make the ship easier to identify, increasing the ship's Sensor Profile by %s percent.
+
+Causes a violent emergency shutdown if the ship gets disabled, endangering nearby ships.",Increases active flux vent rate and sensor footprint.,,graphics/BR/hullmods/br_dimensional.png
+Overtuned Drive Systems,br_overtuneddrives,,,Blackrock,,,,,TRUE,,0,0,0,0,data.hullmods.OvertunedDrives,"The Desdinova's reactor leaves little room for emergency engine power, thanks to the ship's massive, complicated drive systems. Collateral damage tends to incur extra maintenance, due to the size and distribution of the ship's thrusters.
+
+Engines take %s as much damage during combat.",Ship engines are unusually vulnerable to damage.,,graphics/BR/hullmods/br_ods.png
+Scalar Rejector,scalar_rejector_tooltip,,,Blackrock,,,,,TRUE,,0,0,0,0,data.hullmods.BlackrockBlankHullmod,"An exotic defensive system that replaces shields for this ship. 
+
+Phases the ship for a set duration without affecting subjective time, and grants a speed increase. Incoming projectiles, energy bolts and missiles are sucked towards the ship and converted into energy once they reach it. Once the system deactivates, accumulated energy is released as a close-range blast of energy and EMP.
+
+Duration can be extended by phasing inside ships, and it can be cancelled prematurely by venting flux.",This ship has an exotic defensive system instead of shields.,,graphics/BR/hullmods/br_scalar.png
+Scalar Repulsor,scalar_repulsor_tooltip,,,Blackrock,,,,,TRUE,,0,0,0,0,data.hullmods.BlackrockBlankHullmod,"An exotic defensive system that replaces shields for this ship. Briefly makes the ship intangible.
+
+Phases the ship for a set duration without affecting subjective time. Incoming frontal projectiles, energy bolts and missiles are sucked towards the ship and converted into energy once they reach it. Once the system deactivates, accumulated energy is released as homing energy pulses that track your target, and nearby ships are pushed back.
+
+Duration can be extended by phasing inside ships, and it can be cancelled by venting flux.",This ship has an exotic defensive system instead of shields.,,graphics/BR/hullmods/br_scalar.png
+GAIA Weapon Integration System,br_hardenedweaps,,,Blackrock,,,,,TRUE,,0,0,0,0,data.hullmods.BlackrockHardWeaps,"Built-in redundant support mechanisms for all mounted weapons, increasing their durability by %s.
+
+The accuracy of firing solutions and the tracking speed of turrets are both improved by %s, and the range of non-beam ballistic and energy weapons is increased by %s.
+
+Small weapons suffer %s less recoil per shot.
+
+Adds %s to the Ordnance Point cost of all small beam weapons due to atypical hybrid power grid couplings and fitting requirements.",Ship's weapons are more durable and track faster.,,graphics/BR/hullmods/br_hardmounts.png
+BRDY Focused Shield Emitter,brshields,1,,Blackrock,"shields, Special","Shields, Special",6000,,,,6,12,18,25,data.hullmods.BlackrockShields,"Increases shield rotation and deployment speed by %s. Reduces damage taken by shields by %s, and reduces shield upkeep cost by %s.
+
+Fixes the maximum shield arc to %s degrees.
+
+Incompatible with all other shield-affecting hullmods, including jury-rigged front shield generators.
+Only applicable to Blackrock hulls that have shields.",Improves shield handling and efficiency.,S-mod: widens the fixed shield arc by %s degrees.,graphics/BR/hullmods/br_shields.png

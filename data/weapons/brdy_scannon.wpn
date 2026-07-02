@@ -1,0 +1,32 @@
+{
+	"id":"brdy_scannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+    "everyFrameEffect":"data.scripts.weapons.SCannonChargeupEffect",	
+	"turretSprite":"graphics/BR/weapons/scannon_t.png",
+	"turretGlowSprite":"graphics/BR/weapons/scannon_tglow.png",
+	"hardpointSprite":"graphics/BR/weapons/scannon_hp.png",
+	"hardpointGlowSprite":"graphics/BR/weapons/scannon_hpglow.png",
+	"glowColor":[101,168,117,87],
+	"turretOffsets":[8, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[6, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":43.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":7.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.12,
+					   "particleCount":22,
+					   "particleColor":[101,168,117,117]},
+	"projectileSpecId":"br_scproj",  # projectile that will be fired
+	"interruptibleBurst":true,
+    "autocharge":true,
+	"requiresFullCharge":false,
+	"fireSoundOne":"brdy_sc_charge",	
+	"fireSoundTwo":"brdy_sc_fire",
+}

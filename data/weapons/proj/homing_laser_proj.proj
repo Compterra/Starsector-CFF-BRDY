@@ -1,0 +1,36 @@
+{
+	"id":"homing_laser_proj",
+	"specClass":"missile",
+    "onHitEffect":"data.scripts.weapons.brdy_HomingLaserOnHitEffect",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/BR/missiles/homingdummy.png",
+	"size":[22,22],
+	"center":[11,11],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[49,242,222,55],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":80, # purely visual
+	"engineSpec":{"turnAcc":1900,
+				  "turnRate":440,
+				  "acc":10000,
+				  "dec":0.01},
+				  "engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[125,254,195,0],
+						"contrailDuration":1.6,
+						"contrailWidthMult":8,
+						"contrailWidthAddedFractionAtEnd":0.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailColor":[69,255,206,255],
+						"contrailSpawnDistMult":-0.5,						
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":1,
+				    "length":1,
+				    "angle":180.0}]
+}

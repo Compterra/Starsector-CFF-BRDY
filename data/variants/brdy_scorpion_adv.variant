@@ -1,0 +1,38 @@
+{
+    "displayName": "Advanced",
+    "fluxCapacitors": 10,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "brdy_scorpion",
+    "hullMods": [
+        "brtarget",
+        "magazines",
+        "eccm"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_scorpion_adv",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "br_particlerifle",
+                "WS0003": "br_particlerifle",
+                "WS0004": "br_particlerifle"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "scalaron_torpedo_small",
+                "WS0006": "scalaron_torpedo_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "brvulcan"}
+        }
+    ]
+}

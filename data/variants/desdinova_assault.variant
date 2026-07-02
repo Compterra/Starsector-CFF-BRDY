@@ -1,0 +1,50 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 9,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "brdy_desdinova",
+    "hullMods": ["brassaultop"],
+    "permaMods": [],
+    "variantId": "desdinova_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "brdy_squallgun",
+                "WS0005": "brdy_squallgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "br_rage_srm",
+                "WS0009": "br_rage_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brdy_volley",
+                "WS0003": "brdy_volley",
+                "WS0012": "brdy_volley"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "brvulcan",
+                "WS0011": "brvulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_argussmall"}
+        }
+    ]
+}

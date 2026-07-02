@@ -1,0 +1,32 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "brdy_scarab",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "scarab_closesupport",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_dualac"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "br_rage_srm"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "antshred",
+                "WS0004": "antshred",
+                "WS0005": "antshred",
+                "WS0006": "antshred"
+            }
+        }
+    ]
+}

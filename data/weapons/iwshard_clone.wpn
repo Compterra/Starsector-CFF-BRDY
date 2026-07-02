@@ -1,0 +1,31 @@
+{
+	"id":"iwshard_clone",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",	
+	"displayArcRadius":650,
+	"turretSprite":"graphics/BR/weapons/br_iwcannon_tbase.png",
+	"turretGunSprite":"graphics/BR/weapons/br_iwcannon_tbarrel.png",
+	"hardpointSprite":"graphics/BR/weapons/br_iwcannon_hpbase.png",
+	"hardpointGunSprite":"graphics/BR/weapons/br_iwcannon_hpbarrel.png",	
+	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"renderHints":["RENDER_BARREL_BELOW"],
+"turretOffsets":[21, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[20, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"separateRecoilForLinkedBarrels":"TRUE",
+	"specialWeaponGlowWidth":15,
+	"specialWeaponGlowHeight":20,	
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":60.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":63.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":16.0,
+					   "particleDuration":0.9,
+					   "particleCount":25,
+					   "particleColor":[165,239,235,35]},
+	"projectileSpecId":"iwshard_clone_proj",  # projectile that will be fired
+	"fireSoundTwo":"iwcannonfire",
+}

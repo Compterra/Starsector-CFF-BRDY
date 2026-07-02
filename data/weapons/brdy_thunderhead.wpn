@@ -1,0 +1,60 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "theadfire",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/thunderhead_hpbarrel.png",
+  "hardpointOffsets": [
+    18.5,
+    6,
+    18.5,
+    2,
+    18.5,
+    -2,
+    18.5,
+    -6
+  ],
+  "hardpointSprite": "graphics/BR/weapons/thunderhead_hpbase.png",
+  "id": "brdy_thunderhead",
+  "muzzleFlashSpec": {
+    "length": 24,
+    "particleColor":[170,234,136,200],
+    "particleCount": 12,
+    "particleDuration": 0.16,
+    "particleSizeMin": 10,
+    "particleSizeRange": 8,
+    "spread": 16
+  },
+  "projectileSpecId": "thunderhead_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/thunderhead_tbarrel.png",
+  "turretOffsets": [
+    17,
+    6,
+    17,
+    2,
+    17,
+    -2,
+    17,
+    -6
+  ],
+  "turretSprite": "graphics/BR/weapons/thunderhead_tbase.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 2.5
+}

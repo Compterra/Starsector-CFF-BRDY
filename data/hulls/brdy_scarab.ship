@@ -1,0 +1,394 @@
+{
+  "bounds": [
+    -43,
+    -7.5,
+    -39,
+    -12.5,
+    -37.5,
+    -18.5,
+    -57,
+    -19,
+    -57,
+    -31,
+    -36,
+    -33,
+    -35,
+    -44.5,
+    -12,
+    -44,
+    -19.5,
+    -35,
+    24.5,
+    -39,
+    25,
+    -27,
+    -0.5,
+    -21,
+    48.5,
+    -19,
+    57.5,
+    -9.5,
+    57.5,
+    9.5,
+    48.5,
+    19,
+    -0.5,
+    21,
+    25,
+    27,
+    24.5,
+    39,
+    -19.5,
+    35,
+    -12,
+    44,
+    -35,
+    44.5,
+    -36,
+    33,
+    -57,
+    31,
+    -57,
+    19,
+    -37.5,
+    18.5,
+    -39,
+    12.5,
+    -43,
+    7.5
+  ],
+  "builtInMods": [
+    "brfluxmod",
+    "surveying_equipment",
+    "repair_gantry"
+  ],
+  "builtInWeapons": {
+    "WS0003": "antshred",
+    "WS0004": "antshred",
+    "WS0005": "antshred",
+    "WS0006": "antshred",
+    "WS0008": "blinker2",
+    "WS0009": "blinker",
+    "WS0010": "blinker",
+    "WS0011": "blinker2",
+    "WS0012": "blinker2",
+    "WS0013": "blinker",
+    "WS0014": "blinker",
+    "WS0015": "blinker"
+  },
+  "builtInWings": [
+    "brdy_kutos_wing"
+  ],
+  "center": [
+    50,
+    76
+  ],
+  "collisionRadius": 80,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 31,
+      "location": [
+        -57,
+        25
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 31,
+      "location": [
+        -57,
+        -25
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 10
+    },
+    {
+      "angle": 172,
+      "contrailSize": 8,
+      "length": 30.5,
+      "location": [
+        -44,
+        5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 8
+    },
+    {
+      "angle": -172,
+      "contrailSize": 8,
+      "length": 30.5,
+      "location": [
+        -44,
+        -5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 37,
+      "location": [
+        -44,
+        1.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 37,
+      "location": [
+        -44,
+        -1.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 10
+    },
+    {
+      "angle": 150,
+      "contrailSize": 128,
+      "length": 19.5,
+      "location": [
+        -34,
+        41
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 8
+    },
+    {
+      "angle": -150,
+      "contrailSize": 128,
+      "length": 19.5,
+      "location": [
+        -34,
+        -41
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 8
+    }
+  ],
+  "height": 150,
+  "hullId": "brdy_scarab",
+  "hullName": "Scarab",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 79,
+  "spriteName": "graphics/BR/ships/scarab.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 135,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        -24.5,
+        20.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -135,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        -24.5,
+        -20.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 45,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -8,
+        34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -45,
+      "arc": 180,
+      "id": "WS0006",
+      "locations": [
+        -8,
+        -34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        11,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        52,
+        15
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        29.5,
+        -13.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        56,
+        -15.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        24.5,
+        -36.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        25.5,
+        37
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        -32,
+        40
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        -32,
+        -40
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        -27.5,
+        8
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        -27.5,
+        -8
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0015",
+      "locations": [
+        32.5,
+        15.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        22.5,
+        -13.5,
+        26.5,
+        -12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 100
+}

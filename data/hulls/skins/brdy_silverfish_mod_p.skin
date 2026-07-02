@@ -1,0 +1,12 @@
+{
+	"baseHullId":"brdy_silverfish_mod",
+	"skinHullId":"brdy_silverfish_mod_p",
+	"hullName":"Mod Silverfish (P)",
+	"descriptionId":"brdy_silverfish_mod",
+	"descriptionPrefix":"A modified Blackrock hull that found its way into pirate hands. Repeated overdrive use and rough dockyard work have degraded its performance.",
+	"spriteName":"graphics/BR/ships/skins/brdy_silverfish_mod_p.png",
+	"baseValue":14500,
+	"builtInMods":["degraded_engines"],
+	"tags":["bp_rare", "pirate_bp", "pirates"],
+	"tech":"Blackrock"
+}

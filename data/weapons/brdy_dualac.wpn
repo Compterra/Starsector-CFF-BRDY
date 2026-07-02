@@ -1,0 +1,52 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 700,
+  "fireSoundTwo": "br1fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/medshard_hbarrel.png",
+  "hardpointOffsets": [
+    25,
+    -6.5,
+    25,
+    6.5
+  ],
+  "hardpointSprite": "graphics/BR/weapons/medshard_hp.png",
+  "id": "brdy_dualac",
+  "muzzleFlashSpec": {
+    "length": 24,
+    "particleColor": [
+      165,
+      225,
+      235,
+      255
+    ],
+    "particleCount": 19,
+    "particleDuration": 0.1,
+    "particleSizeMin": 8,
+    "particleSizeRange": 10,
+    "spread": 18
+  },
+  "projectileSpecId": "brdyac_shot",
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/medshard_tbarrel.png",
+  "turretOffsets": [
+    25.5,
+    -6.5,
+    25.5,
+    6.5
+  ],
+  "turretSprite": "graphics/BR/weapons/medshard_turret.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 7
+}

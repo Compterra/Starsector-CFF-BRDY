@@ -1,0 +1,23 @@
+{
+	"id":"ferrogun_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.FerroHit2",	
+	#"spawnType":"BALLISTIC",
+	#"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":9.0,
+	"width":9,
+	"fadeTime":0.4,
+	"fringeColor":[245,255,255,245],
+	"coreColor":[245,255,255,245],
+	"hitGlowRadius":55,
+	"textureScrollSpeed":6.0,
+	"pixelsPerTexel":5.0,
+	"glowColor":[140,190,255,25],
+	"glowRadius":50,	
+	#"bulletSprite":"graphics/BR/missiles/ferrostream.png",
+	"textureType":"WEAVE",  # only needed for BEAM spawnType
+}

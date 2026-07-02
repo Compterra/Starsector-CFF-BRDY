@@ -1,0 +1,5 @@
+Blackrock combat evaluation suites do not believe in a single fair fight. Each run assembles a fresh test force from available Blackrock hulls, wings, and hostile simulation profiles, then throws both fleets into a cluttered battlespace.
+
+Expect uneven deployments, odd pairings, and sudden pressure from capture objectives. Your flagship gives the fleet a reliable anchor, but the rest of the lineup is deliberately volatile.
+
+Use mobility, vent windows, and objective control to turn whatever the simulator hands you into a win.

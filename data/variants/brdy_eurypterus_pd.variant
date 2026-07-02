@@ -1,0 +1,34 @@
+{
+    "displayName": "PD",
+    "fluxCapacitors": 4,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "brdy_eurypterus",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "brdy_eurypterus_pd",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_solenoidlarge"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brdy_pcc",
+                "WS0006": "brdy_pcc",
+                "WS0007": "brdy_pcc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "antshred",
+                "WS0004": "antshred"
+            }
+        }
+    ]
+}

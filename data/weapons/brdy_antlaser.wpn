@@ -1,0 +1,29 @@
+{
+	"id":"brdy_antlaser",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"displayArcRadius":400,
+	"turretSprite":"graphics/BR/weapons/amlance_dummy.png",
+	"hardpointSprite":"graphics/BR/weapons/amlance_dummy.png",	
+	"turretGlowSprite":"graphics/BR/weapons/argussmall_turretglow.png",
+	"hardpointGlowSprite":"graphics/BR/weapons/argussmall_hpglow.png",
+	"glowColor":[255,119,220,255],
+	"hardpointOffsets":[1, 0],
+	"turretOffsets":[1, 0],
+	"hardpointAngleOffsets":[0],
+	"turretAngleOffsets":[0],
+	#"convergeOnPoint":true,
+	"fringeColor":[255,35,68,190],
+	"coreColor":[255,245,255,255],
+	"darkCore":false,
+	"width":7,
+  "textureScrollSpeed": 420,
+  "textureType": [
+    "graphics/BR/missiles/pinlight.png",
+    "graphics/BR/missiles/pinlight.png"
+  ],
+	"pixelsPerTexel":2.0,
+	"fireSoundOne":"antlaser",
+	#"fireSoundTwo":"antlaserloop",
+}

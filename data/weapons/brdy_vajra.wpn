@@ -1,0 +1,53 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "vajrafire",
+    "fireSoundOne": "vajracharge",
+  "glowColor": [
+    213,
+    68,
+    255,
+    245
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/BR/weapons/vaj_glow.png",
+  "hardpointOffsets": [
+    2,
+    0
+  ],
+  "hardpointSprite": "graphics/BR/weapons/amlance_dummy.png",
+  "id": "brdy_vajra",
+  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 63,
+    "particleColor": [
+      213,
+      138,
+      255,
+      195
+    ],
+									 "particleSizeMin":30.0,    
+									 "particleSizeRange":10.0,
+									 "particleDuration":0.18,
+									 "particleCount":60,
+    "spread": 24,
+  },
+  "projectileSpecId": "vajra_shot",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"requiresFullCharge":false,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/BR/weapons/vaj_glow.png",
+  "turretOffsets": [
+    2,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/amlance_dummy.png",
+  "type": "ENERGY"
+}

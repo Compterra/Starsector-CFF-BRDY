@@ -1,0 +1,66 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "LINKED",
+  "displayArcRadius": 450,
+  "fireSoundTwo": "iwfire",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/iwbatt_hpbarrel.png",
+  "hardpointOffsets": [
+    17,
+    -4.5,
+    17,
+    -2.5,
+    17,
+    4.5,
+    17,
+    2.5
+  ],
+  "hardpointSprite": "graphics/BR/weapons/iwbatt_hp.png",
+  "id": "br_iwbattery",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "particleColor": [
+      255,
+      240,
+      165,
+      250
+    ],
+    "particleCount": 7,
+    "particleDuration": 0.17,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "spread": 6
+  },
+  "projectileSpecId": "brvulcan_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/iwbatt_tbarrel.png",
+  "turretOffsets": [
+    17.5,
+    -4.5,
+    17.5,
+    -2.5,
+    17.5,
+    4.5,
+    17.5,
+    2.5
+  ],
+  "turretSprite": "graphics/BR/weapons/iwbatt_turret.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 0.25
+}

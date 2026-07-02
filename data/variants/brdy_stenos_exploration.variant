@@ -1,0 +1,41 @@
+{
+    "displayName": "Exploration",
+    "fluxCapacitors": 20,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "brdy_stenos",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "brdy_stenos_exploration",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_comet"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "brdy_afmissilebig"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "brdy_solenoidlarge"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "brdy_scannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "br_iwbattery",
+                "WS0007": "br_iwbattery"
+            }
+        }
+    ],
+    "wings": []
+}

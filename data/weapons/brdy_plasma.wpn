@@ -1,0 +1,54 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 400,
+  "fireSoundTwo": "brdy_antiplasmafire",
+  "glowColor": [
+    119,
+    200,
+    137,
+    205
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/scblaster_hp_recoil.png",
+  "hardpointOffsets": [
+    24,
+    0
+  ],
+  "hardpointSprite": "graphics/BR/weapons/scblaster_hardpoint_base.png",
+  "id": "brdy_plasma",
+  "muzzleFlashSpec": {
+    "length": 130,
+    "particleColor": [
+      135,
+      255,
+      180,
+      155
+    ],
+    "particleCount": 43,
+    "particleDuration": 0.85,
+    "particleSizeMin": 9,
+    "particleSizeRange": 19,
+    "spread": 3.2
+  },
+  "projectileSpecId": "br_antiplasma_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/scblaster_recoil.png",
+  "turretOffsets": [
+    21.5,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/scblaster_turret_base.png",
+  "type": "ENERGY",
+  "visualRecoil": 3
+}

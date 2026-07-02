@@ -1,0 +1,53 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "brdy_knight",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "brdy_knight_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_quillpod",
+                "WS0002": "brdy_quillpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "voidspear_srm",
+                "WS0011": "voidspear_srm",
+                "WS0012": "voidspear_srm",
+                "WS0013": "voidspear_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "br_minishard",
+                "WS0004": "br_minishard",
+                "WS0009": "brdy_pcc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brvulcan",
+                "WS0006": "brvulcan",
+                "WS0014": "brdy_miniargus"
+            }
+        }
+    ],
+    "wings": [
+        "brdy_krait_wing",
+        "brdy_dipteron_wing"
+    ]
+}

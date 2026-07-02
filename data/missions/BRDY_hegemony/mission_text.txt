@@ -1,0 +1,10 @@
+Welcome to Fast Attack Doctrine Immersion Module C, candidate. In this scenario, you will helm a Desdinova-class Heavy Destroyer in order to eliminate an enemy capital ship and its escorts. 
+In order to accomplish this, it is vital that you familiarize yourself with the strengths and weaknesses of your assigned flagship, with particular focus on its unique handling characteristics and the tactical options therein.
+
+Recommended sub-modules are:
+C-421A, "Arcjet Torch Modulation"
+C-175B, "Staggered Multiple Ordnance Shock Fire"
+C-421C, "Distributed Drive Systems Emergency Rerouting"
+F-112A, "Detail Attack Vector Theory"
+
+Good luck.

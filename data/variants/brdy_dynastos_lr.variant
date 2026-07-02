@@ -1,0 +1,50 @@
+{
+    "displayName": "Long-Range",
+    "fluxCapacitors": 5,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "brdy_dynastos",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_dynastos_lr",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "br_pde",
+                "WS0002": "br_pde"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0019": "brdy_stinger"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_plance",
+                "WS0004": "brdy_plance",
+                "WS0020": "brdy_plance",
+                "WS0021": "brdy_plance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0022": "brdy_miniargusb",
+                "WS0024": "brdy_miniargusb",
+                "WS0025": "brdy_miniargusb",
+                "WS0026": "brdy_miniargusb",
+                "WS0027": "brdy_miniargusb"
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "brdy_asura",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_asura_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_vajra"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "brdy_plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brdy_plance",
+                "WS0003": "brdy_plance",
+                "WS0004": "brdy_plance",
+                "WS0011": "brdy_plance",
+                "WS0012": "brdy_plance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "antshred",
+                "WS0006": "antshred",
+                "WS0009": "antshred"
+            }
+        }
+    ]
+}

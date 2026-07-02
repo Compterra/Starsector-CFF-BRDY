@@ -1,0 +1,23 @@
+Created by cycerin (design, sprites, sfx and music, implementation etc)
+
+Code contributions from Dark.Revenant, LazyWizard, Sundog and Trylobot
+
+Portraits and other art contributions from MShadowy and MesoTroniK
+
+Writing by cycerin with some stuff from Dark.Revenant as well
+
+Also, I'd like to thank:
+
+Uomoz
+Histidine
+EnderNerdcore
+LazyWizard
+MesoTroniK
+Tartiflette
+Slaktus
+
+and also Alex and the SS modding community for being great and always being an amazing resource for me and everyone else who likes tinkering around with 2d spaceships
+
+CC License Note:
+Samples the sound effects "thonk warp" and "Lectro Zap Mixed", from the 1996 game Ares, later released by the dev under Creative Commons
+[Based on the original game 'Ares,' by Nathan Lamont. The Starsector mod 'Blackrock Drive Yards' is not affiliated with or endorsed by Nathan Lamont or Bigger Planet.]

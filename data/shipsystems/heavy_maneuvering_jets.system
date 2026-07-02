@@ -1,0 +1,28 @@
+{
+	"id":"brdy_heavymaneuveringjets",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.HeavyManeuveringJetsStats",
+	
+	#"engineGlowColor":[225,255,225,245],
+	"engineGlowContrailColor":[46,57,49,59],
+	"engineGlowLengthMult":2.0,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+	"alwaysAccelerate":false,
+
+	"useSound":"heavyjets_start",
+	"loopSound":"heavyjets_loop",
+	#"deactivateSound":"heavyjets_end",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":40,
+	}
+}

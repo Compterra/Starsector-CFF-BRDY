@@ -1,0 +1,31 @@
+{
+	"id":"brdy_volley",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":450,
+	"turretSprite":"graphics/BR/weapons/brvolley_base.png",
+	"turretGunSprite":"graphics/BR/weapons/brvolley_recoil.png",
+	"hardpointSprite":"graphics/BR/weapons/brvolley_hpbase.png",
+	"hardpointGunSprite":"graphics/BR/weapons/brvolley_hprecoil.png",	
+	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[20, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[20, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"separateRecoilForLinkedBarrels":"TRUE",
+	"specialWeaponGlowWidth":15,
+	"specialWeaponGlowHeight":20,	
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":37.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":19.0,
+					   "particleSizeMin":16.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.26,
+					   "particleCount":41,
+					   "particleColor":[215,205,195,205]},
+	"projectileSpecId":"brdyvolleyshot",  # projectile that will be fired
+	"fireSoundTwo":"brvolleygunfire",
+}

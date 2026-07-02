@@ -1,0 +1,18 @@
+{
+	"id":"br_scproj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":13.0,
+	"width":12.5,
+	"fadeTime":0.25,
+	"glowColor":[135,255,180,69],
+	"glowRadius":25,
+	"fringeColor":[49,242,222,235],
+	"coreColor":[200,255,220,255],
+	"hitGlowRadius":35,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/BR/missiles/amlanceshot.png",	
+}

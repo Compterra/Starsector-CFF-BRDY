@@ -1,0 +1,1098 @@
+Changelog:
+
+0.9.5a
+- Fixed a crash caused by the Gridfire MRM homing AI
+- Fixed Blackrock-only hullmods appearing in multiple unintended hullmod categories
+- Fixed Scalaron Blaster, ESPADA Repeater, Vajra Cannon and Antimatter Lance projectile visuals to their intended coolness
+
+0.9.5
+General:
+
+- Starsector 0.9 and 0.9.1 related updates: campaign changes, .csv and tooltip stuff, blueprints, descriptions, all the other minor things.
+- Base Value, Ordnance Points, FP, Supply/rec adjustments to many ships to bring in line with new vanilla standard (mostly reductions)
+- Custom Venting AI disabled for all BR ships except Imaginos, Morpheus (vanilla vent AI has improved, on average makes AI-controlled ships less likely to die)
+- A truckload of sound effects were edited or remade to better "mix" during a big battle, like the sound changes that were done in 0.9 for vanilla
+- Added conditions/custom conditions to pregen planets in Gneiss and Rama, created new faction fleet doctrine with a greater emphasis on numbers and agression
+  Markets vital to the faction will occasionally spawn more elite fleets comprised of a smaller number of more expensive ships in addition to the above
+- Improvements and fixes for various code, mostly shipsystem scripts, AI scripts and missile AIs
+- Nexerelin compatibility updated, deprecated stuff removed
+- Added trail FX to certain projectiles, BRDY now requires MagicLib 
+ (This was mainly done to make Ferrocannon/Ferrogun look similar-but-cooler and simultaneously solve hit detection issues with them)
+- Added support for the mod Vesperon Combine (content whitelist)
+
+Content additions/major changes:
+
+- Added Dynastos-class Destroyer
+- Added Antaeus-class Heavy Cruiser
+- Added Dragonfly-class Heavy Gunship
+- Added Straff Tactical Cannon, small ballistic weapon
+- Added Espada Particle Repeater, large energy weapon
+- Added Thunderhead UAC, medium ballistic weapon
+- Added Gridfire MRM/Pod, small and medium missiles
+- Added Light Shredder, small ballistic weapon
+- Added Hellbender-class Heavy Fighter
+- Asura-class Cruiser was fundamentally redesigned
+- Cetonia-class Freighter was redesigned
+- Serket-class Phase Fighter redesigned, now Serket-class Rocket Bomber (Fires Quill rockets, no longer phases)
+- Argus PD Array has been replaced with the Thermal Projector, a new medium energy point defense weapon
+- Added BRDY Focused Shield Emitter hullmod
+- Various fighter-specific and built-in weapons for new ships
+- Added new campaign music track
+- Various significant changes to existing ships and weapons; see below
+
+Changes:
+
+- Locust-class Gunship: Somewhat late, but renamed to Goblin-class Gunship to resolve name conflict with vanilla Locust SRM missile. Internal identifier is the same
+- Megaceras: Ship system changed to Heavy Maneuvering Jets, Peak Performance Time correspondingly changed to 300 (was 420)
+  Central small hybrid turret changed to medium hybrid, OP increased to 70 (was 65)
+  Now features buit-in combat drone wing
+  Slightly less cargo capacity
+- Scorpion: Peak Performance Time changed to 360 (was 300), minor stat changes
+  Stinger Drones now have built-in single barrel shredder turret pointing forwards
+- Stenos: Shield efficiency to 0.75, Neutrocyte AEX drone now launches wing of 3 and comes with WSPR missiles
+  Ordnance Points from 150 to 125, Base Value and supply/month lowered
+- Mantis: Put on the chopping block
+  Now has 1 medium and 2 missile hardpoints instead of universals, front turret changed to hybrid from ballistic
+  Hull to 1750 (was 1500), Armor to 275 (was 250), Max. Flux to 2600 (was 2500)
+  Peak Performance Time normalized to 180 (was 140)
+  This is to differentiate its role from the Dragonfly, strangely this constraint yields overall stronger loadouts and a more reliable premium frigate
+- Weevil: semi-redesigned as an utility campaign frigate, with logistics hullmods (it has been more or less supplanted by the Dragonfly as a combat frigate)
+  Rear turrets changed to built-in Light Shredders, stats adjusted, comes with built-in Salvage Gantry and Surveying Equipment
+- Zabrus: Peak Performance time to 210 (was 180), ship system changed to Heavy Maneuvering Jets
+- Kurmaraja: FP and Base Value slightly increased, Ordnance Points lowered by 10
+  Brakefield Emitter system now affects BALLISTIC_AS_BEAM projectiles by deflection, rather than having no effect on them, AI logic somewhat improved (thx DR!)
+- Nevermore: Peak Performance time to 390 (was 360)
+  Front Medium turret angles slightly changed to prevent sprite overlaps
+  Antimatter Lance now pierces missiles, appearance adjusted
+- Hawkmoth: Ordnance Points lowered by 10, supply/month and FP reduced a little
+- Imaginos: Rift Cannon max charges to 10 (from 8)
+- Typheus Light Carrier: has been buffed towards a more premium carrier, reflecting its importance given the lack of carrier options in BRDY
+  Now has Heavy Maneuvering Jets instead of Sentinel Drone, has lower base speed and lower PPT
+  Recieved buffs to flux cap, flux dissipation and 10 additional Ordnance Points, some slot changes
+  Supply/rec and /month increased to 12 (was 10)
+- Bolide/Comet: Redesigned, Comet is now a flat-out smaller version of the bolide, both weapons had 100 range shaved off. Changed to clip-ammo mechanic.
+  Both weapons are now 1:1 flux ratio and very efficient medium range weapons, with high burst damage but low damage over time.
+- Scalaron Repeater: OP Cost lowered to 12 (from 14), EMP Damage per hit increased to 80 (from 75), Chargeup lowered to 0.25 (was 0.5), max. recoil lowered to 12 (was 18)
+  Changed to clip-based reload mechanic instead of finite ammo
+- Burst Cannon: Now targets missiles by default (similar priority to Devastator Cannon), but cooldown was increased by 0.5 seconds, range lowered to 600 and inaccuracy increased.
+- Quill Rockets (all weapons): Semi-redesigned, now more reliable overall and self-destruct treshold optimized to prevent weirdness
+- Fury-class Torpedo Rack: Costs 4 OP (down from 5), but cooldown increased to 8 seconds, so both torpedoes can no longer be fired in quick succession
+- INM Assault Gun: Initial ammo increased to 12 (was 9), ammo regen rate increased to 2.5 (was 2)
+- Achilles LRM: Now has slightly higher replenish rate and 1 extra starting ammo (6), so the pod version is exactly 2x its existing ammo
+  Now has a splitting SFX for the MIRV behavior
+- Fury Torpedoes (all): Removed extra HE damage component from on-hit script 
+  Uses quadtrail instead of particles, color of engine tweaked to better differentiate from Rage SRM
+- Heavy SPL: Now same fire rate (15 sec reload instead of 10) and ammoless like Light SPL
+  Damage increased to 800 (was 700), proj. health slightly increased, accuracy slightly less shit
+- PDEs (all): Stats rebalanced across the board, no ultra-major changes but should feel snappier and be slightly more reliable
+- Dart SRM (all): AI now more "fire and forget" - will not always seek ship target; prioritize closer targets and any fighters over other targets
+- Linear Pulse Gun: Flux/sec and damage/shot both slightly lower, new projectile look/color (purple) to differentiate from other weapons
+- Ferrogun/Ferrocannon: Minor stat adjustments, projectile appearance adjusted with use of trails, projectile hitbox is now "short" which should reduce hit registration weirdness
+  Now deals EMP damage per hit, should make them more useful overall, but not broken on the Karkinos
+- Ironweaver ADC: OP cost reduced to 20 (was 25), Cooldown increased to 1 (was 0.8), range decreased to 650 (was 800), max. charges decreased to 4 (was 5)
+  Ironweaver projectiles now only have a proximity fuse check vs missiles and bombs, increasing damage against large ships significantly as the projectiles will actually hit their hull
+- Eschaton Superfreighter: Now has Heavy Maneuvering Jets shipsystem, and 2 built in drone wings
+  Front missile hardpoints changed to Medium instead of Small, has built-in Nav Relay hullmod
+  Has additional crew-carrying capability, making it better suited for colonization
+  Minor stat adjustments
+  Supply/month increased to 24 (was 22)
+- Krait Heavy Fighter: Changed built-in HE cannons to a clone of normal INM Assault Gun with reduced shot damage (30 instead of 55) and 450 range instead of 600 range
+  Now has a nose Light Shredder instead of normal Shredder
+- Taipan Heavy Interceptor: Added ECCM Package for better missile performance 
+  Renamed built-in Achilles variant "Ajax SRM", adjusted stats slightly
+  Increased Taipan max speed to 350 (was 330)
+- Mosquito Missile Bomber: Increased max speed to 240 (was 200)
+- Nadir Defense Fighter: Now has 2x fixed Light Particle Rifles as main weapons for chipping away at other fighters and damaged ships, retains Light Burst Cannon
+- Dipteron Interceptor: Is now an unmanned drone fighter
+
+Hullmods:
+- Lowered the base regen factor of the Nanolattice Armor hullmod, slightly buffed base armor values of the Imaginos and Morpheus to compensate
+- Nanolattice Armor no longer imposes any restrictions on which armor/hull hullmods can be installed alongside it
+- BRDY Strike Suite: OP cost slightly lowered, damage and flux bonuses halved to 10%
+  Now increases weapon range slightly depending on hullsize instead of lowering it (5/10/20/35%) and increases projectile speed by 25%
+  Now incompatible with Safety Overrides in addition to ITU/DTC
+- BRDY Assault Fitting: Renamed to Blackrock Systems Reinforcement, now increases Peak Performance Time by 20% instead of lowering repair times
+  Hull bonus increased by 10% (to 25%)
+
+Misc:
+- Added crash on load for missing dependencies (LazyLib, GraphicsLib, MagicLib)
+
+
+
+0.9.1
+- Fixed version file dependency
+- Increased Hammerclaw engine burn time so it's less likely to whiff
+- Reduced incidence of pirate BRDY ships in generic pirate fleets
+- Bolide Heavy Artillery: Frag damage on hit to 200-400 (was 100-200), projectile speed very slightly increased
+- Comet Light Artillery: Slight stat adjustments, Frag damage on hit to 75-150 (was 50-100)
+- Taipan Heavy Interceptor: Focused Particle Lance EMP DPS to 200 (was 120), Armor to 150 (was 100), Hull to 400 (was 450), Accel/Decel slightly buffed
+* OP cost reduced to 9 (was 10)
+* Dart SRM Rack now shoots 1 additional missile per burst (the fighter specific Dart version)
+- Nadir Defense Fighter: OP cost reduced to 13 (was 14), Tackler HAC proj speed increased to 750 (was 700)
+- Serket Phase Fighter: Roam range normalized to 4000 (was 5000)
+- Hawkmoth Heavy Tanker: Fuel Capacity reduced to 900 (was 1200), Cargo Capacity reduced to 175 (was 250), Turn Acceleration/Turn Rate reduced by a small but significant amount
+- Krait Heavy Fighter: 
+* Stat adjustments: Speed decreased to 160 (was 175), no longer has Resistant Flux Conduits (more vulnerable to EMP)
+* Replaced twin INM Assault Guns with a comparable built-in weapon with less range, more inaccuracy and smaller magazines
+* OP Cost increased to 15 (was 14)
+- Vespa Torpedo Bomber: OP cost increased to 20 (was 16), HP changed to 350 (was 450)
+- Reduced the base credits value of most large weapons somewhat
+- Gale Battery: Flux/shot to 450 from 500
+- Burst Cannon: Base Range to 650 from 700
+- Ferrocannon: Flux/shot to 750 from 800
+- Kurmaraja: Shipsystem renamed to Brakefield Emitter
+* Kurmaraja Acceleration and Deceleration lowered slightly
+- Stenos: Shield Ratio to 0.8 from 0.85, Shield Upkeep to 0.55 from 0.50
+- Eurypterus: Shield Radius to 120 from 90
+
+0.9
+- Updated dependencies and parity for Starsector 0.8
+- Updated, polished, revamped and redesigned a bunch of campaign and combat content
+- Added Burst Cannon
+- Added Mega Shard Cannon
+- Added Hawkmoth Heavy Tanker
+- Added Taipan Heavy Interceptor
+- Added Nadir Defense Fighter
+- Added Mosquito Missile Bomber
+- Added Zabrus-class Heavy Frigate
+- Added a skin for the pirate recolor of the Mod Silverfish, and a new look for the non-pirate Mod Silverfish
+- Added pirate skins for the Zabrus, Gonodactylus and Robberfly
+- Added two new campaign music tracks
+- Added Blink Accelerator ship system
+* Used on the Locust, Zabrus and Silverfish-B
+- Updated practically every stock ship variant
+- Eurypterus:
+* New slot layout: Lost 3 Medium Hardpoints, gained 1 Large Hybrid Hardpoint and 2 Small Composite Hardpoints
+- Imaginos:
+* Rift Cannon spread decay/sec increased to 14 (was 8)
+* Peak Performance Time to 150 sec (was 140)
+* Removed randomness from ship heading after exiting teleport
+- Nevermore: 
+* Shield Arc to 90 (was 220)
+* Armor to 1000 (was 850)
+* Hull to 8000 (was 7500)
+* Max. speed to 75 (was 70)
+* Now comes with built-in Resistant Flux Conduits
+* Various minor stat tweaks
+- 0-Series Nevermore:
+* Armor to 1000 (was 900)
+* Shield Arc to 90 (was 220)
+- Stenos: New sprite, slot layout, stats
+* Now has built-in Survey Equipment as well as High Res Sensors
+* Has a built in Neutrocyte Armed Excursion Drone Wing
+* Ship system now has a flat cooldown instead of charges
+* Ship system now resets the cooldown of missiles as well
+- Asura: Speed increased to 100 (was 75)
+- Karkinos:
+* Armor to 1500 (was 1550)
+* Hull to 13000 (was 12500)
+* Speed to 40 (was 30)
+- Kurmaraja:
+* Redesigned sprite and stats - most importantly, gained 4 fighter bays
+- Megaceras: 
+* Designation changed to Scoutship instead of Combat Freighter
+* Gained High Res Sensors
+* Sprite updated
+* Stats and description updated
+- Convergence: Changed Shield Efficiency back to 1.0
+- Gonodactylus: Now has Arcjet Burner again
+- Mantis: Increased arc of medium hardpoint somewhat, changed 2 ballistic slots to hybrid
+- Morpheus: Supply/mo to 30 (was 35) - keep in mind hull has High Maintenance modifier
+* Hull to 4000 (was 4500), Armor rating to 500 (was 550)
+* Arcjet LFO max. charges lowered to 2
+* Void Buster flux/sec lowered to 1200 (was 1400)
+- Weevil:
+* Changed Max. Burn to 10 (was 9)
+* Increased supply/month and supply/rec to 5 (was 4.5)
+- Blackrock Hullmods are now sold by Blackrock/drop from Blackrock, no longer unlocked by default
+- Blackrock Assault Fitting Hullmod:
+* Now increases Armor Value by a flat 50/100/150/200 instead of offering EMP Resistance
+* OP Cost increased to 8/15/25/35
+- Blackrock Drive Conversion Hullmod:
+* OP Cost increased to 12/20/32/40
+- Ironweaver ADC:
+* Redesigned: Now does heavy prox-fused frag damage with a magazine for rapid firing
+* New visuals, SFX, stats
+* OP Cost lowered to 25 (was 28)
+- Antimatter Lance:
+* Proj speed lowered to 750 (was 950)
+* Proj sprite updated
+* Cooldown increased to 8 (was 7)
+- Comet Light Artillery: Flux/shot to 160 (was 150)
+- INM Assault Gun: Stats tweaked, should be overall slightly more powerful. Sound changed (last time I swear)
+- Scalaron Repeater: Damage increased to 90 (was 85)
+- Scalaron Pulse Launcher: 
+* Now fires at a set rate of 4 per minute, with no ammo consumption. Flux/shot increased to 500 (was 200)
+* Flight Time increased to 20 (was 18), Missile HP lowered to 600 (was 800)
+- Heavy Scalaron Pulse Launcher: Name changed to Heavy SPL due to space constraints
+* Missile HP lowered to 800 (was 1000)
+* Flux/shot increased to 600 (was 400)
+* Damage increased to 700 (was 650)
+- Fury Torpedo Rack: OP lowered to 5 (was 6), cooldown increased to 2 seconds (was 1)
+- Fury Torpedo: Now self-destructs after engine flames out, less deceptive range and less chance of friendly fire accidents
+- Arclight LFO (Morpheus Built-in):
+* Charges lowered to 2 (was 3)
+- Added script that reduces Morpheus and Imaginos damage taken from being inside a ship explosion
+- Pirate fleets now have some Blackrock skins and variants (even w/o Dynasector)
+- Dimensional Engine explosion script now splits the hull upon exploding, and emp damage done by smaller ships has been increased
+- New hullstyle sounds: engines, shields
+- Desdinova gets a unique engine loop
+- Updated missions
+- Updated Nexerelin compatibility
+- Purged TwigLib related stuff
+- Various fixes to weapon offsets/sprites
+- Various fixes to weapon audio (less comb filtering from variation overlaps, various tweaks and changes)
+- Probably tons of stuff I forgot to list here
+
+0.8.6
+- Reworked Knight completely, new sprite/ship/stats (This will break saves, use Console Commands to manually add any Knights you had that are lost on save transfer)
+- Hammerclaw (Gonodactylus weapon): Now unguided, otherwise the same, reload time greatly increased to mitigate Missile Spec perk brokenness
+- Gonodactylus: Acceleration, deceleration and turnrate heavily decreased, price increased to 22000
+- Gonodactylus, Knight: Ship system changed to Heavy Maneuvering Jets, a powerful but shorter duration version of Maneuvering Jets that grants more speed
+- Added Bolide Heavy Artillery
+- Added Comet Light Artillery
+- Desdinova Ordnance Points lowered by 5, from 115 to 110, Deceleration lowered by 10%
+- Scalaron Repeater turn speed increased by 4, from 13 to 17
+- Gale Cannon (10 OP version) range increased from 550 to 600
+- Argus weapons (Particle Beam, Micro, Array): Beam duration set to 0.2 instead of 0.18, which makes the weapon more consistent due to tick mechanics
+* Micro Argus PD: Now costs 0 flux to fire, allowing it to be fired while keeping 0-flux boost.
+* The 7 OP Argus now cleanly kills 150-hp missiles, whereas the 4 OP Argus needs two shots. 7 OP Argus charge regen lowered to reflect this. 4 OP Argus charge regen increased.
+* The end result is that the Micro Argus is more efficient against weak missiles, the Argus is more efficient against MRMs and finisher missiles, and the Array is overall more effective.
+- Voidspear MRM: New custom guidance AI. Missiles don't swerve drunkenly anymore, instead tend to approach the target unpredictably and circle it.
+* Refire delay increased to 14 (was 8), ammo increased by ~30%
+* Damage lowered to 400 (was 500), now deals 400 EMP damage per hit
+* Flux/missile increased to 175 (was 150)
+* Missile appearance slightly adjusted
+- Quill Rocket Pod: Burst size doubled (to 8), cooldown increased by 3 seconds (now 7)
+- Quill Launcher/Pod: Firing range increased to 1200 to better match rocket's actual effective range (was 1000)
+- Dart SRM: New custom guidance AI that spreads the missiles out slightly more. Acts more as a "heatseeker", not locking on if targets are out of the missile's seek range.
+- Scalar Rejector (Imaginos right-click): Kinetic absorption multiplier increased by 0.05 (from 0.95 to 1.0), base explosion damage increased by 50
+- Scalaron Pulse: AI slightly adjusted to be less erratic, especially when used with ECCM hullmod
+- Linear Pulse Gun: Range increased to 450 (from 375), EMP damage removed (was 30), flux/shot decreased to 65 (was 70)
+- Scorpion: Stinger Drones now hang out on each side of the ship, blocking less incoming damage but dying less in return
+- Stinger Drones now come with 2 replacements instead of 1
+- BRDY Drive Conversion: Now incompatible with Safety Overrides due to excessive fastness
+- Robberfly: Max. flux increased to 1500 (was 1200)
+- Imaginos: Armor increased/rounded up to 250 (from 230)
+- Krait: Hull reduced to 650 (was 700)
+- Stenos:
+* mount types changed (more Hybrids!) 
+* Armor increased by 150 (to 650)
+* Flux cost of ship system decreased by 10% 
+* Hull increased by 500 (to 8000)
+- Convergence: Shield Efficiency changed to 0.9 (was 1.0)
+- Bulwark Drone (Convergence Ship System): Hull increased to 1000 (was 800), shield radius reduced to 180 (was 360)
+* Weapons changed: Now has two Dart SRM Racks (Fighter version of Dart SRM), and one Particle Lance instead of the Shredder
+- Changed Dimensional Engine shutdown explosion SFX (subtler)
+- Changed 0-flux engine boost activation SFX
+- Rage SRM: New SFX
+- INM Assault Gun: New SFX, stats and projectile appearance slightly adjusted
+- Particle Lance: Color adjusted, damage rounded up to 270, cooldown increased by 0.1 seconds
+- Changed BRDY phase cloak color to cyan-green (was white due to long standing laziness)
+- Burst Maneuvering Jets: Now simply called "Burst Jets"
+- Shredder Drones: Now slowly regenerates lost drones
+- Changed ship system engine gfx for Robberfly and Gonodactylus
+- Added running light deco weapons to most ships that were missing them
+- Adjusted credit values of weapons/ships across the board to be rounder values and more in line with vanilla
+- Adjusted Blackrock Flux Core AI script to make ships more conservative about venting flux if there is incoming damage
+- Removed "random vs BRDY" mission until I have time to reimplement it properly
+- Removed old Knight and all occurrences of and references to it (brdy_revenant)
+
+
+0.8.5
+>> Due to the Karkinos redesign, saves will be broken unless you use Save Transfer. You may crash on mission load if you have a custom variant for that mission - if so, go into the saves folder in the Starsector directory and delete the folder relevant to that mission.
+
+
+- Added special script to all Dimensional Engine ships (Imaginos, Morpheus, Nevermore, Karkinos) that causes an anomalous reaction when the ship is disabled. (Thanks DR!)
+- Added Particle Rifle, medium energy weapon. 10 OP, deals Fragmentation damage, with an extra bit of Energy damage against hull/armor. A decent addition to any loadout, it has some interesting quirks too.
+- Added Rage SRM, 4 OP HE finisher missile rack. Fires swift, punishing and weakly guided SRMs that easily defeat point defense, but are unreliable against faster targets.
+- Added Fury Torpedo Launcher, 9 OP Medium Fury Torpedo platform. Does not cost flux like smaller Furies, but has longer cooldown.
+- Added Heavy Scalaron Pulse Launcher - fires bigger Scalaron Pulses that last longer, hurt more, and are harder to shoot down. 14 OP.
+- Added custom hullmod for Morpheus/Imaginos that describes their defensive system and replaces High Maintenance (same effect, saves hullmod space)
+- Adjusted Gneiss system
+  * Preclusion moved to outer system orbit
+  * New Blackrock station in orbit around Verge added: Vigil Station, an old and large space habitat, home to researchers and a large underclass of refugees, dissidents and prisoners
+- Karkinos: New sprite, turret layout significantly changed and stats changed.
+  * Armor increased by 150 (Now 1550)
+  * Shield upkeep lowered by 0.5
+  * Turn rate/accel very slightly decreased
+  * OP decreased by 5 (Less weapon mounts)
+  * Flux Dissipation decreased by 50
+  * Scalar Deracinator flux/use from 0.125 to 0.190 and cooldown from 30 to 35 sec. Damage increased by ~15%
+  * These changes aim to make the ship more well-rounded and less OP. The old Karkinos had access to too much focused firepower in player hands, but was fairly easy to kill in AI hands.
+- Morpheus: Significantly changed
+  * Void Buster: Now scales with ship's flux level: All the weapon's visuals and audio scale, as well as the beam's damage. Slowdown and damage resistance also scale with flux level.
+  * Damage is 50% at 0% flux and 150% at 100% flux. This also affects any beam weapons mounted on the ship.
+  * Range adjusted to 600, DPS is 1000 and flux/sec is 1300
+  * Adjusted ship system effect/engines to prevent spinout bug, now has a trippy looking afterimage effect
+  * Changed stats; Supply/month increased by 5, Hull decreased by 500, Combat Speed increased by 10, Flux Dissipation decreased by 10, Flux Capacity decreased by 100
+  * Lowered Arclight LFO effective range to ~ 900, lowered flux/shot by 35
+  * Lowered Void Buster range to 600, increased dps by 100 and flux/sec by 200
+- BRDY Strike Suite Hullmod: Redesigned.
+  * Now mutually exclusive with Integrated Targeting Unit and Dedicated Targeting Core. Serves to enable offensive, hit-and-run focused playstyles.
+  * Now yields 20% flux usage bonus and damage bonus
+  * Now yields 10% multiplicative weapon range loss (stacks less favorably with Gunnery Implants 5 perk/ SS+ hull size range bonus than before)
+  * OP costs adjusted to 8/15/25/35
+- INM Assault Gun: Redesigned
+  * Uses clip mechanic. Similar fire rate to before when firing sustained, massively improved fire rate when firing from full clip.
+  * Massive DPS while firing from full magazine, low but efficient dps sustained.
+  * Projectile look adjusted
+  * SFX adjusted
+- Voidspear SRM - Renamed to Voidspear MRM
+  * Redesigned as a general pressure missile to reflect how the AI uses it. Rage SRM is the faction's new finisher missile.
+  * OP changed to 6/12 for rack/pod, ammo increased, speed decreased, HP decreased
+  * Damage adjusted, flight time increased
+  * Now does 1-100 extra HE damage on hull/armor hit
+  * Launcher sprites changed
+- Dart SRMs: 
+  * Ammo regen halved (to 0.1/0.2 ammo/sec)
+  * Damage lowered by 5, No longer deals EMP damage
+  * Increased cooldown between bursts by 1 sec for both
+  * Added 10/20 flux/missile cost (Those autoloaders don't drive themselves!)
+  * Lowered missile speed by 5%
+  * Increased velocity damping factor for missile AI (less jerky)
+- Gale Battery: Now feels more like a mix of both Gale weapons. 
+  * Range increased by 200 (now 900), cooldown decreased by 0.2 seconds
+  * Damage increased to 500, flux/shot decreased to 550
+  * Inaccuracy for subsequent shots slightly increased
+- Ferrocannon: Changed to be more like a big version of the Ferrogun, instead of a pure alpha strike weapon.
+  * 600 dmg/shot, 800 flux/shot, 3.5 sec cooldown
+- Ferrogun: Slightly increased efficiency. Flux/shot rounded down to 400
+- Lowered Quill Rocket speed slightly and decreased ammo by 5/10 for launcher/pod
+- Fury torpedo: Speed increased by 25, damage increased by 100
+  * Added 0.3 second arming time, increased flameout/fadeout speed after flight time expires
+- Scalaron Pulse Launcher: Lowered range by 400 to better match effective range in practice, wasting less ammo
+- Achilles LRM: Adjustments to make the mirvs more reliable
+- Krait Heavy Fighter: Sprite adjusted 
+  * Krait now has one Dart SRM Rack: a fighter-only version of Dart SRM. Fires 4 darts every 9 seconds.
+- Fixed bug with Morpheus and Imaginos right-click introduced by 0.7.2a that didn't correctly make ship intangible while active (wasn't invulnerable as before)
+- Increased Scorpion burn level by 1 (Now 9)
+- Particle Lance: Increased damage and emp/sec to 200, increased Flux/Sec to 200, increased cooldown by 0.1 sec
+  * Changed beam color
+- Increased Nevermore-0 hull by 500 (Now 8500)
+- Increased Asura base price, changed Asura large mount to Hybrid
+- Silverfish-B: Side turrets are now Hybrid, rather than Universal
+- Scalaron Repeater: Damage increased by 5, max. spread increased by 2, proj. speed increased by 50
+- Desdinova: Max burn decreased by 1 (now 9)
+- Volley Gun: Cooldown decreased by 0.2 sec, flux/volley decreased by 20
+- Gale Cannon: Cooldown decreased by 0.3 sec, damage decreased by 10
+- Extended Gale Cannon: Cooldown decreased by 1 sec, damage decreased by 50
+- Sunstorm PDE: Underestimated impact of vanilla bug fix, damage/sec decreased from 1200 to 950
+- Shredder/Shredder Battery: OP decreased by 1 (to 4/9)
+- Knight: Flux Dissipation increased by 50
+- Kurmaraja: Slot types changed (more hybrids)
+- Eschaton: Added 2 hidden small missile hardpoints, changed medium and small turrets to Hybrids
+  * Decreased Fuel Capacity by 400 and Cargo Capacity by 300
+  * Increased OP by 10
+  * Increased Armor by 150
+  * Increased Flux Dissipation by 50 and Flux Capacity by 1000
+  * Increased supplies/mo to by 4
+  * Added CARRIER/COMBAT hints rather than CIVILIAN
+- Convergence: Added CARRIER/COMBAT hints
+- Stenos: Large hardpoint turned into Hybrid
+- Adjusted Morpheus sprite color scheme
+- Fixed contrail colors in campaign
+- Updated every portrait with a polish/edit pass to look closer to vanilla and more distinct
+- Adjusted a metric ton of variants
+- Removed unused Linear Pulse Gun script and clarified tooltip
+- Adjusted some SFX
+- Very minor ship stat tweaks here and there
+
+
+0.8.2
+Long polish changelog this time, plus some content. Main changes are the Desdinova and Nevermore, there's one new weapon, one new ship, and several weapons recieved a sprite overhaul. The Dart SRM, Quill Rocket and Fury Torpedo have been buffed/changed.
+
+
+- Added Eurypterus-class Destroyer, a front-loaded and fast destroyer intended as an economical, solid option like the Scorpion, but focused on speed instead of staying power.
+- Added Particle Lance, 5 OP small energy beam that does kinetic + EMP damage in bursts. A support weapon that scales well in numbers, but even one Particle Lance can add some extra pressure for little flux.
+- Desdinova sprite, stats and description changed, details below
+- Updated weapon sprites: Scalaron Blaster, Gale/Extended Gale, Shard Cannon/Dual Shard/Shard Gun, Shredder, INM Assault Gun
+- Added weapon slot covers
+- Buffed Fury Torpedoes:
+ Damage increased to 2400 from 2250
+ Max speed increased to 475 from 400, launch speed to 350 from 300, flight time decreased so distance travelled is the same
+ Explosion Radius now matches visual explosion radius
+ Full AoE damage Radius decreased by 5
+ Projectile collision radius slightly increased
+ Flux/launch to 300 from 200
+- Changed Quill rockets:
+ Quills were not competitive with Annihilators and only worked in niche fleets where you spammed large numbers of them. These changes make them reliable and viable as a flux-neutral anti shield option.
+ Speed and launch speed greatly increased (Autofire will now score some hits on slow frigates - Lashers etc.)
+ Ammo increased by 10 for the launcher and 20 for the pod
+ Spread/rocket from 2 to 10
+ Proj HP increased by 10
+ Can no longer fire over allied ships
+- BRDY Assault Fitting: EMP Resistance bonus increased from 50% to 60%
+- Shard Cannon/Dual Shard Cannon: Flux/Shot increased from 67 to 70, fire rate very slightly lowered, cooldown very slightly increased
+- Shard Gun: Flux/Shot increased from 30 to 33
+- Volley Gun: Total flux to fire increased by 80, total damage/volley decreased by 80 (now 480 damage @ 420 flux)
+- Scalaron Blaster: Damage increased by 50, Refire delay increased by 0.5 sec, inaccuracy increased by 2 degrees, flux/shot increased by 250
+  Scalaron Blaster now uses its own on-hit script that deals 10% of the shot's energy damage and 25% of the shot's EMP damage as an extra EMP arc
+  Previously, it was using the Scalaron Pulse on-hit script that dealt 25% of the shot's energy damage, making the weapon deceptively powerful (Could deal as much as 1600 damage in one shot against hull)
+  Tooltip now clarifies on-hit effect
+- Argus PD Array: Damage slightly increased
+- PDE weapons: DPS decreased by ~5-10% to make up for vanilla bug fix that causes HE damage to properly count for beam armor damage reduction
+- Megaceras: Flux dissipation decreased by 20, speed increased by 5, acceleration/deceleration slightly decreased
+- BRDY phase cloak: Speed boost removed, mechanically identical to standard phase cloak
+- Asura: Max speed increased by 5, cloak upkeep/start cost slightly decreased
+- Desdinova: Designation now Heavy Destroyer
+ Added Overtuned Drives built-in hullmod: Engines take 2x more damage in combat, ship suffers 25% more CR loss from hull damage taken
+ Arc Jet Thrusters: New SFX. Inertia increased. Can now keep more speed longer from holding W after accelerating. Speed is lost more rapidly if strafing. Changing directions rapidly is generally less effective. Gains less deceleration.
+ Base Value increased by 10k credits
+ Mass increased, acceleration, deceleration and turnrate heavily decreased, max. speed decreased by 5
+ Hull increased by 1500 (to 6000)
+ Armor increased by 100 (to 750)
+ Flux Capacity increased by 200, Shield Upkeep decreased to 0.3
+ Fuel/ light year increased by 2
+ Peak performance increased by 30 sec. (To 210 seconds)
+ Changed Desdinova turrets: Side small ballistic turrets are now Small Hybrid, angles changed (can no longer converge with the other turrets, covers sides/back), rear Medium turret moved forward, frontal ballistic turret arcs slightly decreased, front energy changed to Universal
+- Silverfish-B: Ship System changed to Spark Drive, max. speed decreased by 5
+- Nevermore:
+  Sprite and layout update 
+  Frontal medium ballistics turned into Small Hybrid turrets, frontal Small Ballistic turrets and rear Small Energy turrets turned into Hybrids, midship Medium Energy turrets turned into Medium Hybrid turrets
+  Hull increased by 500, Armor increased by 150, shield arc increased by 10 degrees, shield upkeep decreased by 0.05
+  Antimatter Lance cooldown decreased by 1 sec
+  Fuel/light year increased by 1, CR% to deploy increased by 5
+- 0-Series Nevermore: Shield Upkeep decreased by 0.10
+- Knight: Shield Upkeep decreased by 0.15
+- Mantis: Hull increased by 100
+- Locust: Shield Upkeep decreased by 0.10, accel/decel increased by ~70, Flux Dissipation increased by 10
+- Convergence: Shield Upkeep decreased by 0.10
+- Gonodactylus: Cargo Capacity increased by 10
+- Cetonia: Fuel/light year increased by 1
+- Spark Drive: No longer costs flux or stops flux dissipation
+- New Dart SRMs firing sounds and redesign:
+  8 OP Dart SRM renamed to Dart SRM Launcher
+  Proj HP lowered from 85 to 50, now does 50 EMP damage, damage lowered to 135 from 140
+  Dart SRM Launcher now fires a continuous volley of 18 missiles up from 2x3, cooldown increased by 1 sec, ammo regen increased to 0.5, now reloads clips of 18
+  Light Dart SRM now fires a continuous volley of 9 missiles up from 1x3, ammo regen increased to 0.25, now reloads clips of 9
+  These changes aim to make them better as a PD screen and overall suppression weapon
+  Dart SRM Launcher ammo increased to 126, Light Dart SRM ammo increased to 72
+  Fixed Dart SRM AI to prioritize fighters over other targets properly
+- Scalaron Repeater: Range lowered by 100, emp/shot lowered by 10, chargeup increased by 0.05 seconds, damage/shot increased by 5, proj. speed increased to 650
+- Arclight LFO: Lowered speed slightly
+- Achilles MRM Stage 2 Missiles: Slightly improved tracking
+- Ironweaver ADC: Ordnance Points lowered to 28 from 30
+- Arcjet Burner: Duration and cooldown decreased - now allows slight steering while active
+- Gale Cannon, Gale Battery & Extended Gale Cannon: New SFX (Sounds similar to old ones but better)
+- Fixed unintended Burst Jet visual change
+- Renamed Scarab-class Heavy Frigate to Weevil-class Heavy Frigate due to vanilla name conflict
+- Renamed Kurmaraja ship system from Interdiction Array to Scalar Inhibitor due to vanilla name conflict
+- Shredder MG now simply named Shredder
+- Replaced approx 60% of Desdinova spawns in campaign with Eurypterus spawns
+- Updated a few missions
+- Updated a few descriptions
+- Added one portrait
+
+0.8.1
+
+- Added support for Nexerelin Corvus Mode
+- Moved Rama system
+- Adjusted CR/day recovery stat across the board, was way lower than intended for most ships, and too high for some outliers. This will have a MASSIVE impact on campaign gameplay, if you had noticed how slow CR was to get back for BRDY fleets.
+- Added another portrait
+- Morpheus: Nerfed Arclight LFOs a bit to emphasize close-range combat and toggling autofire to use LFO more strategically, eg. you will want to turn autofire off, wait for charges to come back, and then nuke a target.
+  Arclight LFO: Charge regen rate decreased to 0,125 from 0,15, damage decreased by 10, flight time decreased by 2.2 seconds (Range now approximates the given one, ~1100 units)
+  (Note: for the time being, the Arclight LFO always conserves one ammo on autofire, due to vanilla behavior that I haven't figured out how to circumvent. To deal with this, manually fire the weapon group.)
+  Void Buster: Damage per second increased by 100 and flux/second decreased by 100, firing now longer modifies turn rate acceleration (raw turn rate is still lowered, but not nearly as much as before)
+- Eschaton: Decreased max. burn to 6, increased supply/month to 18
+- Robberfly: This ship was due for some general buffs, as I feel like the power creep of both vanilla and mod SS has left it wanting.
+  Increased Hull by 400 (now 1800), Armor by 65 (now 325), Max speed by 5, Turn Acceleration by 30 (now 165), max. Flux by 100 (now 1200) and Flux Dissipation by 10 (now 150)
+  Now comes with Shielded Cargo Holds
+- Silverfish: Shield arc adjusted to 80 from 90, armor increased to 280 from 250, cargo capacity lowered to 100 from 150
+- Mod Silverfish: Flux Dissipation increased by 10
+- Gale Cannon: Improved fire rate slightly, accuracy now degrades more when firing at max. fire rate
+- INM Assault Gun: Flux/shot lowered by 5, cooldown between bursts lowered by 0.1, SFX changed
+- Scalaron Blaster: Damage lowered to 900, flux/shot increased to 1000, base ammo decreased to 15
+- Fixed bug with BRDY Strike Suite
+- Reverted to old Scalaron Pulse Beam SFX (imaginos, morpheus built-in PD)
+- Polished Shard Cannon/ Shard Gun SFX
+- Polished ship explosion SFX
+- Slight visual tweak to Burst Jets and Slip Jets
+- Tweak to Bharata market
+- Shortened Blackrock Drive Yards faction name with article (Now simply "Blackrock Drive Yards")
+
+0.8
+//Major changes:
+- Updated ship stats to the new format
+- Updated BRDY faction data to the new format, changed portrait and name selections and misc. strings
+- Updated the mod's star systems to use terrain, also added some more content, renamed some things, rewrote strings, and adjusted star locations in hyperspace
+
+//New ship:
+- Added the Morpheus-class Destroyer: a ship that shares some of the Imaginos' mechanics, but focuses on overwhelming firepower rather than finesse
+ Main Weapon: 1x Void Buster - Fires a sustained beam of raw energy after a 1.1s chargeup 
+- Ship is slowed and gains 50% damage resistance while firing 
+- Weapon is temporarily disabled if fired at max. flux
+ Secondary Weapons: 8x Arclight LFO - Fires beams of energy that curve in on enemy targets - 3 charges that regenerate, can be increased with Expanded Magazines
+- Tertiary Weapons:
+ 5x built-in PD that can be used as knife fighting weapons
+ 4x Small Universal turrets
+- Ship System: Slip Jets - Grants burst of speed and accel, forces ship to move forwards or strafe
+- Right-click System: Scalar Repulsor - phase out and absorb projectiles in a forward 180 radius, then convert them into homing pulses
+- Built-in Hullmods: BRDY Dimensional Engine, Nanolattice Armor, High Maintenance
+
+//Balance and other changes:
+- Added a couple of new portraits
+- Rewrote a bunch of descriptions/fleshed out others
+- Lowered flux dissipation slightly (5-10%) for most BRDY combat ships
+ - This is mostly due to power creep with officers
+- Asura: Now a cruiser
+ - Top speed lowered to 70
+ - Accel/decel roughly halved
+ - Flux capacity decreased by 500
+ - Phase cloak efficiency slightly improved
+ - Stock variants adjusted
+- Renamed Squall Cannon to Gale Cannon, Gale Cannon to Extended Gale Cannon, and Squall Battery to Gale Battery (Blame the Squall MLRS)
+- Lowered flat top speed bonus of Burst Jets by ~15% and Desdinova Burst Jets by ~25%
+ - Added a 5% derived max speed boost to Burst Jets, meaning the boost scales slightly rather than being static (frigs go faster)
+- Changed Burst Jet sound effect
+- Lowered vent rate boost of Blackrock Flux Core (Now: 60%/50%/40%/30%)
+- New hullmod: Blackrock Dimensional Engine - replaces Blackrock Flux Core for Imaginos, Morpheus, Nevermore and Karkinos
+ - Keeps pre-nerf Flux Core vent boost
+ - Gives affected ship 100% larger sensor signature
+- 0-Series Nevermore: Now has a new built-in weapon, the Raze Cannon, a heavy HE artillery gun
+ - Ordnance Points decreased to 145
+ - Shield Arc decreased to 180
+ - Speed decreased to 85
+ - Armor increased to 900
+ - Flux Dissipation decreased to 400
+- Nevermore: Speed decreased to 70
+- Shard Gun, Shard Cannon, Dual Shard Cannon: New SFX
+- Imaginos' Rift Cannon: Changed the way the recoil works so that you can now tap out a small burst of shots to deal accurate damage at medium-long range. 
+ - You still need to wait for recoil to reset, so it does less damage than spraying up-close.
+ - Damage decreased to 95 from 100
+- Scalaron Repeater: No longer has charge regen, has limited charges but in practice cant run out before CR does (unless on capital ships)
+- Voidspear SRM/Pod:
+ Increased damage to 700 from 650
+ Increased missile HP by 30 (to 230)
+ Increased EMP damage to 500
+ Lowered flux/shot to 150 from 200
+ Made missiles slightly more agile
+- INM Assault Gun: Increased proj speed by 100
+- Scalaron Blaster: Lowered damage from 1200 to 1000
+- Quill Rocket Launcher: Decreased proj damage by 20 and increased ammo by 10
+- Quill Rocket Pod: Decreased proj damage by 20 and increased ammo by 20
+- Changed Dart SRM engine style to ~Plazzma Green~
+- Scalaron Pulses now explode when they burn out, range decreased in order to not waste ammo on autofire
+ Scalaron Pulse homing made less reliable
+ Lowered Scalaron Pulse damage to 400 (From 450)
+ Lowered Scalaron Pulse charge regen rate to 0.05 from 0.075
+ Lowered Scalaron Pulse missile HP to 600 from 800
+ Increased Scalaron Pulse speed by 10
+- Edited Kurmaraja, Scorpion engine locations
+- Silverfish/variants: Slightly decreased cargo capacity
+ - Comprehensive stat changes for more emphasis on armor and speed instead of shield tanking, especially for the Mod Silverfish
+- Karkinos:
+ Shield Arc from 160 to 90 degrees
+ Shield Upkeep from 0.45 to 0.4
+ Armor from 1300 to 1400
+- Achilles MRM is now named Achilles LRM to reflect its long range
+ - Changed launcher sprite to load single missiles, like the Salamander
+- Lowered Achilles LRM submunition HP by 20
+- New Volley Gun SFX, increased Volley Gun damage by 10% and lowered flux/shot by 10%. Increased range by 50
+- Scorpion: lowered armor by 50 and flux dissipation by 10
+ Side medium turrets are Hybrid instead of Universal
+ Lowered Stinger Drone proj speed by 200, HP by 50 and armor by 25
+- Megaceras: lowered speed by 10
+- Locust has been reworked: 
+ Lowered speed by 20 
+ Increased accel, decel and turn accel significantly
+ Increased flux capacity by 100, dissipation by 10
+ Changed shield efficiency to 0.9 (from 1)
+ Changed shield type to a 220 degree frontal shield
+ Lowered Spark Drive charges to 3, lowered charge regen rate
+ Increased distance, decreased randomness of Spark Drive teleport
+ All turret slots are now Hybrid
+- Scarab: Sentinel Drone free roam range decreased to 600 from 700
+ - Changed the 2 ballistic/2 energy turrets to Small Hybrid
+ - Lowered Flux Dissipation by 20
+- Some more brdy ship_names.json entries
+- Fixed hullmods to emphasize stat changes in yellow like vanilla hullmods
+- Added the Morpheus and 0-Series Nevermore to the Big Battle mission
+
+0.7.4
+- Added Megaceras-class Combat Freighter and Shredder Drones system
+- Added Scalaron Pulse Launcher, a weapon that fires homing energy pulses.
+- New Impossible-difficulty Mission: Waking the Beast. Save a station from an attacking fleet with your lone Karkinos. How gneiss of you!
+
+\\\Imaginos changes:
+- Rift Cannon revamp: prefire delay to 0.05 seconds (from 0.95 seconds) and lowered damage per shot. Now operates like the Autopulse laser on a charge-limited system - this is mainly to make the ship better in AI hands and less clunky to pilot.
+- Reduced the EMP damage done by the Rift Cannon
+- Changed built in beams for more damage output vs ships
+- Increased overall damage done by the Imaginos' Scalar Rejector, especially when you get a massive explosion, but lowered emp damage
+- Slightly lowered Scalar Deracinator (small) damage and emp damage
+- Supplies/day increased by 0.5
+\\\Hullmod changes:
+- Added new Blackrock-only Hullmod: Blackrock Drive Conversion. Increases 0-flux Boost by 30, max. speed by 10% and max. burn by 1. Lowers turn rate and deceleration by 10%. Does not stack with aug. engines, unstable injector, etc
+- Changed Blackrock Assault Fitting. Bonuses are now 50% EMP resist, 15% extra hull integrity, and 25% faster weapon/engine repair speed. Fixed a bug that made the original hullmod not actually lower repair speeds. OP cost adjusted down to 5/10/15/25.
+- Blackrock Sensor Suite renamed to Blackrock Strike Suite. Now gives 15% damage boost to all weapons, 15% less flux cost for all weapons, 15% less weapon range.
+- New icons for all BRDY hullmods
+\\\ Weapon balance changes:
+- Removed ammo from all BRDY ballistic weapons. Tooltips are ultra confusing and bugged with regards to the regenerating ammo, and it was an irrelevant balancing mechanic all in all.
+- Increased buckshot projectile count from 18 to 20 for Volley Gun and Ironweaver ADC
+- Lowered Volley Gun per-volley damage to 500 total, decreased cooldown between shots to 3 seconds.
+- Lowered Ironweaver ADC cooldown to 2 seconds, decreased crit chance by 5%. Overall much higher DPS and suppression factor.
+- Voidspear SRM: HP from 180 to 200, Flux/missile from 170 to 200, flight time from 5 to 6, added DO_NOT_AIM AI Hint (will autofire from offset mounts now)
+- Ferrocannon: New shot damage: 750 \ New shot cooldown: 4 seconds \ New flux/shot: 1200 \ New range: 900 (This is to make it less powerful when you have 4 of them on the Karkinos, and more powerful if you have one or two, overall, the weapon does more DPS)
+- Ferrogun damage to 300 from 320 and range to 800 from 750, this is to differentiate it from the Dual Shard and make it better at close support
+- Rewrote Shard weapon tooltips to include specific by-the-numbers information on the crit mechanic
+- Increased DPS of Shard Cannon and Dual Shard Cannon. Increased range by 50 for both weapons. Increased proj speed slightly. Adjusted flux/dps ratio. Now slightly less efficient but just as damaging as AC vs shields, with the added bonus of the crit mechanic.
+- Damage of Shard Cannon/Dual Shard Cannon proc from 250 max to 200 max.
+- Increased DPS of Shard Gun, but lowered the range to 500. Roughly on par with IR Pulse for overall performance now, but probably better vs. armor.
+- Nerfed Achilles MRM ammo to 5 for 6op version and 12 for 12op version, fragmentation damage to 350 per MIRV from 400, and MIRV health down to 160 from 240. Increased refire delay to 10 seconds. Small Achilles now regenerates 1 missile per minute and Medium one regenerates 2 missiles per minute.
+- Added regenerating ammo to 8OP Dart SRM launcher, but not to the 4OP one. Also boosted ammo on the 4OP Dart SRM
+- Antimatter Lance: Now does 2500 Energy damage and zero EMP damage. New bullet sprite, slightly adjusted impact effect.
+- Fury-class Torpedo: Launch speed increased by 20 and damage increased by 250
+- PDE weapons (All): Longer burst length to make it more likely to catch a ship lowering shields. Slightly better flux efficiency. Slightly improved turn speed.
+- Scalaron Blaster cooldown decreased by 2 seconds. Damage decreased by 50.
+\\\ Misc changes:
+- Added on-hit effect to Scalaron Blaster (same as Scalaron Pulse) with new sfx
+- Shard Cannon / Dual Shard Cannon sprite + barrel + muzzle flash fixups
+- Kurmaraja flux dissipation increased by 150 and flux capacity increased by 500.
+- Lowered charge replenish rate for Stenos Autoloader system to 0.1 from 0.2 ( 10 seconds per charge)
+- Increased Stenos flux dissipation by 10, lowered flux capacity by 400
+- Increased Stenos hull strength by 500
+- Increased Knight flux cap by 100
+- Lowered Karkinos flux dissipation by 50 and lowered shield arc to 160 from 180. Reduced maneuverability slightly.
+- Increased Nevermore flux dissipation by 20
+- Increased Kurmaraja flux dissipation by 50
+- Krait fighter: Changed formation type to make sure both fighters fire at the same target more often
+- Made BRDY engines slightly warmer in color
+- Added CR timers to BRDY capital ships
+- Changed Cetonia stats to be a more clean cut freighter now that Megaceras exists, also changed designation to Freighter
+- Adjusted Convergence sprite
+- New INM Assault Gun sfx
+- Edited Gale Cannon sfx
+- Adjusted some Imaginos sound/hullstyle things
+- Adjusted some ship mass values that were erroneously high for the ship's class
+- PDE beams are now a more yellow-green color like the other BRDY plasma weapons
+- Added High Maintenance to Asura, lowered Asura supply/day to 7
+- Removed High Maintenance from Nevermore, lowered peak performance time to 360 seconds, increased CR per deployment to 25%
+- Removed High Maintenance from Desdinova
+- Changed a lot of variants to accomodate the rebalancing
+- Edited some descriptions, rewrites + new content
+- Fixed interactions with TwigLib content, courtesy of DarkRevenant
+- Fixed some descriptions in Rama
+
+0.7.3
+- Added the Rama system
+- Moved Gneiss further out
+
+
+0.7.2
+
+Combat polish:
+- Removed ammo for most weapons, kept the clip mechanic for some weapons as a flavor/balancing element
+- The following weapons keep ammo for gameplay reasons: Shard weapons, Ferrogun/cannon, Gale cannon
+- The following weapons keep ammo for mechanical reasons: Volley Gun
+- Increased Mod Silverfish maneuverability slightly
+- Changed INM Assault Gun: Range increased to 650, damage decreased by 15 per shot, recharge time lowered to 1.9 seconds. The old design had problems pressuring armor due to the long interval per bursts, making it ineffective on frigates as enemy ships usually could keep shields lowered between bursts, and it was not worth 6 OP compared to the 5 OP Assault Gun. The new design also synchs up well with Shard Cannon barrages.
+- Dual Shard Cannon range increased by 100
+- Shard Cannon range increased by 50
+Slightly more hit success for the Shard weapons, to justify their ammo
+- Ferrogun range increased by 50 and cooldown decreased by 0.05, also due to ammo restriction
+- Added regenerating charges to Scalaron Blaster, but lowered starting charges to 25
+- Lowered Achilles Stage 2 MIRV damage to 400 frag from 500 frag
+- Made Quill Rocket disappear immediately after the engine flames out, like Annihilators
+- Hammerclaw: increased turn acc slightly
+- Scorpion nerfs: Armor lowered by 50, Stinger Drone shields from 0.2 hardness to 0.5 hardness and their HP from 500 to 450
+- Desdinova: Armor lowered from 620 to 600, Flux cap increased from 6500 to 6700
+- Nevermore: Antimatter Lance proj speed from 1200 to 950 and damage from 2500 to 2400
+- Micro Argus PD: OP lowered from 5 to 4
+- Shard Gun: Range from 475 to 500
+- Slightly increased the chance of Serkets appearing in fleets/markets
+- Updated some strings
+- Stenos: Slightly lowered shield upkeep
+
+
+0.7.1
+NOTE: due to variant/ship changes, old saves probably won't load into this version. Sorry!
+- Compatible with latest Starsector version again
+- Added powwwwerrrrful new music: Market music, Friendly music, Hostile encounter music
+- Adjusted music volumes
+- Fixed a bug with abrupt stopping of music playback
+- Changed Silverfish and Silverfish-B shield arcs to 90 degrees, from 180 degrees
+- Changed frontal turret arc of all Silverfish to 160 degrees
+- Added shielded cargoholds hullmod to Mod Silverfish, changed shields to front shield, side turrets to Ballistic, edited sprite, and added two fixed built-in INM Assault Guns to the sides. 
+- Changed stats of Silverfishes somewhat
+- Wrote proper Mod Silverfish description
+- Added ammo/clip mechanic to all ballistics
+- Buffed energy weapon damage by ~25% across the board to match vanilla changes
+- Made PDEs pierce and damage missiles and rockets
+- Made AM Lance pierce missiles and rockets, but left damage unbuffed.
+- The side pointing turrets on the Nevermore's middle are now fixed missile hardpoints.
+- Added regenerating charges to Scalaron Repeater and lowered the ammo slightly. Lowered projectile speed and flux per shot. Increased damage and shot deviation. The overall vision is for it to act like a suppression weapon that can be fired at length, rather than as a high-flux and high-damage general use weapon. So use it against something that will eat all the shots and it will be very effective, but missing a 2-second burst against a frigate won't leave your ship at 80% flux anymore.
+- Added CONSERVE_1 tip to Quill Rocket Launcher, AI and autofire should leave a little ammo for clutch plays now.
+- Fixed Typheus rear mounts position
+- Increased Imaginos turn rate and turn accel
+- Changed Blackbong Dank Yards illegal commodities from drugs and hand weapons to organs and hand weapons.
+- Fixed missile quadtrails to look better
+- Fixed bug that disallowed use of Blackrock hullmods in the campaign when SS+ is not installed
+- Added large universal hardpoint to the 0-Series Nevermore, and added 15 additional ordnance points to the ship. Also changed mounts a bit and edited sprite to match.
+- Added High Maintenance hullmods to Imaginos, Desdinova and Nevermore. Sorry, no fun allowed.
+- Increased Achilles MRM ammo and buffed main missile and MIRV health slightly, as well as frag damage dealt by the MIRVs. now acts as a high-performance heatseeker with limited ammo in contrast to the salamander. They should be worth the OP even compared to endless regen Salamanders, and can actually hurt/kill ships: each missile also deals ~500 damage to shields before shield strength calculation if all three MIRVS connect, and a brutal 1500 hull damage should they perfectly hit an armorless spot on the enemy ship.
+- Changed a Locust in the End Times mission to a Silverfish B and removed the enemy Doom-class, mission should be beatable again now
+
+
+
+
+0.7.0
+
+- Added Silverfish-class Combat Freighter, Silverfish-B and Mod Silverfish
+- Added Nevermore 00-class Cruiser
+- Updated campaign layer to the new standard
+- Added all related content
+- Added more content to Gneiss system and refurbished old content
+- Changed a bunch of descriptions
+- Changed Scalaron Repeater sound effect
+- Changed some variants to include more weapons
+- Nerfed Blackrock Flux Core to 80/60/50/45% extra vent rate
+- Nerfed Burst Jet and Arcjet Thruster charge regeneration rate
+- Slightly decreased passive flux dissipation for most combat vessels
+- Renamed Ajax MRM back to Achilles MRM
+- Took out combat music for now
+- Probably some stuff I forgot
+
+
+0.6.6
+
+- Added Sunstorm PDE (Large Energy)
+- Added new Ferrogun sprite, Squall Battery sprite, and Ironweaver sprite
+- Changed Stinger Drones to stay in front of the Scorpion
+- Changed Burst Jet sound effect
+- Changed some large slots from Ballistic to Universal on the Karkinos, Kurma etc
+- Added material maps and normal maps for all BRDY content for use in ShaderLib. Thanks DarkRevenant!
+- Changed Scalaron effects to incorporate more colors (S. repeater, S. blaster, Rift Cannon, Deracinators, etc)
+- Changed Imaginos engine style
+- Changed Squall and Gale cannon shots to be more subtle, but with longer trails
+- Changed Dart SRM engine color
+- Adjusted down all cargo levels from wrongly inflated levels
+- Adjusted a bunch of ship stats slightly
+- Changed all PDE weapons. PDE weapons now have slightly more range and damage as a whole. Their beams travel more slowly, causing them to deal significantly more damage up close, but minimal damage from afar. Also touched up their visual effect.
+- Fixed a bug with world generation that interferred with starsector plus integration
+- Fixed a bug with world generation
+- Fixed an oversight with buckshot spawning scripts that prevented the Volley Gun and Ironweaver from benefiting from mutable stats (ITU, Blackrock Targeting Suite, etc)
+
+0.6.5
+
+General:
+
+- Added dynamic lights support for all BRDY content
+NOTES: Mod is now dependent on the mod ShaderLib by DarkRevenant in addition to LazyLib.
+- Added anisotropic flare effects to Deracinator systems
+- Added Scorpion-class Destroyer and Stinger Drone
+- Added Dart SRM/ Light Dart SRM
+- Added Quill Rocket Pod
+- Rebalanced many ships and weapons
+- Renamed Solenoid Quench Cannon to Ferrocannon
+- Renamed Solenoid Quench Gun to Ferrogun
+- Changed Scalaron Repeater to be a constant-fire weapon
+- Changed Quill Rockets to be kinetic weapons with the Shard crit mechanic + new appearance/sound
+- Lowered the volume of the Magnetic Caress combat music track
+- Updated Typheus sprite/ship
+- Updated a few other sprites
+
+
+0.6
+General:
+
+NOTES:
+This version will break savegames that have variants of changed ships in them.
+
+CONTENT:
+- New ship: Eschaton-class Superfreighter
+- New ship: Dipteron-class Interceptor
+- Added three music tracks (Blackrock, Stellar Rust, Magnetic Caress)
+- Added new mission to showcase the Imaginos and Eschaton (End Times)
+Imaginos redesign!
+- The Imaginos now works as follows: no shield, regenerating armor, right-click activates a new secondary system: SCALAR REJECTOR. 
+This system is active for slightly less than a second and builds flux rapidly. While active, you are phased out and suck in and convert missiles, energy bolts and bullets into energy. 
+At the end of the duration, this energy is unleashed as blast of lightning, hitting nearby enemies for EMP and Energy damage based on the absorbed damage.
+- The Imaginos now has five built-in weapons: Four miniature PD beams, and the RIFT CANNON, a hard-hitting close-range weapon. To compensate, it lost all weapon mounts save for a turreted Small Universal.
+The Imaginos also has new ship sprite, sounds and visual effects.
+Revenant redesign!
+- The revenant has a shiny new sprite and Arcjet Burner instead of drones.
+Stenos redesign!
+- The Stenos has a new sprite, new weapons loudout, and a new system: HYPERCOOLED AUTOLOADER.
+When activated, this ship system builds flux and resets the cooldown of ALL WEAPONS.
+Asura redesign!
+- The Asura has a new sprite and slightly different weapons layout.
+Kurmaraja redesign!
+- The Kurmaraja has a heftier loadout now, and the Interdiction Array lights up when the system is active. New ship sprite.
+Squilla-class Bomber replaced with Vespa-class Bomber
+- The Vespa-class Bomber is outwardly similar to the Squilla, but has a micro Argus and single Fury torpedo, no shield, and burst jets.
+New weapon - Scalaron Repeater
+New weapon - Voidspear SRM Pod
+New sound effects for a bunch of stuff I forgot what aaah help, at least 50% of sounds.json is different now so there's that. Notably, flux and engine sounds have been altered.
+- Added some new portraits and descriptions
+- Denoised and touched up all ship sprites.
+REBALANCING
+All ships have been rebalanced to make the faction more cohesive and balanced.
+Rebalanced weapons slightly. Underused weapons have been buffed and overpowered weapons have been nerfed. I recommend people to take a look at the Solenoid Quench Gun.
+Changed Sunjet PDE to work like a small version of the Sunfire PDE (Can turn)
+Antiplasma Blaster renamed to Scalaron Blaster. Damage lowered, reload time improved.
+Scalar Deracinator: The Scalar Deracinator no longer shows where the ship will end up, and you will be hit by incoming fire while charging.
+Adjusted all logistics values and prices for 0.6.2a
+Adjusted stock variants
+
+0.5
+General:
+NEW CONTENT
+New ship - Imaginos-class Dimensional Frigate
+A frigate with a Scalar Deracinator, nuff said
+New ship - Convergence-class Support Cruiser
+A venture-esque cruiser with two flight decks
+New ship - Asura-class Monitor
+A phase ship on the interim between destroyer and cruiser, features the Flux Ejector system for high-pressure combat
+New ship system - Bulwark drone
+New ship system - Flux Ejector
+New ship system - Scalar Deracinator (small)
+New weapon - Shard Gun
+New weapon - Micro Argus
+New weapon - Voidspear SRM
+New weapon - Ironweaver
+Revenant and Stenos redesigns
+Campaign now uses a completely random Variant selector - each ship spawned can be any stock variant
+New mission: BRDY Big Battle - a huge fight vs a vanilla fleet. Features absolutely all BRDY content in one mission.
+Redesigned Kurmaraja Interdiction Array - now slows ships and completely stops ballistic projectiles and missiles. AI now activates the system as appropriate.
+Added a bunch of variants
+REDESIGNED CONTENT
+Updated all ship sprites with custom turret mounts and misc adjustments
+Changed a huge bunch of sound effects and added new ones
+Changed all variants 
+Rebalanced all ships/weapons to varying degrees
+Changed Cetonia and Typheus sprite/loadout
+Added aux engines to Krait fighter for burst jetting
+Changed Nevermore rear turret to 360 and moved to middle of ship
+Added more turret mounts to Gonodactylus
+Stenos redesign
+Changed middle medium mounts on Karkinos to be medium universals
+Changed faction color
+Renamed Antiplasma Blaster to Scalaron Blaster
+Added a bunch of Codex lore and simplified descriptions to focus more on gameplay
+Added particle effect to AM Lance chargeup
+Added particle effect to AM Lance explosion
+Changed Linear Pulse Gun sprite, effect and stats
+Changed Fury-class torpedo to deal Energy damage and require flux to fire
+Plasma missiles (Fury and Voidspear) have a custom explosion effect and sound
+
+
+
+
+0.42
+*This patch will break save files*
+- Changed some hull ids to have the brdy_ prefix: this enables me to ensure Blackrock Flux Core can't be installed on non-Blackrock ships in missions (thanks FlashFrozen)
+- Added a small Pirate presence to Gneiss to make it more forgiving for new players
+- Fixed bug where you'd always respawn in Gneiss if the mod was installed
+- You now longer start in Gneiss if you select Blackrock in the starting dialog, but you will respawn there. Inavoidable consequence of the fix
+- New Shard Cannon sound effect
+- Changed Robberfly system to Burst Jets + small armor and maneuverability buff
+- Increased shield upkeep for all Blackrock hulls
+- Lowered shield efficiency for all Blackrock hulls
+- Slightly reduced armor of all Blackrock hulls
+- Other tiny nerfs here and there. Faction felt too strong
+- Added ship system descriptions and a tiny bit more Karkinos lore
+- Added some name generation bullshit
+- Added some WIP portraits
+- Fixed Kurmaraja repair cost
+- Fixed resupply bug (Thanks Vayra)
+- Fixed bug where WIP weapon would get spawned by trade fleet
+
+0.41
+- Fixed crash bug with missing fleet spec
+
+0.4:
+
+- Rebalanced just about everything related to gameplay and ship slots/stats
+- Redid every sound effect
+- Custom hull spec
+- Added built-in hullmod to all Blackrock ships. Doubles active flux vent rate.
+- Added Karkinos, PDE, PPDE, Linear Pulse Gun, Gale Cannon, Shredder Battery, Argus PD Beam
+- Old Burst Jets are back
+- Greeblies everywhere
+- Explore Gneiss, the home system of Blackrock Drive Yards!
+- Say "Did something else" twice in the campaign start dialog to start as Blackrock!
+
+
+ 0.30:
+GENERAL:
+- Changed all sound effects that had superfluos stereo channels to mono, and changed all intentionally stereo sound effects to mono.
+As a result, the sound effects in this mod will now overlap more cleanly and not overload the game's sound engine in large battles.
+Did slight modifications to all sound effects (normalization, variations, cutting and shuffling, etc) during this batch
+- How did this patch become so huge? Seriously. Someone delete this game from my drive and save me from myself.
+
+SHIPS:
+- Tons of minor balance readjustments once again, some of which I've probably forgotten to list here.
+- Added Stenos-class Exploration Cruiser
+- Added Typheus-class Pocket Carrier (Destroyer)
+ Desdinova:
+ - Visual update
+ - Reduced max speed to 90.
+ - Increased HP to 5000.
+ - Increased FP cost to 13.
+ - Reduced accel/decel.
+ - Increased Ordnance Points to 105.
+ - Slight readjustments across the board.
+ // Remains to be seen if it's in a good spot, but feels right.
+ Mantis:
+ - Reduced HP by 100.
+ - Reduced top speed by 10.
+ - Reduced acceleration and deceleration slightly.
+ // Same here.
+ Nevermore:
+ // Yet more rebalancing to get the Feel right after Burst Jet changes...
+ - Increased HP to 8500.
+ - Slightly increased shield efficiency.
+ - Slightly increased shield arc.
+ - Increased shield upkeep to 0.45
+ - Medium turrets now point in the ship's facing.
+ - Reduced acceleration, and deceleration and turn rate.
+ Squilla:
+ - Lowered max speed, increased shield efficiency.
+ Gonodactylus:
+ // Much love has been vested upon the Shrimp.
+ - Added a rear-facing small ballistic turret
+ - Improved weapon arcs to grant wider coverage
+ - Changed the Hammerclaw to function as an enormous kinetic missile. 2 shots per fight. Much largeness.
+ - Changed ship system to Arcjet Burners, a modified version of the original Desdinova system.
+ - Increased OP to 70.
+ Kurmaraja:
+ - Increased top speed and handling
+ - Changed rear large ballistic turret to medium universal turret
+ - Changed front missile slot angles to 45 degrees
+ Scarab:
+ - New sprite. Now looks more like it comes from the same period as the Stenos. More asymmetry!
+ - Added a new weapon slot.
+ - OP increased to 55.
+ - Max speed decreased.
+ - Changed side sponson hardpoints to turrets
+ - Rear energy turrets now point to each side of the ship for greater coverage
+ - Slight readjustments across the board.
+ Locust:
+ - Increased HP by 100
+ - Increased Maxspeed to 165
+ - Increased Armor by 30
+ - Increased Ordnance Points to 35
+ - Increased Max Flux to 2300
+ - Increased Flux Dissipation to 210
+ 
+ SHIP SYSTEMS:
+ Burst Jets:
+ - Can no longer use the bug that allows you to coast at 500+ speed for minutes at a time. 
+ - Can no longer decelerate or reverse using Burst Jets.
+ - Burst Jets now correctly clamp speed at a fixed rate.
+// Burst Jets made burstier.
+ Desdinova Burst Jets:
+ - Max charges lowered to 2.
+ Sentinel Drone:
+ - Added the Sentinel Drone system for the Stenos and Typheus. Launches a single drone armed with a Shard AC and Ironweaver MG, protected by an omni shield.
+ Having the Sentinel Drone out grants +50% autofire accuracy and +30% sensor range.
+ Interdiction Array:
+// Increased Interdiction Array efficiency, added custom Interdiction Array AI, removed locked flux buildup from the system
+ 
+WEAPONS:
+ - Added Splinter Volleygun (Small, Ballistic)
+ // Close-ranged small Kinetic gun that fires a fan-shaped blast of flechettes.
+ - Added Solenoid Quench Cannon (Large, Ballistic)
+ // Enormous kinetic cannon with large range and relativistic projetile speed.
+ - Added Squall Battery (Large, Ballistic)
+ // Three squall cannons on a single turret. That's two more chances to create space orphans and space widows per salvo!
+ - Added Dual Shard Autocannon (Medium, Ballistic)
+ // In case you just can't get enough Shards.
+ - Added Fury-class Torpedo Rack (Small, Missile)
+ // In case you... yeah.
+ - Added "Voidspear" Plasma Discharge Emitter (Medium, Energy)
+ // Beam weapon that deals HE damage. Melts fighters and unshielded targets. Enormous flux consumption. Bad against shields.
+ - Added Pulsed Plasma Discharge Emitter (Small, Energy)
+ // Same, but more geared towards use as an AM blaster-type strike weapon. Cannon turn, regardless of mounting type.
+~
+ Solenoid Quench Gun:
+ - Reduced damage, increased fire rate.
+ - Slightly lowered projectile speed.
+ - Increased range to 650
+ - Increased flux buildup
+ Shard Autocannon:
+ // Completely redesigned!
+ - New sprite/graphics
+ - Lowered damage
+ - Lowered projectile speed
+ - Increased range.
+ - Added chance to deal Energy damage when striking hull/armor
+ - Increased flux buildup
+ Argus Particle Beam:
+ - Increased charges to 4
+ - Lowered range to 450
+ - Increased damage slightly
+ - Increased flux cost
+ Quill Rocket Launcher:
+ - Reduced damage to 150
+ Fury-class Torpedo:
+ - Reduced damage to 2500
+ Antiplasma Blaster:
+ - Reduced proj speed to 700.
+ - Increased flux consumption slightly
+ Achilles MRM/Pod:
+ - Reduced OP by 1
+ - Now fires three smaller sabots instead of one large. Damage adjusted accordingly, but slightly bigger if all three hit.
+// Probably going to recieve the Shard on-hit effect when the bug preventing missiles from having on-hit effects gets fixed.
+ Squall Cannon:
+ - Increased OP by 1
+ - Increased flux consumption
+Ironweaver Chaingun:
+- New graphics
+- New sound
+- Now fires bursts. Increased proj speed, increased damage, increased flux cost, increased range.
+
+MISC:
+- Changed faction spawn rates and fleet compositions. Now spawns a massive combat fleet featuring a Kurmaraja occasionally, as well as desdinova/mantis hunter fleets.
+- Changed faction dialogue yet again.
+- Added more ship names to the faction
+- Changed some strings
+- Adjusted base variants.
+
+0.20:
+SHIPS:
+- Added Kurmaraja-class Battlecruiser
+- Added Cetonia-class Freight Courier
+- Added Squilla-class Bomber
+- Added Serket-class Phase Fighter
+- Added Mantis-class Attack Frigate
+- Added Stormcrow (USC 17 bonus, for now. But in the files.)
+
+- Redesigned Nevermore-class Cruiser
+// Nevermore is now a close-up combat ship rather than a kiting vessel.
+- Redesigned Locust-class Frigate.
+// Locust now a frigate, instead of a fighter.
+- Rebalanced Scarab, Mantis, Desdinova, Krait and Revenant.
+// Desdinova, Nevermore and Scarab now use custom Burst Maneuvering Jets.
+
+WEAPONS:
+- Added Solenoid Quench Gun
+- Added Antiplasma Blaster
+- Added Ironweaver Chaingun
+- Added Shard Autocannon
+- Added Ichneumon Assault Gun
+- Added Quill Rocket Launcher
+- Added Fury-class Torpedo
+- Added Achilles MRM rack and Pod
+- Added Argus Particle Beam
+- Added Squall Cannon graphics.
+
+- Added Blackrock station inventory
+- Added Blackrock supply fleets
+- Added Blackrock Strike Force combat fleet
+- Added extra comm strings
+
+SHIP SYSTEMS:
+- Added Burst Maneuvering Jets
+- Added Gravitic Impeder
+Replaced Lucifer Generator with Burst Maneuvering Jets
+Replaced Arcjet Burners with Desdinova-custom Burst Maneuvering Jets
+
+MISC:
+- Added custom ship names.json
+- Added custom engine flare
+- Changed faction color to orange
+- Changed all sprites to use orange paint decals instead of bright green ones.
+- Rebalanced all stock variants.
+
+

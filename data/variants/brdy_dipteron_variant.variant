@@ -1,0 +1,18 @@
+{
+    "quality": 0,
+  "displayName": "Interceptor Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "brdy_dipteron",
+  "hullMods": [],
+  "variantId": "brdy_dipteron_variant",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "brvulcan"
+      }
+    }
+  ]
+}

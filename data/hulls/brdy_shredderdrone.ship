@@ -1,0 +1,129 @@
+{
+  "bounds": [
+    -5.5,
+    0,
+    4.5,
+    7,
+    4.5,
+    -7
+  ],
+  "builtInWings": [],
+  "center": [
+    9.5,
+    8.5
+  ],
+  "collisionRadius": 12,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 8,
+      "location": [
+        -5.5,
+        3.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 8,
+      "location": [
+        -5.5,
+        -3.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": 148,
+      "contrailSize": 12,
+      "length": 8,
+      "location": [
+        -4,
+        6
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": -148,
+      "contrailSize": 12,
+      "length": 8,
+      "location": [
+        -4,
+        -6
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    }
+  ],
+  "height": 18,
+  "hullId": "brdy_shredderdrone",
+  "hullName": "Kutos",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 11,
+  "spriteName": "graphics/BR/ships/shredderdrone.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        5,
+        3
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        5,
+        -3
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -2.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 19
+}

@@ -1,0 +1,60 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 750,
+  "fireSoundTwo": "brdy_pcc_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/hailstorm_hpbarrel.png",
+  "hardpointOffsets": [
+    17.5,
+    0,
+    17.5,
+    -4,
+    17.5,
+    4
+  ],
+  "hardpointSprite": "graphics/BR/weapons/hailstorm_hpbase.png",
+  "id": "brdy_pcc",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [
+      160,
+      210,
+      117,
+      125
+    ],
+    "particleCount": 20,
+    "particleDuration": 0.1,
+    "particleSizeMin": 16,
+    "particleSizeRange": 4,
+    "spread": 6
+  },
+  "projectileSpecId": "pcc_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/hailstorm_tbarrel.png",
+  "turretOffsets": [
+    16.5,
+    0,
+    16.5,
+    -4,
+    16.5,
+    4
+  ],
+  "turretSprite": "graphics/BR/weapons/hailstorm_tbase.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 4
+}

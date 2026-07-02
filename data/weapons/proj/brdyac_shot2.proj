@@ -1,0 +1,21 @@
+{
+	"id":"brdyac_shot2",
+	"specClass":"projectile",
+    "onHitEffect":"data.scripts.weapons.MicroShardOnHitEffect",	
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":24.0,
+	"hitGlowRadius":8,
+	"width":2.0,
+	"fadeTime":0.15,
+	#"fringeColor":[255,155,125,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[130,205,225,250],
+	"coreColor":[184,247,255,255],
+	"glowColor":[70,140,255,30],
+	"glowRadius":20,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/BR/missiles/shard.png"
+}

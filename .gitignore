@@ -1,0 +1,19 @@
+# Codex/local audit artifacts
+_audit/
+_codex_backups/
+
+# Java build output
+jars/build/
+*.class
+
+# Packaged release archives
+*.zip
+*.7z
+*.rar
+
+# Logs and local OS/editor noise
+*.log
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,43 @@
+{
+	"id":"brdy_hammerclawcase",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+    "onHitEffect":"data.scripts.weapons.HammerclawOnHitEffect",		
+	"sprite":"graphics/BR/missiles/hammerclaw1.png",
+	"size":[17,54],	
+	"center":[8.5,27],
+	"collisionRadius":40,
+    "collisionClass":"MISSILE_FF",
+	"explosionColor":[119,200,137,125],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":110, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":105,
+					 "coreRadius":75, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":200,
+					 "particleColor":[255,255,137,125]},
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":665,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-29, 0],
+				    "style":"CUSTOM",
+               "styleSpec":{
+                  "engineColor":[135,255,180,255],
+                  "contrailParticleSizeMult":4,
+                  "contrailParticleDuration":2,
+                  "contrailMaxSpeedMult":0.1f,
+                  "contrailAngularVelocityMult":0.1f,
+                  "contrailColor":[50,85,60,80],
+                  "type":"SMOKE" # GLOW or SMOKE
+               },
+				    "width":22.0,
+				    "length":190.0,
+				    "angle":180.0}]
+					}				    
+}

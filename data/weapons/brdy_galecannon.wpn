@@ -1,0 +1,48 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 900,
+  "fireSoundTwo": "brdy_gale_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/galecannon_hpbarrel.png",
+  "hardpointOffsets": [
+    37,
+    -1
+  ],
+  "hardpointSprite": "graphics/BR/weapons/galecannon_hpbase.png",
+  "id": "brdy_galecannon",
+  "muzzleFlashSpec": {
+    "length": 65,
+    "particleColor": [
+      255,
+      195,
+      95,
+      215
+    ],
+    "particleCount": 46,
+    "particleDuration": 0.3,
+    "particleSizeMin": 16,
+    "particleSizeRange": 18,
+    "spread": 8
+  },
+  "projectileSpecId": "brdy_squallgun_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/galecannon_tbarrel.png",
+  "turretOffsets": [
+    31,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/galecannon_tbase.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 8
+}

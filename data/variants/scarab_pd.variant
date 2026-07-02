@@ -1,0 +1,32 @@
+{
+    "displayName": "Point Defense",
+    "fluxCapacitors": 6,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "brdy_scarab",
+    "hullMods": ["advancedoptics"],
+    "permaMods": [],
+    "variantId": "scarab_pd",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brburst"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_afmissilebig"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "antshred",
+                "WS0004": "antshred",
+                "WS0005": "antshred",
+                "WS0006": "antshred"
+            }
+        }
+    ]
+}

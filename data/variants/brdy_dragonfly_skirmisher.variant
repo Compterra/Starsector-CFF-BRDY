@@ -1,0 +1,36 @@
+{
+    "displayName": "Skirmisher",
+    "fluxCapacitors": 10,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "brdy_dragonfly",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "brdy_dragonfly_skirmisher",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "brdy_bolide"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "brdy_antlaser",
+                "WS0005": "brdy_antlaser",
+                "WS0006": "brdy_antlaser",
+                "WS0014": "brdy_antlaser",
+                "WS0015": "brdy_antlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_pcc",
+                "WS0002": "brdy_pcc"
+            }
+        }
+    ]
+}

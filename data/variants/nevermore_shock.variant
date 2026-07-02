@@ -1,0 +1,53 @@
+{
+    "displayName": "Shock",
+    "fluxCapacitors": 7,
+    "fluxVents": 20,
+    "hullId": "brdy_nevermore",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "nevermore_shock",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "brdy_amlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "scalaron_torpedo_small",
+                "WS0012": "scalaron_torpedo_small",
+                "WS0013": "scalaron_torpedo_small",
+                "WS0014": "scalaron_torpedo_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_galecannon",
+                "WS0002": "brdy_galecannon",
+                "WS0009": "brdy_galecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_ac",
+                "WS0004": "brdy_ac",
+                "WS0005": "brdy_ac",
+                "WS0006": "brdy_ac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "brdy_argussmall",
+                "WS0008": "brdy_argussmall"
+            }
+        }
+    ]
+}

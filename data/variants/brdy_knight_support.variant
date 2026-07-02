@@ -1,0 +1,58 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "brdy_knight",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "brdy_knight_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "achillespod",
+                "WS0002": "achillespod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "brdy_mage_s",
+                "WS0011": "brdy_mage_s",
+                "WS0012": "brdy_mage_s",
+                "WS0013": "brdy_mage_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_ac",
+                "WS0004": "brdy_ac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "brdy_pcc",
+                "WS0014": "brdy_pcc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brvulcan",
+                "WS0006": "brvulcan"
+            }
+        }
+    ],
+    "wings": [
+        "brdy_taipan_wing",
+        "brdy_taipan_wing"
+    ]
+}

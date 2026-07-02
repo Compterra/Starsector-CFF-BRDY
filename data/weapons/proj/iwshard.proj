@@ -1,0 +1,21 @@
+{
+	"id":"iwshard",
+	"specClass":"projectile",
+    #"onHitEffect":"data.scripts.weapons.IWOnHitEffect",	
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":43.0,
+	"hitGlowRadius":10,
+	"width":2.5,
+	"fadeTime":0.15,
+	#"fringeColor":[255,155,125,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[220,100,25,235],
+	"coreColor":[255,120,55,255],
+	"glowColor":[240,140,55,30],
+	"glowRadius":22,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/BR/missiles/shard.png"
+}

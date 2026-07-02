@@ -1,0 +1,15 @@
+{
+	"id":"autoloader",
+	"type":"FAST_RELOAD",
+	"aiType":"FAST_RELOAD",
+	
+	"weaponGlowColor":[119,235,187,19],
+	
+	"weaponTypes":[BALLISTIC, MISSILE, ENERGY],
+	"minFractionToReload":0.3,
+	
+	"fadeActivationSoundOnChargedown":false,	
+	
+	"useSound":"system_aautoloader",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

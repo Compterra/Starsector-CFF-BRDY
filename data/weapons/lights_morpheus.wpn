@@ -1,0 +1,20 @@
+{
+	"id":"lights_morpheus",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"DECORATIVE",
+	"size":"SMALL",
+	"turretSprite":"graphics/BR/ships/effects/morpheus/00.png",
+	"hardpointSprite":"graphics/BR/ships/effects/morpheus/00.png",
+	"numFrames":2,
+	"frameRate":0,
+	"showDamageWhenDecorative":false,
+	"renderHints":["RENDER_ADDITIVE"],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],		
+	"barrelMode":"ALTERNATING",
+	"animationType":"NONE",
+	"projectileSpecId":"shredder_shot",
+	"everyFrameEffect":"data.scripts.plugins.BRMorpheusVisualEffect",
+}

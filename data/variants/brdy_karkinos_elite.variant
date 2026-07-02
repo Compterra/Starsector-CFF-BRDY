@@ -1,0 +1,68 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 2,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "brdy_karkinos",
+    "hullMods": [
+        "brtarget",
+        "turretgyros",
+        "advancedoptics",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_karkinos_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "br_xlpde",
+                "WS0006": "br_xlpde",
+                "WS0017": "br_xlpde"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "brdy_mage_s",
+                "WS0010": "brdy_mage_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "brdy_plance",
+                "WS0008": "brdy_plance",
+                "WS0013": "br_particlerifle",
+                "WS0014": "br_particlerifle",
+                "WS0015": "brdy_plance",
+                "WS0016": "brdy_plance",
+                "WS0021": "brdy_plance",
+                "WS0022": "brdy_plance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "brdy_thunderhead",
+                "WS0020": "brdy_thunderhead"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brburst",
+                "WS0002": "brburst",
+                "WS0003": "brburst",
+                "WS0004": "brburst",
+                "WS0011": "brdy_argussmall",
+                "WS0012": "brdy_argussmall"
+            }
+        }
+    ]
+}

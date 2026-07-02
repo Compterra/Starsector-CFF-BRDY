@@ -1,0 +1,107 @@
+{
+  "bounds": [
+    -6.5,
+    -9.5,
+    9.5,
+    -5.5,
+    9.5,
+    5.5,
+    -6.5,
+    9.5
+  ],
+  "builtInWings": [],
+  "center": [
+    12.5,
+    17.5
+  ],
+  "collisionRadius": 18,
+  "engineSlots": [
+    {
+      "angle": 167.5,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -4.5,
+        4.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 10
+    },
+    {
+      "angle": -167.5,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -4.5,
+        -4.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 10
+    }
+  ],
+  "height": 30,
+  "hullId": "brdy_mosquito",
+  "hullName": "Mosquito",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    -1.5,
+    1
+  ],
+  "shieldRadius": 12,
+  "spriteName": "graphics/BR/ships/mosquito.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        2.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        2.5,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        9.5,
+        5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        9.5,
+        -5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 25
+}

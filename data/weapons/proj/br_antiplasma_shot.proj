@@ -1,0 +1,24 @@
+{
+	"id":"br_antiplasma_shot",
+	"specClass":"projectile",
+    "onHitEffect":"data.scripts.weapons.ScalaronBlasterOnHit",	
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"passThroughMissiles":true,	
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":94.0,
+	"hitGlowRadius":130,
+	"width":24,
+	"fadeTime": 0.3,
+	"fringeColor":[49,242,222,145],
+	"coreColor":[255,255,255,255],
+	"glowColor":[65,255,180,85],
+	"glowRadius":60,
+	"textureType": [
+    "graphics/BR/fx/brdy_smokey_horizontal.png",
+    "graphics/BR/missiles/scalaron_torpedo_big.png"
+  ],
+	"textureScrollSpeed":1.5,
+	"pixelsPerTexel":1.0,
+	#"bulletSprite":"graphics/BR/missiles/amlanceshot2.png"
+}

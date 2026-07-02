@@ -1,0 +1,20 @@
+{
+	"id":"brdy_raze_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":130.0,
+	"hitGlowRadius":120,
+	"width":9.5,
+	"fadeTime":0.2,
+	#"fringeColor":[255,65,25,255],
+	#"coreColor":[255,255,255,150],
+	"fringeColor":[255,190,70,205],
+	"coreColor":[255,250,200,180],
+	"glowColor":[255,40,30,65],
+	"glowRadius":55,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large_yellow.png"
+}

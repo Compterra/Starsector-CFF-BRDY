@@ -1,0 +1,131 @@
+{
+  "bounds": [
+    1,
+    -9.5,
+    11.5,
+    0,
+    1,
+    9.5,
+    -12,
+    0
+  ],
+  "builtInWings": [],
+  "center": [
+    12.5,
+    16
+  ],
+  "collisionRadius": 18.5,
+  "engineSlots": [
+    {
+      "angle": 157,
+      "contrailSize": 3.231436,
+      "length": 11.549436,
+      "location": [
+        -12.5,
+        4
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 3.231436
+    },
+    {
+      "angle": -157,
+      "contrailSize": 3.231436,
+      "length": 11.549436,
+      "location": [
+        -12.5,
+        -4
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 3.231436
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 11,
+      "location": [
+        -12,
+        5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 11,
+      "location": [
+        -12,
+        -5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    }
+  ],
+  "height": 30,
+  "hullId": "brdy_stenosdrone",
+  "hullName": "Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 18,
+  "spriteName": "graphics/BR/ships/stenos_drone.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0001",
+      "locations": [
+        8,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 240,
+      "id": "WS0002",
+      "locations": [
+        1.5,
+        7
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 240,
+      "id": "WS0003",
+      "locations": [
+        1.5,
+        -7
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        7.5,
+        -3.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 25
+}

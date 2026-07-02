@@ -1,0 +1,48 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 550,
+  "fireSoundTwo": "br2fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/br2hprecoil.png",
+  "hardpointOffsets": [
+    19,
+    0
+  ],
+  "hardpointSprite": "graphics/BR/weapons/br2hpbase.png",
+  "id": "brdy_ag",
+  "muzzleFlashSpec": {
+    "length": 24,
+    "particleColor": [
+      255,
+      185,
+      105,
+      255
+    ],
+    "particleCount": 16,
+    "particleDuration": 0.16,
+    "particleSizeMin": 10,
+    "particleSizeRange": 8,
+    "spread": 16
+  },
+  "projectileSpecId": "ich_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/br2turretrecoil.png",
+  "turretOffsets": [
+    19,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/br2base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 2
+}

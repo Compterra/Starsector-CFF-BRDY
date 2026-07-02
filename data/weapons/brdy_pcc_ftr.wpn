@@ -1,0 +1,33 @@
+{
+	"id":"brdy_pcc_ftr",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":700,
+	"turretSprite":"graphics/BR/weapons/amlance_dummy.png",
+	"hardpointSprite":"graphics/BR/weapons/amlance_dummy.png",
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	#"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "particleColor": [
+      160,
+      210,
+      117,
+      125
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.1,
+    "particleSizeMin": 16,
+    "particleSizeRange": 4,
+    "spread": 6
+  },
+	"projectileSpecId":"pcc_shot",  # projectile that will be fired
+  "fireSoundTwo": "brdy_lpcc_fire",
+}

@@ -1,0 +1,23 @@
+{
+	"id":"vajra_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+    "passThroughMissiles":true,
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":30.0,
+	"width":70.0,
+	"fadeTime":0.25,
+	"fringeColor":[255,128,165,255],
+  "coreColor": [255,118,255,225],
+	#"glowColor":[255,1,255,145],
+	#"glowRadius":1,  
+	"hitGlowRadius":100,
+	"textureScrollSpeed":0.9,
+	"textureType": [
+    "graphics/BR/fx/plasmaray3.png",
+    "graphics/BR/fx/brdy_smokey_horizontal.png"
+  ],	
+	"pixelsPerTexel":2,
+   "onHitEffect":"data.scripts.weapons.VajraOnHit",
+}

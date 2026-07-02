@@ -1,0 +1,35 @@
+{
+  "displayName": "AEX Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "brdy_stenosdrone",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "brdy_stenosdrone_variant",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "brdy_plasmacutter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "brdy_miniargus",
+        "WS0003": "brdy_miniargus"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "br_tacmissile"
+      }
+    }
+  ]
+}

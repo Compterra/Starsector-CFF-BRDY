@@ -1,0 +1,30 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "brdy_robberfly",
+    "hullMods": [
+        "eccm",
+        "advancedoptics",
+        "hardened_subsystems",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_robberfly_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brdy_plance",
+                "WS0005": "brdy_plance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "scalaron_torpedo_small"}
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "displayName": "Defense Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "brdy_nadir",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "brdy_nadir_variant",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "brdy_nadirgun2",
+        "WS0002": "brdy_nadirgun2"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "brdy_pcc_ftr"
+      }
+    }
+  ],
+  "wings": []
+}

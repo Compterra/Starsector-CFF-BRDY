@@ -1,0 +1,28 @@
+{
+    "displayName": "Barrage",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "brdy_robberfly",
+    "hullMods": [
+        "missleracks",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_robberfly_barrage",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "brdy_ac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_afmissilebig",
+                "WS0002": "brdy_afmissilebig"
+            }
+        }
+    ]
+}

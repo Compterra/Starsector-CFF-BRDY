@@ -1,0 +1,25 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "brdy_silverfish",
+    "hullMods": ["hardened_subsystems"],
+    "permaMods": [],
+    "variantId": "brdy_silverfish_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brdy_cc",
+                "WS0003": "brdy_cc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_pcc"}
+        }
+    ]
+}

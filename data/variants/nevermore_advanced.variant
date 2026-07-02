@@ -1,0 +1,56 @@
+{
+    "displayName": "Advanced",
+    "fluxCapacitors": 8,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "brdy_nevermore",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "nevermore_advanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "brdy_amlance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "achilles_mrm",
+                "WS0012": "achilles_mrm",
+                "WS0013": "achilles_mrm",
+                "WS0014": "achilles_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "br_pde"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_solenoid",
+                "WS0002": "brdy_solenoid",
+                "WS0003": "brdy_plance",
+                "WS0004": "brdy_plance",
+                "WS0005": "brdy_plance",
+                "WS0006": "brdy_plance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "brdy_argussmall",
+                "WS0008": "brdy_argussmall"
+            }
+        }
+    ]
+}

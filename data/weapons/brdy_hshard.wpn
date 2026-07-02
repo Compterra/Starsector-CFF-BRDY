@@ -1,0 +1,54 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "LINKED",
+  "displayArcRadius": 700,
+  "fireSoundTwo": "hshardfire",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/hshard_hpbarrel.png",
+  "hardpointOffsets": [
+    34.5,
+    2.5,
+    34.5,
+    -2.5
+  ],
+  "hardpointSprite": "graphics/BR/weapons/hshard_hpbase.png",
+  "id": "brdy_hshard",
+  "muzzleFlashSpec": {
+    "length": 45,
+    "particleColor": [
+      165,
+      225,
+      235,
+      255
+    ],
+    "particleCount": 30,
+    "particleDuration": 0.1,
+    "particleSizeMin": 8,
+    "particleSizeRange": 10,
+    "spread": 20
+  },
+  "projectileSpecId": "hshard_shot",
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/hshard_tbarrel.png",
+  "turretOffsets": [
+    34.5,
+    2,
+    34.5,
+    -2
+  ],
+  "turretSprite": "graphics/BR/weapons/hshard_tbase.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 7
+}

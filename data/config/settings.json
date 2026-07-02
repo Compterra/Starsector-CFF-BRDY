@@ -1,0 +1,44 @@
+{
+ "graphics":{
+		"glow":{
+			"brdy_superscalarglow":"graphics/BR/missiles/amlanceshot2.png",
+			"brdy_superscalarglow2":"graphics/BR/missiles/amlanceshot.png"
+		}, 
+		"misc":{
+			"br_dusty_ring":"graphics/BR/planets/br_dusty_ring.png"
+		}, 
+ 		"hab_glows":{
+			"blackrock_planet_glow":"graphics/BR/planets/blackrock_glow.png"
+		},
+        "illustrations":{
+			"blackrock_sky_city":"graphics/BR/illustrations/blackrock_planet_skycity.png",
+			"blackrock_vigil_station":"graphics/BR/illustrations/blackrock_vigil_station.png"
+		},
+		"terrain":{
+			"nebula_greenish":"graphics/BR/terrain/nebula_greenish.png",
+			"nebula_greenish_map":"graphics/BR/terrain/nebula_greenish_map.png"
+	},
+		"blueprint_packages":{
+		        "brdy_bps_common":"graphics/BR/icons/cargo/br_com_bp_package.png",
+		        "brdy_bps_mil":"graphics/BR/icons/cargo/br_mil_bp_package.png",
+		        "brdy_bps_wep":"graphics/BR/icons/cargo/br_pir_bp_package.png"
+		},
+		"brdy_fx":{
+			"projectile_trail_standard":"graphics/BR/fx/brdy_basic_contrail.png",
+			"projectile_trail_ferro":"graphics/BR/fx/brdy_ferro.png",
+			"projectile_trail_smokey":"graphics/BR/fx/brdy_smokey.png"			
+		}		
+	},
+	"plugins":{
+		"br_ShotgunSpecialBehavior":"data.scripts.plugins.br_ShotgunSpecialBehavior",
+		"BRDYLightInjector":"data.scripts.plugins.BRDYLightInjector",
+		"brdy_SuperscalarBeamPlugin":"data.scripts.plugins.brdy_SuperscalarBeamPlugin",
+		"brdy_DimensionalDriveExplosion":"data.scripts.plugins.brdy_DimensionalDriveExplosion",
+		"BRDY_ProjectileTrailHandlerPlugin":"data.scripts.plugins.BRDY_ProjectileTrailHandlerPlugin"
+	},
+	"designTypeColors":{
+		"Blackrock":[255,129,70,255],
+		"Blackrock (Exotic)":[148,227,196,255]
+	}
+
+}

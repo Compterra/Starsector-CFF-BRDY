@@ -1,0 +1,63 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 500,
+  "fireSoundTwo": "brdy_quill_launch",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    13.5,
+    -10,
+    13.5,
+    -4,
+    13.5,
+    4,
+    13.5,
+    10
+  ],
+  "hardpointSprite": "graphics/BR/weapons/quillpod_hardpoint.png",
+  "id": "brdy_quillpod",
+  "projectileSpecId": "quill_srm",
+  "size": "MEDIUM",
+  "smokeSpec": {
+    "blowbackDuration": 1.1,
+    "blowbackLength": -50,
+    "blowbackParticleCount": 6,
+    "blowbackSpread": 20,
+    "cloudDuration": 0.9,
+    "cloudParticleCount": 4,
+    "cloudRadius": 8,
+    "particleColor": [
+      140,
+      150,
+      170,
+      115
+    ],
+    "particleSizeMin": 10,
+    "particleSizeRange": 19
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    11,
+    -10,
+    11,
+    -4,
+    11,
+    4,
+    11,
+    10
+  ],
+  "turretSprite": "graphics/BR/weapons/quillpod_turret.png",
+  "type": "MISSILE"
+}

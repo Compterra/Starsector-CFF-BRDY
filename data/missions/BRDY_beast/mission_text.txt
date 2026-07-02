@@ -1,0 +1,8 @@
+Knuckles white, you struggle with the heavy manual lock. Behind you, the fast, steady breathing of five men clutching carbines, and the dark visors of a dozen fully-suited spacers.
+With a massive effort, you turn the lever and servoes kick in, pulling the door in and to the side, revealing an enormous room.  
+
+Even in the darkness, you know exactly where it is. Running ahead of your men's torches, you find the main console and smash the glass of the emergency switch housing with your pistol. You pull the safeties and turn the key. Without warning, a deafening roar and an eye-watering, lurching sensation sends you to your knees. Muffled voices gradually return to clarity as you blink the now brightly illuminated bridge into focus.
+
+<Ignition successful. This is the operating mind of the BRS Year of Silence, a Karkinos-class battleship. Sitrep OK.>
+
+<Alert: Cannot prime Dimensional Engine for mutually assured destruction. Direct combat suggested. Commence arming procedure?>

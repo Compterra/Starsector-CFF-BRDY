@@ -1,0 +1,140 @@
+{
+  "bounds": [
+    -11.5,
+    -9,
+    -4.5,
+    -14,
+    15,
+    -8.5,
+    4,
+    -0,
+    15,
+    8.5,
+    -4.5,
+    14,
+    -11.5,
+    9
+  ],
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWings": [],
+  "center": [
+    17,
+    19
+  ],
+  "collisionRadius": 27.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -14,
+        5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -14,
+        -5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 10
+    },
+    {
+      "angle": 144.5,
+      "contrailSize": 6.643773,
+      "length": 13.42442,
+      "location": [
+        -12.5,
+        8
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6.643773
+    },
+    {
+      "angle": -144.5,
+      "contrailSize": 6.643773,
+      "length": 13.42442,
+      "location": [
+        -12.5,
+        -8
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6.643773
+    }
+  ],
+  "height": 38,
+  "hullId": "brdy_nadir",
+  "hullName": "Nadir",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 27,
+  "spriteName": "graphics/BR/ships/nadir.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0003",
+      "locations": [
+        4.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -6.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0001",
+      "locations": [
+        15.5,
+        8.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [
+        15.5,
+        -8.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 34
+}

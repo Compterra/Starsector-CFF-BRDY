@@ -1,0 +1,38 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 500,
+  "fireSoundTwo": "SQGnewfire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/ferrogun_hprecoil.png",
+  "hardpointOffsets": [
+    29,
+    0
+  ],
+  "hardpointSprite": "graphics/BR/weapons/ferrogun_hpbase.png",
+  "id": "brdy_solenoid",
+	"muzzleFlashSpec":{"length":25.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":4.0,
+					   "particleSizeMin":1.0,
+					   "particleSizeRange":60.0,
+					   "particleDuration":0.85,
+					   "particleCount":33,
+					   "particleColor":[135,155,170,125]},
+  "projectileSpecId": "ferrogun_shot",
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/ferrogun_turretrecoil.png",
+  "turretOffsets": [
+    30,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/ferrogun_turretbase.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 9
+}

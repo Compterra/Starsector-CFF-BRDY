@@ -1,0 +1,44 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "brdy_convergence",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "brdy_convergence_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "voidspear_srm",
+                "WS0006": "voidspearpod",
+                "WS0007": "voidspear_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "brdy_quill"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_argussmall"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "br_particlerifle",
+                "WS0004": "brdy_ac"
+            }
+        }
+    ],
+    "wings": [
+        "brdy_serket_wing",
+        "brdy_krait_wing",
+        "brdy_hellbender_wing"
+    ]
+}

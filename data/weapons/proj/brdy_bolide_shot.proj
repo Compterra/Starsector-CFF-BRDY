@@ -1,0 +1,20 @@
+{
+	"id":"brdy_bolide_shot",
+    "onHitEffect":"data.scripts.weapons.BolideOnHitEffect",	
+	"passThroughMissiles":true,
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":80.0,
+	"hitGlowRadius":50,
+	"width":25,
+	"fadeTime":0.33,
+	"fringeColor":[144,220,165,129],
+	"coreColor":[245,235,255,255],
+	#"glowColor":[235,240,10,1],
+	#"glowRadius":140,	
+	"textureScrollSpeed":2.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/BR/missiles/bolide_disc3.png"
+}

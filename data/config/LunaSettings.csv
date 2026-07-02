@@ -1,0 +1,9 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+brdy_fxHeader,Visual Effects,Header,Visual Effects,,,,,Graphics
+brdy_enableParticleEngine,Use Particle Engine,Boolean,true,,"Uses Particle Engine for supported Blackrock cosmetic particle bursts when Particle Engine is installed.",,,Graphics
+brdy_effectScale,Effect Density,Double,1.0,,"Scales supported Blackrock cosmetic particle counts. Damage and gameplay behavior are unchanged.",0.25,1.5,Graphics
+brdy_enableGraphicsLibLights,GraphicsLib Lights,Boolean,true,,"Enables supported Blackrock combat light effects.",,,Graphics
+brdy_enableGraphicsLibDistortions,GraphicsLib Distortions,Boolean,true,,"Enables supported Blackrock distortion effects.",,,Graphics
+brdy_compatHeader,Optional Integrations,Header,Optional Integrations,,,,,Compatibility
+brdy_enableShipMasteryPackages,Ship Mastery Packages,Boolean,true,,"Allows Ship Mastery System to offer Blackrock-specific hullmod package masteries for eligible Blackrock ships.",,,Compatibility
+brdy_enableNexCorvusGeneration,Nexerelin Corvus Worlds,Boolean,true,,"Allows Blackrock to add its static core worlds in Nexerelin Corvus mode. Disable to let Nexerelin start its own sector generation.",,,Compatibility

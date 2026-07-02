@@ -1,0 +1,38 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "brdy_eurypterus",
+    "hullMods": ["brshields"],
+    "permaMods": [],
+    "variantId": "brdy_eurypterus_cs",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_solenoidlarge"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "brdy_fury",
+                "WS0004": "brdy_fury"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brdy_comet",
+                "WS0006": "brdy_comet"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "brdy_argussmall"}
+        }
+    ]
+}

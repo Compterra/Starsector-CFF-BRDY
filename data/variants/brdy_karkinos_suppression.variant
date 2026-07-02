@@ -1,0 +1,61 @@
+{
+    "displayName": "Suppression",
+    "fluxCapacitors": 0,
+    "fluxVents": 50,
+    "hullId": "brdy_karkinos",
+    "hullMods": [
+        "magazines",
+        "targetingunit",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "brdy_karkinos_suppression",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "scalaron_torpedo_small",
+                "WS0010": "scalaron_torpedo_small",
+                "WS0015": "scalaron_torpedo_small",
+                "WS0016": "scalaron_torpedo_small",
+                "WS0019": "scalaron_torpedo_med",
+                "WS0020": "scalaron_torpedo_med"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brdy_hshard",
+                "WS0006": "brdy_hshard",
+                "WS0017": "brdy_hshard"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "br_particlerifle",
+                "WS0002": "br_particlerifle",
+                "WS0003": "br_particlerifle",
+                "WS0004": "br_particlerifle",
+                "WS0007": "brdy_ag",
+                "WS0008": "brdy_ag",
+                "WS0013": "br_particlerifle",
+                "WS0014": "br_particlerifle"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "brdy_argussmall",
+                "WS0012": "brdy_argussmall",
+                "WS0021": "brdy_miniargus",
+                "WS0022": "brdy_miniargus"
+            }
+        }
+    ]
+}

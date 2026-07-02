@@ -1,0 +1,18 @@
+{
+	"id":"thunderhead_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":20.0,
+	"hitGlowRadius":30,
+	"width":4.5,
+	"fadeTime":0.2,
+	"fringeColor":[175,225,140,210],
+	"coreColor":[255,255,210,255],
+	"glowColor":[135,160,110,60],
+	"glowRadius":25,		
+	"textureScrollSpeed":12.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/missiles/shell_large_yellow.png"
+}

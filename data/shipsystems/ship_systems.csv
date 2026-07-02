@@ -1,0 +1,42 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Arc Jet Burner,arcjetburner,,,,0,,,,,,1.43,3,2,14,,,,,,FALSE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/infernium_injector.png
+Scalar Flux Conduit,lucifergenerator,1,,0.08,500,,,,,,1,,0.3,8,TRUE,,,TRUE,,TRUE,TRUE,FALSE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Barracuda Drones,revenantdrones,,,,,,,,8,0.025,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Brakefield Emitter,gravityfield,1,,0.04,250,,,,,,0.5,4,1,20,,,,TRUE,,,,,TRUE,,,,graphics/icons/hullsys/temporal_shell.png
+Burst Jets,burstjets,,,,,,,,2,0.125,0.5,0.1,1.25,0.05,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Arc Jet Thrusters,desdinovajets,,,,,,,,3,0.11,0.45,0.1,1.2,0,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Slip Jets,morpheusjets,,,,,,,,3,0.125,0.05,0.15,0.75,0.1,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Scalar Deracinator,deracinator,,,,,,0.19,,,,1.95,0,1.6,35,,TRUE,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/BR/icons/deracinator.png
+Scalar Deracinator,deracinator_small,,,,,,0.45,,2,0.08,1.05,0,0.17,0.03,,TRUE,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/BR/icons/deracinator.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Brakefield Barrier,brakefieldbarrier,,,,,,,,,,0.05,4,1,18,,,,FALSE,TRUE,,,,FALSE,,,,graphics/icons/hullsys/temporal_shell.png
+Reactor Overdrive,br_fluxejector,,,,,,,,,,0.5,4,1,20,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Adaptive Autoloaders,autoloader,,,,,,0.1,,,,0.015,0.1,0.1,12,,,,,,,,,,,,,graphics/icons/hullsys/missile_racks.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bulwark Drone,brdy_bulwarkdrone,,,,,,,,2,0.025,0,0,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Sentinel Drone,brdy_sentineldrone,,,,,,,,2,0,0,0,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Burst Maneuvering Jets,burstjets_drone,,,,,,,,1,0.16,0.5,0.3,1.1,0.1,,,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+Blink Accelerator,sparkdrive,,,,,,0.2,,,,0.1,2,0.5,15,,,,TRUE,,,,,TRUE,,,,graphics/icons/hullsys/temporal_shell.png
+Sentinel Drones,brdy_sentineldronex2,,,,,,,,4,0,0,0,0,1,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Drive,brphasecloak,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,,,graphics/icons/hullsys/phase_cloak.png
+Scalar Rejector,scalarcloak,,,,,,,,,,0.1,1,0.4,4,,,TRUE,TRUE,TRUE,,,,TRUE,,,,graphics/BR/icons/deracinator.png
+Scalar Repulsor,scalarrepulsor,,,,,,,,,,0.1,2,0.3,6,,,TRUE,TRUE,TRUE,,,,TRUE,,,,graphics/BR/icons/deracinator.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stinger Drones,brdy_galedrone,,,,,,,,4,0.015,0,0,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Maneuvering Jets,brdy_heavymaneuveringjets,,,,,,,,,,0.95,4,1.2,11,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Decoy Flares,brdy_fighter_flares,,,,,,,,,,0.033,,,12,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Plasma Injector,burner_taipan,,,,0,,,,,,0.6,2,2,12,,,,,,FALSE,FALSE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Adv. Charged Burst Jets,burstjets_dfly,,,,,,,,2,0.1,0.5,0.5,3,1,,,,,TRUE,FALSE,FALSE,FALSE,,,,,graphics/icons/hullsys/burn_drive.png
+Charged Burst Jets,burstjets_ant,,,,,,,,,0.1,0.9,1,3,12,,,,,TRUE,FALSE,TRUE,TRUE,,,,,graphics/icons/hullsys/burn_drive.png
+Impulse Skimmer,br_impulseskimmer,,,,,,,,,,0.2,,0.075,15,,,,,,,,,,,,,graphics/icons/hullsys/displacer.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Adv. Blink Accelerator,dynastosjets,75,,,,,0.1,,2,0.04,0.15,2,0.45,0.25,,,,TRUE,,,,,TRUE,,,,graphics/icons/hullsys/temporal_shell.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Core Release,dyn_emp,75,,,,,0.25,,,0.04,0,1.75,0.25,10,,,,TRUE,,,,,TRUE,,,,graphics/icons/hullsys/temporal_shell.png
+Core Discharge,dyn_emp2,300,,,,,,,,,0.75,1.35,0.25,14,,,,,TRUE,,,,,,,,graphics/icons/hullsys/high_energy_focus.png

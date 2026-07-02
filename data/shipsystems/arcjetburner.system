@@ -1,0 +1,30 @@
+{
+	"id":"arcjetburner",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.shipsystems.scripts.ArcJetStats",
+	
+	#"engineGlowColor":[225,255,225,245],
+	"engineGlowContrailColor":[46,57,49,59],
+	"engineGlowLengthMult":3.3,
+	"engineGlowWidthMult":3.3,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0.15,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"arc_jet_activate",
+	"loopSound":"system_arc_jet_underlay",
+	"deactivateSound":"system_arc_jet_fade",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":50,
+		"averageSpeedIncrease":60,
+		"burstMovementPotential":600,
+	}
+}

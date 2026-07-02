@@ -1,0 +1,63 @@
+{
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    135,
+    255,
+    180,
+    255
+  ],
+  "everyFrameEffect": "data.scripts.weapons.PlasmaDischargeEmitterFX",
+  "fireSoundOne": "pdpfire",
+  "fireSoundTwo": "pdploop",
+  "fringeColor": [
+    180,
+    235,
+    75,
+    250
+  ],
+  "glowColor": [
+    119,
+    245,
+    127,
+    250
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/BR/weapons/br_fpde_hp_glow.png",
+  "hardpointOffsets": [
+    9.5,
+    -0.5
+  ],
+  "hardpointSprite": "graphics/BR/weapons/br_fpde_hp.png",
+  "hitGlowRadius": 0,
+  "id": "br_fpde",
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "pixelsPerTexel": 2,
+  "size": "SMALL",
+  "specClass": "beam",
+  "textureScrollSpeed": 360,
+  "fringeScrollSpeedMult": 0.45,
+  "textureType": [
+    "graphics/BR/missiles/plasmaray.png",
+    "graphics/BR/missiles/plasmaray3.png"
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/BR/weapons/br_fpde_glow.png",
+  "turretOffsets": [
+    5.5,
+    -0.5
+  ],
+  "turretSprite": "graphics/BR/weapons/br_fpde.png",
+  "type": "ENERGY",
+  "width": 44
+}

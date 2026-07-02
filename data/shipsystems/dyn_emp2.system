@@ -1,0 +1,46 @@
+{
+    "id":"dyn_emp2",
+	"type":"EMP",
+	"aiType":"EMP",
+    #"aiScript":"data.shipsystems.ai.DynEMPAI",
+    "statsScript":"data.shipsystems.scripts.DynEMPStats",
+
+   
+    #"jitterUnderColor":[119,200,167,10],
+   #"jitterUnderCopies":3,
+    #"jitterUnderMinRange":0,
+    #"jitterUnderRange":20,
+    #"jitterUnderRangeRadiusFraction":0,
+
+ "weaponGlowColor":[55,200,255,255],
+ "weaponTypes":[SYSTEM],
+ 
+    #"jitterColor":[119,200,177,5],
+    #"jitterCopies":5,
+    #"jitterMinRange":1,
+    #"jitterRange":10,
+    #"jitterRangeRadiusFraction":0.15,
+	
+	"effectColor1":[119,240,167,105],
+	"effectColor2":[119,250,167,155],
+
+	"range":500,	
+	"empDamage":125,
+	"damage":75,
+	"damageType":ENERGY,	
+	
+	
+	"impactSound":"dyn_emp_spark",	
+	"loopSound":"dyn_emp_loop",
+    "outOfUsesSound":"gun_out_of_ammo",
+
+    "aiHints":{
+        "threatRange":500,
+        "threatAmount":65,
+        "threatAngle":0,
+        "threatArc":360,
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":0,
+    }
+}

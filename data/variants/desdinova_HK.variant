@@ -1,0 +1,53 @@
+{
+    "displayName": "Hunter-Killer",
+    "fluxCapacitors": 4,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "brdy_desdinova",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.75,
+    "variantId": "desdinova_HK",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "brdy_ac",
+                "WS0007": "brdy_ac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "brdy_galecannon",
+                "WS0005": "brdy_galecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "br_pde"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brvulcan",
+                "WS0003": "brvulcan",
+                "WS0010": "brdy_argussmall",
+                "WS0011": "brdy_argussmall",
+                "WS0012": "brvulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "achilles_mrm",
+                "WS0009": "achilles_mrm"
+            }
+        }
+    ]
+}

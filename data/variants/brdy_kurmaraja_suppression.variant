@@ -1,0 +1,56 @@
+{
+    "displayName": "Suppression",
+    "fluxCapacitors": 0,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "brdy_kurmaraja",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_kurmaraja_suppression",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "brdy_quillpod",
+                "WS0006": "brdy_quillpod",
+                "WS0007": "brdy_quill",
+                "WS0008": "brdy_quill",
+                "WS0009": "brdy_quill",
+                "WS0010": "brdy_quill"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_hshard"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_argussmall",
+                "WS0004": "brdy_argussmall",
+                "WS0011": "br_iwbattery",
+                "WS0012": "br_iwbattery"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "br_minishard",
+                "WS0016": "br_minishard"
+            }
+        }
+    ],
+    "wings": [
+        "brdy_krait_wing",
+        "brdy_hellbender_wing",
+        "brdy_krait_wing",
+        "brdy_hellbender_wing"
+    ]
+}

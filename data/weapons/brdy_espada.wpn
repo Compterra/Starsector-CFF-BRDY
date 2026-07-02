@@ -1,0 +1,51 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundOne": "espadacharge",
+  "fireSoundTwo": "espadafire",
+  "glowColor": [
+    209,
+    255,
+    137,
+    225
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/BR/weapons/espada_hpglow.png",
+  "hardpointOffsets": [
+    19,
+    0
+  ],
+  "hardpointSprite": "graphics/BR/weapons/espada_hp.png",
+  "id": "brdy_espada",
+  "muzzleFlashSpec": {
+    "length": 16,
+    "particleColor": [
+      209,
+      255,
+      137,
+      105
+    ],
+    "particleCount": 20,
+    "particleDuration": 0.075,
+    "particleSizeMin": 25,
+    "particleSizeRange": 4,
+    "spread": 360
+  },
+  "projectileSpecId": "espada_proj",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/BR/weapons/espada_turretglow.png",
+  "turretOffsets": [
+    17.5,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/espada_turret.png",
+  "type": "ENERGY"
+}

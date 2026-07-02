@@ -1,0 +1,53 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,logistics n/a reason,codex variant id,rarity,breakProb,minPieces,maxPieces,travel drive,number
+Stinger,brdy_galedrone,Drone,Blackrock,burstjets_drone,,550,100,1320,,150,,,80,90,90,150,140,60,FRONT,,180,0.5,0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,21001
+Sentinel,brdy_sentinel_drone,Drone,Blackrock,,,550,100,990,,180,,,100,280,300,180,200,45,OMNI,,90,0.5,0.65,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,21002
+Bulwark,brdy_bulwark,Drone,Blackrock,burstjets_drone,,1000,250,1100,,230,,,75,200,300,180,200,85,OMNI,,180,0.5,0.45,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,21003
+Barracuda,barracuda_drone,Drone,Blackrock,burstjets_drone,,550,100,880,,150,,,80,60,90,90,100,140,FRONT,,90,0.5,0.45,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,21001
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Neutrocyte,brdy_stenosdrone,Drone,Blackrock,burstjets_drone,,625,200,880,,160,,,175,150,150,180,300,140,NONE,,120,0.5,0.65,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,21001
+Kutos,brdy_shredderdrone,Drone,Blackrock,burstjets_drone,,550,100,800,,150,,,200,250,250,180,360,15,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,21001
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Krait,brdy_krait,,Blackrock,burstjets_drone,,750,225,990,,320,,,180,320,320,145,280,55,NONE,,90,0.15,0.6,0,0,2,2,,,,,10,,2,6,,,1.5,1.5,,,,,,,,,,,,0,,,,21101
+Hellbender,brdy_hellbender,,Blackrock,brdy_fighter_flares,,700,300,990,,240,,,175,260,240,145,280,50,NONE,,90,0.15,0.6,0,0,2,2,,,,,10,,2,6,,,1.5,1.5,,,,,,,,,,,,0,,,,21101
+Dipteron,brdy_dipteron,,Blackrock,burstjets_drone,,550,100,800,,150,,,340,370,370,195,280,25,NONE,,90,0.15,0.6,0,0,0,0,,,,,10,,2,4,,,0.75,0.75,,,,,,,,,,,,0,,,,21102
+Vespa,brdy_vespa,,Blackrock,burstjets_drone,,550,100,800,,220,,,180,140,100,120,190,40,NONE,,150,0.4,0.45,,,2,2,,,,,10,,2,6,,,1,1,,,,,,,,,,,,0,,,,21103
+Serket,brdy_serket,,Blackrock,burstjets_drone,,550,125,800,,150,,,180,120,120,145,240,45,NONE,,,,,,,2,2,,,,,10,,3,8,,,2,2,,,,,,,,,,,,0,,,,21104
+Taipan,brdy_taipan,,Blackrock,burner_taipan,,550,150,800,,150,,,350,350,350,200,400,35,NONE,,90,0.15,0.6,0,0,1,1,,,,,10,,2,4,,,0.75,0.75,,,,,,,,,,,,0,,,,21102
+Mosquito,brdy_mosquito,,Blackrock,burstjets_drone,,550,100,800,,150,,,240,350,300,195,280,27,NONE,,90,0.15,0.6,0,0,1,1,,,,,10,,2,4,,,0.75,0.75,,,,,,,,,,,,0,,,,21102
+Nadir,brdy_nadir,,Blackrock,burstjets_drone,,750,125,880,,280,,,160,200,200,120,280,45,FRONT,,120,0.15,0.65,0,0,1,1,,,,,10,,2,6,,,1.5,1.5,,,,,,,,,,,,0,,,,21101
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dragonfly,brdy_dragonfly,Heavy Gunship,Blackrock,brakefieldbarrier,10,2750,375,3000,3250,315,50,,160,200,200,90,180,240,FRONT,,220,0.4,0.9,,,8,20,40,40,1,40,10,34000,5,25,210,0.25,8,8,,,,,,,,"brdy_mil_bp, blackrock",,,,0.4,2,3,,21202
+Zabrus,brdy_zabrus,Heavy Frigate,Blackrock,brdy_heavymaneuveringjets,10,3025,325,3100,3125,245,65,,110,60,60,45,90,280,OMNI,,120,0.35,0.9,0,0,20,40,40,50,1,75,10,25000,6,25,210,0.25,6,6,,,,,,,,"brdy_rare, rare_bp, blackrock",,,,0.5,2,3,,21201
+Weevil,brdy_scarab,Utility Frigate,Blackrock,arcjetburner,10,2700,275,2700,3125,190,40,1,105,50,40,35,40,280,FRONT,,120,0.45,0.9,0,0,20,50,60,100,1,75,10,20000,6,20,210,0.25,5,5,,,,,,,,"brdy_com_bp, blackrock, brdy_export",,,,0.5,2,3,,21201
+Mantis,brdy_mantis,Frigate,Blackrock,burstjets,10,2200,300,3100,3250,270,65,,165,125,115,90,140,200,OMNI,,90,0.4,0.9,,,8,20,30,40,1,40,10,22000,6,25,180,0.25,6,6,,,,,,,,"brdy_mil_bp, blackrock",,,,0.5,2,2,,21202
+Goblin,brdy_locust,Gunship,Blackrock,sparkdrive,6,2200,300,3000,1875,230,50,,160,270,230,140,290,140,FRONT,,220,0.35,0.9,,,6,18,35,25,1,25,10,12000,6,15,180,0.25,3,3,,,,,,,,"brdy_com_bp, blackrock, brdy_export",,,,0.5,2,2,,21203
+Imaginos,brdyx_imaginos,Frigate,Blackrock,deracinator_small,10,2200,350,2800,4500,425,50,,165,270,260,130,220,360,PHASE,scalarcloak,200,,,0.025,0.605,6,12,25,25,2,13,10,46000,6,35,150,0.25,12,12,,,,,,,,"no_drop, blackrock, brdy_rare",,,,0,2,2,,21204
+Robberfly,brdy_robberfly,Corvette,Blackrock,burstjets,5,2200,350,2800,1750,230,50,,195,225,195,95,165,150,NONE,,0,0,0,,,6,18,60,35,1,25,10,9000,10,10,210,0.25,3,3,,,,,,,,"brdy_com_bp, blackrock, brdy_export",,,,0.5,2,2,,21205
+Silverfish,brdy_silverfish,Combat Freighter,Blackrock,burstjets,5,2550,300,2700,2750,225,45,,140,60,60,40,45,260,OMNI,,80,0.4,0.9,0,0,12,40,90,80,1,90,10,21000,6,20,180,0.25,5,5,,,,,,,WEAPONS_FRONT_TO_BACK,"brdy_com_bp, blackrock,  brdy_export",,,,0.5,2,2,,21201
+Silverfish-B,brdy_silverfish_b,Combat Freighter,Blackrock,burstjets,7,2650,325,2800,2875,280,50,,125,55,55,40,40,300,OMNI,,90,0.4,0.9,0,0,14,40,80,75,1,90,10,23000,6,20,180,0.25,5,5,,,,,,,WEAPONS_FRONT_TO_BACK,"brdy_mil_bp, blackrock",,,,0.5,2,2,,21201
+Mod Silverfish,brdy_silverfish_mod,Frigate,Blackrock,burstjets,6,2750,375,2800,2813,255,50,,150,70,60,45,40,280,FRONT,,90,0.3,0.9,0,0,14,40,60,75,1,90,10,22000,6,20,180,0.25,5,5,,,,,,,WEAPONS_FRONT_TO_BACK,"brdy_rare, rare_bp, blackrock, brdy_export",,,,0.5,2,2,,21201
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gonodactylus,brdy_gonodactylus,Destroyer,Blackrock,arcjetburner,11,6600,875,5000,4833,330,105,,80,25,25,16,25,750,OMNI,,90,0.45,0.9,,,30,60,100,90,2,45,9,39000,5,12,300,0.25,9,9,,,,,,,,"brdy_com_bp, blackrock,  brdy_export",,,,0.4,2,3,,21301
+Desdinova,brdy_desdinova,Heavy Destroyer,Blackrock,desdinovajets,11,6600,825,7400,8167,535,120,,90,36,32,18,40,1000,OMNI,,120,0.3,0.9,0,0,50,70,75,80,5,27,9,60000,4,25,220,0.25,16,16,,,,,,,,"brdy_rare, rare_bp, blackrock",,,,0.5,2,4,,21302
+Cetonia,brdy_cetonia,Freighter,Blackrock,arcjetburner,9,3900,625,3200,2000,190,55,,75,18,20,15,18,450,FRONT,,90,0.45,0.9,,,30,150,300,80,3,60,9,26000,5,12,240,0.25,6,6,,,,,,,CIVILIAN,"brdy_com_bp, blackrock,  brdy_export",,,,0.5,2,3,,21303
+Typheus,brdy_typheus,Light Carrier,Blackrock,brdy_heavymaneuveringjets,11,4400,525,4800,2333,330,85,2,65,25,25,22,16,400,OMNI,,120,0.45,0.9,,,45,120,100,100,2,50,9,54000,5,15,330,0.25,12,12,,,,,,,CARRIER,"brdy_mil_bp, blackrock",,,,0.5,2,3,,21304
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scorpion,brdy_scorpion,Destroyer,Blackrock,brdy_galedrone,11,5500,550,6000,5333,365,110,,80,35,30,25,40,900,OMNI,,120,0.45,0.9,,,25,60,80,100,2,50,9,55000,5,20,360,0.25,13,13,,,,,,,,"brdy_com_bp, brdy_mil_bp, blackrock",,,,0.4,2,3,,
+Megaceras,brdy_megaceras,Scoutship,Blackrock,brdy_heavymaneuveringjets,11,3775,550,4600,,300,75,1,115,80,55,27,55,600,OMNI,,90,0.4,0.9,,,25,70,120,200,2,60,9,47000,5,20,300,0.25,11,11,,,,,,,,"brdy_com_bp, blackrock",,,,0.5,2,3,,67
+Eurypterus,brdy_eurypterus,Destroyer,Blackrock,burstjets,11,4950,700,5400,,355,95,,85,50,45,35,50,650,FRONT,,120,0.4,0.9,,,25,50,80,80,2,40,9,40000,5,15,300,0.25,10,10,,,,,,,,"brdy_mil_bp, blackrock",,,,0.5,2,3,,320
+Dynastos,brdy_dynastos,Destroyer,Blackrock,dyn_emp2,11,4300,650,6000,,450,90,,100,120,120,45,100,550,FRONT,,150,0.4,0.85,,,15,30,30,50,2,40,9,65000,5,20,300,0.25,14,14,,,,,,,,"brdy_rare, rare_bp, blackrock",,,,0,2,4,,320
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nevermore,brdy_nevermore,Cruiser,Blackrock,burstjets,15,8800,1100,10200,10800,610,170,,75,20,20,12,22,1660,FRONT,,90,0.3,0.85,0,0,70,100,100,60,6,12,8,145000,4,25,390,0.25,35,35,,,,,,,,"brdy_rare, rare_bp, blackrock",,,,0,2,4,,21401
+0-Series Nevermore,brdy_nevermore_00,Cruiser,Blackrock,burstjets,14,9350,1200,9800,10800,520,175,,80,30,30,14,26,1700,FRONT,,90,0.3,0.85,0,0,75,110,75,75,5,60,8,140000,4,15,480,0.25,35,35,,,,,,,,"no_drop, blackrock, brdy-rare",,,,0.5,2,4,,21401
+Asura,brdy_asura,Cruiser,Blackrock,br_fluxejector,14,9350,1050,9800,9167,520,150,,75,40,38,20,22,1500,OMNI,,120,0.3,0.9,,,50,90,80,120,4,40,8,130000,5,25,420,0.25,30,30,,,,,,,,"brdy_rare, rare_bp, blackrock",,,,0.5,2,3,,21305
+Knight,brdy_knight,Cruiser,Blackrock,brdy_heavymaneuveringjets,15,9900,1000,9800,6700,520,150,2,55,25,22,8,12,2250,OMNI,,120,0.4,0.9,,,80,160,200,150,3,47,8,125000,5,15,480,0.25,25,25,,,,,,,,"brdy_com_bp, blackrock",,,,0.5,2,4,,21402
+Stenos,brdy_stenos,Science Vessel,Blackrock,autoloader,15,8650,875,9200,11000,460,140,1,75,30,26,12,20,2050,OMNI,,180,0.45,0.75,,,65,140,200,200,3,80,8,140000,5,20,420,0.25,25,25,,,,,,,,"brdy_mil_bp, blackrock",,,,0.5,2,4,,21403
+Convergence,brdy_convergence,Battle Carrier,Blackrock,brdy_bulwarkdrone,15,9350,825,9000,6000,450,140,3,50,19,14,14,6,2300,OMNI,,90,0.45,0.9,,,100,300,300,300,5,60,7,140000,5,20,420,0.25,22,22,,,,,,,"CARRIER, COMBAT","brdy_mil_bp, blackrock",,,,0.6,2,4,,21404
+Hawkmoth,brdy_hawkmoth,Heavy Tanker,Blackrock,arcjetburner,14,10075,1100,7800,6700,415,120,,65,28,25,13,14,2450,FRONT,,120,0.3,0.9,,,60,90,175,900,3,47,9,115000,5,15,480,0.25,18,18,,,,,,,,"brdy_com_bp, blackrock",,,,0.6,2,4,,21402
+Antaeus,brdy_antaeus,Heavy Cruiser,Blackrock,burstjets_ant,15,11000,1425,12000,10800,670,185,,40,15,15,14,25,2200,OMNI,,180,0.45,0.8,0,0,150,350,150,150,5,12,8,130000,4,20,480,0.25,26,26,,,,,,,WEAPONS_FRONT_TO_BACK,"brdy_mil_bp, blackrock",,,,0.4,2,5,,21401
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kurmaraja,brdy_kurmaraja,Interdictor,Blackrock,gravityfield,28,13000,1200,18000,16000,1050,265,4,60,30,25,11,25,2650,OMNI,,150,0.45,0.9,,,200,450,200,200,10,40,7,360000,4,20,540,0.25,45,45,,,,,,,,"brdy_rare, rare_bp, blackrock",,,,0.5,2,4,,21501
+Eschaton,brdy_eschaton,Superfreighter,Blackrock,brdy_heavymaneuveringjets,20,13500,1250,11000,7500,575,165,2,25,6,6,4,2,4400,OMNI,,90,0.45,0.9,,,100,600,1200,500,10,80,6,220000,5,15,540,0.25,24,24,,,,,,,"CARRIER, COMBAT","brdy_com_bp, blackrock",,,,0.5,2,5,,21502
+Karkinos,brdy_karkinos,Battleship,Blackrock,deracinator,28,14300,1650,26400,33750,1405,365,,40,12,12,7,8,3600,FRONT,,90,0.4,0.9,,,400,750,250,250,15,40,7,450000,3,25,660,0.25,50,50,,,,,,,,"brdy_rare, rare_bp, blackrock",,,,0,2,4,,21503
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Morpheus,brdyx_morpheus,Destroyer,Blackrock,morpheusjets,22,4400,600,10200,9167,600,85,,110,70,70,45,90,1000,PHASE,scalarrepulsor,,,,0.1,0.175,25,50,50,75,3,25,10,120000,4,35,180,0.25,30,30,,,,,,,,"no_drop, blackrock, brdy_rare",,,,0,2,4,,21302

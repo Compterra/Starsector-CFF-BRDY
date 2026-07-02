@@ -1,0 +1,49 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 9,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "brdy_gonodactylus",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.25,
+    "variantId": "gonodactylus_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0006": "brdy_hammerclaw"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "scalaron_torpedo_small",
+                "WS0018": "scalaron_torpedo_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0019": "brdy_plance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_volley",
+                "WS0002": "brdy_ag",
+                "WS0007": "brdy_solenoid"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brvulcan",
+                "WS0004": "brvulcan",
+                "WS0008": "brvulcan"
+            }
+        }
+    ]
+}

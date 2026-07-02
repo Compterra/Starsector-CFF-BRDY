@@ -1,0 +1,95 @@
+{
+  "playableFaction": true,
+  "startingFaction": true,
+  "enabledByDefault": true,
+  "corvusCompatible": true,
+  "directoryUseShortName": true,
+  "marketSpawnWeight": 0.85,
+  "colonyExpeditionChance": 0.5,
+  "colonyTargetValuator": "exerelin.campaign.colony.IndustrialColonyTargetValuator",
+  "diplomacyTraits": ["monopolist", "likes_ai", "devious", "law_and_order"],
+  "rebelFleetSuffix": "Splinter Group",
+  "morality": "neutral",
+  "startRelationships": {
+    "hegemony": -0.5,
+    "tritachyon": -0.5,
+    "shadow_industry": 0.1,
+    "persean": 0.1,
+    "dassault_mikoyan": -0.3,
+    "SCY": -0.1,
+    "diableavionics": -0.3,
+    "neutrinocorp": 0.15,
+    "vic": -0.3
+  },
+  "maxRelationships": {
+    "hegemony": 0.25,
+    "luddic_path": -0.5
+  },
+  "alignments": {
+    "corporate": 0.5,
+    "ideological": 0.2,
+    "technocratic": 0.5,
+    "diplomatic": 0.2
+  },
+  "factionsLiked": [
+    "tiandong",
+    "shadow_industry"
+  ],
+  "factionsDisliked": [
+    "luddic_path",
+    "hegemony",
+    "tritachyon"
+  ],
+  "vengeanceLevelNames": ["Pursuit", "Reprisal", "Vendetta"],
+  "vengeanceFleetNames": ["Hunter-Killers", "Task Force", "Consortium Fleet"],
+  "vengeanceFleetNamesSingle": ["a Hunter-Killer Fleet", "a Task Force", "a Consortium Termination Fleet"],
+  "vengeanceFleetSizeMult": 1.25,
+  "invasionSupportFleetName": "Strike Group",
+  "responseFleetName": "Counteroffensive Fleet",
+  "defenceFleetName": "Sovereignty Assurance Fleet",
+  "startShipsSolo": [["brdy_robberfly_strike"]],
+  "startShipsCombatSmall": [
+    ["brdy_dragonfly_attack", "brdy_locust_patrol", "brdy_robberfly_strike"],
+    ["brdy_mantis_attack", "scarab_attack", "brdy_silverfish_cs"]
+  ],
+  "startShipsTradeSmall": [["brdy_cetonia_standard", "brdy_silverfish_standard", "brdy_robberfly_cs", "scarab_closesupport"]],
+  "startShipsExplorerSmall": [["brdy_stenos_exploration", "brdy_robberfly_cs", "brdy_locust_patrol"]],
+  "startShipsCombatLarge": [
+    ["brdy_antaeus_standard", "brdy_scorpion_standard", "brdy_typheus_support"],
+    ["brdy_dragonfly_attack", "brdy_eurypterus_standard", "brdy_silverfish_b_standard"]
+  ],
+  "startShipsTradeLarge": [
+    ["brdy_hawkmoth_armed", "brdy_stenos_exploration", "brdy_locust_patrol"],
+    ["brdy_cetonia_standard", "brdy_megaceras_standard", "brdy_robberfly_cs"]
+  ],
+  "startShipsExplorerLarge": [["brdy_hawkmoth_fs", "brdy_stenos_exploration", "brdy_megaceras_runner"]],
+  "startShipsCarrierSmall": [["brdy_typheus_support", "brdy_dragonfly_skirmisher", "brdy_locust_patrol", "scarab_attack"]],
+  "startShipsCarrierLarge": [["brdy_knight_support", "brdy_typheus_defender", "brdy_silverfish_standard", "brdy_locust_patrol"]],
+  "startShipsSuper": [["brdy_antaeus_standard", "brdy_typheus_support", "brdy_silverfish_b_standard"]],
+  "customStations": ["br_station"],
+  "factionIdForHqResponse": "br_consortium",
+  "miningVariantsOrWings": ["gonodactylus_assault", "gonodactylus_cc", "gonodactylus_CS", "gonodactylus_elite"],
+  "defenceStations": [
+    {"ids": ["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]}
+  ],
+  "startSpecialItems": [
+    [["brdy_bps_common", ""]],
+    [["brdy_bps_mil", ""]],
+    [["brdy_bps_wep", ""]]
+  ],
+  "industrySeeds": [
+    {"id": "brdy_defhq", "mult": 0.28},
+    {"id": "orbitalworks", "mult": 0.45},
+    {"id": "heavyindustry", "mult": 0.3},
+    {"id": "fuelprod", "mult": 0.2},
+    {"id": "refining", "mult": 0.3},
+    {"id": "lightindustry", "mult": 0.2}
+  ],
+  "bonusSeeds": [
+    {"id": "nanoforge_pristine", "count": 1},
+    {"id": "aiCore_station", "count": 1, "mult": 0.1},
+    {"id": "aiCore_military", "mult": 0.25},
+    {"id": "aiCore_heavyindustry", "count": 1},
+    {"id": "aiCore_any", "mult": 1}
+  ]
+}

@@ -1,0 +1,6 @@
+id,tier,tags,priority,default_strength,script
+BRDYFluxHullmodPackage,2,combat unique,,0.1,data.scripts.shipmastery.BRDYFluxHullmodPackage
+BRDYEngineHullmodPackage,2,combat unique,,1,data.scripts.shipmastery.BRDYEngineHullmodPackage
+BRDYArmorHullmodPackage,2,combat unique,,0.12,data.scripts.shipmastery.BRDYArmorHullmodPackage
+BRDYShieldHullmodPackage,2,combat unique,,0.1,data.scripts.shipmastery.BRDYShieldHullmodPackage
+BRDYWeaponSystemsHullmodPackage,2,combat unique,,0.08,data.scripts.shipmastery.BRDYWeaponSystemsHullmodPackage

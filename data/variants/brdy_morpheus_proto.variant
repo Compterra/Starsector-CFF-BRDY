@@ -1,0 +1,52 @@
+{
+    "displayName": "Prototype",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "brdyx_morpheus",
+    "hullMods": ["hardened_subsystems"],
+    "permaMods": [],
+    "variantId": "brdy_morpheus_proto",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "brdy_superscalarbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_plance",
+                "WS0002": "brdy_plance",
+                "WS0003": "brdy_plance",
+                "WS0004": "brdy_plance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "homing_laser",
+                "WS0010": "homing_laser",
+                "WS0011": "homing_laser",
+                "WS0012": "homing_laser",
+                "WS0013": "homing_laser",
+                "WS0014": "homing_laser",
+                "WS0015": "homing_laser",
+                "WS0016": "homing_laser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "brdy_miniargusb",
+                "WS0018": "brdy_miniargusb",
+                "WS0019": "brdy_miniargusb",
+                "WS0020": "brdy_miniargusb",
+                "WS0021": "brdy_miniargusb"
+            }
+        }
+    ]
+}

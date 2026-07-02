@@ -1,0 +1,37 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 15,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "brdy_scorpion",
+    "hullMods": [
+        "targetingunit",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_scorpion_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brdy_solenoid",
+                "WS0003": "brdy_solenoid",
+                "WS0004": "brdy_solenoid"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "brdy_mage_s",
+                "WS0006": "brdy_mage_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "brdy_pcc"}
+        }
+    ]
+}

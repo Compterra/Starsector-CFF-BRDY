@@ -1,0 +1,47 @@
+{
+    "displayName": "Armed",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "brdy_eschaton",
+    "hullMods": [
+        "insulatedengine",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_eschaton_armed",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "brdy_mage_m",
+                "WS0011": "brdy_mage_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "br_particlerifle"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_solenoid",
+                "WS0002": "brdy_solenoid"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_pcc",
+                "WS0004": "brdy_pcc",
+                "WS0005": "brdy_pcc",
+                "WS0006": "brdy_pcc"
+            }
+        }
+    ],
+    "wings": []
+}

@@ -1,0 +1,422 @@
+{
+  "bounds": [
+    -179,
+    -10,
+    -214.5,
+    -12.5,
+    -238.5,
+    -23.5,
+    -238,
+    -40.5,
+    -215,
+    -61,
+    -187.5,
+    -69,
+    -145.5,
+    -58.5,
+    -131.5,
+    -23,
+    -136,
+    -93.5,
+    -117.5,
+    -114.5,
+    -26.5,
+    -79.5,
+    49,
+    -99.5,
+    231,
+    -50,
+    229.5,
+    -15.5,
+    205,
+    -0,
+    229.5,
+    15.5,
+    231,
+    50,
+    49,
+    99.5,
+    -26.5,
+    79.5,
+    -117.5,
+    114.5,
+    -136,
+    93.5,
+    -131.5,
+    23,
+    -145.5,
+    58.5,
+    -187.5,
+    69,
+    -215,
+    61,
+    -238,
+    40.5,
+    -238.5,
+    23.5,
+    -214.5,
+    12.5,
+    -179,
+    10,
+    -169.5,
+    -0
+  ],
+  "builtInMods": [
+    "brfluxmod",
+    "nav_relay"
+  ],
+  "builtInWings": [
+    "brdy_kutos_wing",
+    "brdy_kutos_wing"
+  ],
+  "center": [
+    137,
+    269.5
+  ],
+  "collisionRadius": 339,
+  "engineSlots": [
+    {
+      "angle": 179.720505,
+      "contrailSize": 30.048403,
+      "length": 97.574448,
+      "location": [
+        -246.5,
+        26.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 30.048403
+    },
+    {
+      "angle": -179.720505,
+      "contrailSize": 30.048403,
+      "length": 97.574448,
+      "location": [
+        -246.5,
+        -26.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 30.048403
+    },
+    {
+      "angle": 180,
+      "contrailSize": 25,
+      "length": 91.5,
+      "location": [
+        -246,
+        36.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 25
+    },
+    {
+      "angle": -180,
+      "contrailSize": 25,
+      "length": 91.5,
+      "location": [
+        -246,
+        -36.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 25
+    },
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 96.5,
+      "location": [
+        -140.5,
+        82
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 28
+    },
+    {
+      "angle": -180,
+      "contrailSize": 28,
+      "length": 96.5,
+      "location": [
+        -140.5,
+        -82
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 28
+    },
+    {
+      "angle": 180,
+      "contrailSize": 25,
+      "length": 91.5,
+      "location": [
+        -140.5,
+        91
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 25
+    },
+    {
+      "angle": -180,
+      "contrailSize": 25,
+      "length": 91.5,
+      "location": [
+        -140.5,
+        -91
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 25
+    },
+    {
+      "angle": 163.686142,
+      "contrailSize": 128,
+      "length": 31.140982,
+      "location": [
+        -127.5,
+        107.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 13.746161
+    },
+    {
+      "angle": -163.686142,
+      "contrailSize": 128,
+      "length": 31.140982,
+      "location": [
+        -127.5,
+        -107.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 13.746161
+    },
+    {
+      "angle": 111,
+      "contrailSize": 128,
+      "length": 31.140982,
+      "location": [
+        115,
+        86
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 13.746161
+    },
+    {
+      "angle": -111,
+      "contrailSize": 128,
+      "length": 31.140982,
+      "location": [
+        115,
+        -86
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 13.746161
+    },
+    {
+      "angle": 111,
+      "contrailSize": 128,
+      "length": 31.140982,
+      "location": [
+        107,
+        87
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 13.746161
+    },
+    {
+      "angle": -111,
+      "contrailSize": 128,
+      "length": 31.140982,
+      "location": [
+        107,
+        -87
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 13.746161
+    }
+  ],
+  "height": 538,
+  "hullId": "brdy_eschaton",
+  "hullName": "Eschaton",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 326,
+  "spriteName": "graphics/BR/ships/brdy_eschaton.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 70,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        109,
+        55.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -70,
+      "arc": 220,
+      "id": "WS0002",
+      "locations": [
+        109,
+        -57.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 70,
+      "arc": 220,
+      "id": "WS0003",
+      "locations": [
+        149,
+        61
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -70,
+      "arc": 220,
+      "id": "WS0004",
+      "locations": [
+        149,
+        -62
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 240,
+      "id": "WS0005",
+      "locations": [
+        -107,
+        92
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 240,
+      "id": "WS0006",
+      "locations": [
+        -107,
+        -94
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 240,
+      "id": "WS0007",
+      "locations": [
+        -88.5,
+        -1
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -163.495636,
+      "arc": 22.619871,
+      "id": "WS0008",
+      "locations": [
+        -50.5,
+        56
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 163.495636,
+      "arc": 22.619871,
+      "id": "WS0009",
+      "locations": [
+        -50.5,
+        -56
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -49.5,
+        56,
+        -48.5,
+        -56
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        227,
+        48
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        227,
+        -49
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        -60.5,
+        -52.5,
+        -59,
+        54
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 275
+}

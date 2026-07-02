@@ -1,0 +1,38 @@
+{
+	"id":"br_tacmissilestage2",
+	"specClass":"missile",
+    "onHitEffect":"data.scripts.weapons.MageOnHit",		
+	"missileType":"MISSILE",
+	"sprite":"graphics/BR/missiles/scalaron_torpedo.png",
+	"size":[14,14],	
+	"center":[7,7],
+	"glowColor":[55,140,168,39],
+	"glowRadius":45,	
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[49,142,222,55],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":35, # purely visual
+	"engineSpec":{"turnAcc":2600,
+				  "turnRate":1000,
+				  "acc":1940,
+				  "dec":1600},
+				  "engineSlots":[{"id":"ES1",
+					"loc":[-0.1, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[195,250,170,0],
+						"contrailDuration":0.7,
+						"contrailWidthMult":8,
+						"contrailWidthAddedFractionAtEnd":0.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.15f,
+						"contrailAngularVelocityMult":0.75f,
+						"contrailColor":[161,214,62,120],
+						"contrailSpawnDistMult":-0.6,						
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":1,
+				    "length":1,
+				    "angle":180.0}]
+}

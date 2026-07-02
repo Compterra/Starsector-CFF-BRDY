@@ -1,0 +1,28 @@
+{
+	"id":"burner_taipan",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.shipsystems.scripts.BurstJetsStats",
+	
+	#"engineGlowColor":[225,255,225,245],
+	"engineGlowContrailColor":[46,97,79,189],
+	"engineGlowLengthMult":5.0,
+	"engineGlowWidthMult":2.0,
+	"engineGlowGlowMult":4,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+	"alwaysAccelerate":true,
+
+	"useSound":"taipan_burner_activate",
+	"loopSound":"taipan_burner_loop",
+	#"deactivateSound":"system_arc_jet_fade",
+	#"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":120,
+	}
+}

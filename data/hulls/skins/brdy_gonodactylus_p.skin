@@ -1,0 +1,12 @@
+{
+	"baseHullId":"brdy_gonodactylus",
+	"skinHullId":"brdy_gonodactylus_p",
+	"hullName":"Gonodactylus (P)",
+	"descriptionId":"brdy_gonodactylus",
+	"descriptionPrefix":"Poor maintenance and hard pirate use have left this hull temperamental, but the aggressive repaint is less important than what survived: the Hammerclaw system and the original weapon mounts remain intact.",
+	"spriteName":"graphics/BR/ships/skins/gonodactylus_p.png",
+	"baseValueMult":0.7,
+	"tags":["bp_rare", "pirate_bp", "pirates"],
+	"tech":"Blackrock",	
+	"builtInMods":["degraded_engines","comp_armor","faulty_grid"]
+}

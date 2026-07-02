@@ -1,0 +1,23 @@
+{
+	"id":"fluxtank",
+	"specClass":"missile",
+	"missileType":"BOMB",
+	"sprite":"graphics/BR/missiles/Flux_Tank.png",
+	"size":[12,19],	
+	"center":[6,9],
+	"collisionRadius":10,
+	"glowColor":[255,110,255,40],
+	"glowRadius":30,	
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,110,255,240],
+	"explosionRadius":100, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":75,
+					 "coreRadius":25, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS},				  
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":0,
+				  "dec":0}
+}

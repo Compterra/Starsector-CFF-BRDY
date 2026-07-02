@@ -1,0 +1,18 @@
+{
+	"id":"br_fluxejector",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	"statsScript":"data.shipsystems.scripts.FluxEjectorStatsScript",
+	#"aiScript":"data.shipsystems.ai.FluxEjectorAI",
+	"weaponDataId":"br_fluxejector",
+	"engineGlowLengthMult":1.25,
+	"engineGlowWidthMult":1.25,
+	"engineGlowGlowMult":1.4,
+    "engineGlowColor":[211,255,105,145],	
+	
+	"weaponGlowColor":[221,90,149,145],
+	"weaponTypes":[ENERGY],
+	"useSound":"system_reactor_override",
+	"loopSound":"asurareactor",
+	"outOfUsesSound":"gun_out_of_ammo"
+}

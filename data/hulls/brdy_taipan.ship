@@ -1,0 +1,120 @@
+{
+  "bounds": [
+    -11,
+    -10.5,
+    3,
+    -8.5,
+    18,
+    -0,
+    3,
+    8.5,
+    -11,
+    10.5
+  ],
+  "center": [
+    14,
+    23.5
+  ],
+  "collisionRadius": 22,
+  "engineSlots": [
+    {
+      "angle": 171.5,
+      "contrailSize": 6.786161,
+      "length": 11.123713,
+      "location": [
+        -14.5,
+        9
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6.786161
+    },
+    {
+      "angle": -171.5,
+      "contrailSize": 6.786161,
+      "length": 11.123713,
+      "location": [
+        -14.5,
+        -9
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 6.786161
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 20,
+      "location": [
+        -10.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 10
+    }
+  ],
+  "height": 47,
+  "hullId": "brdy_taipan",
+  "hullName": "Taipan",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    1,
+    1
+  ],
+  "shieldRadius": 12,
+  "spriteName": "graphics/BR/ships/taipan.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        -1,
+        5.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -4,
+        -6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0003",
+      "locations": [
+        15,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -10,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 28
+}

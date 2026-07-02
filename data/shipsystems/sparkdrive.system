@@ -1,0 +1,20 @@
+{
+	"id":"sparkdrive",
+	"type":"STAT_MOD",
+	"aiType":"TEMPORAL_SHELL",
+	
+	"statsScript":"data.shipsystems.scripts.SparkDriveStats",
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,	
+	
+	"fadeActivationSoundOnChargedown":false,	
+	"useSound":"spark_use",
+    "loopSound":"system_sparkdrive_loop",
+    "outOfUsesSound":"system_phase_cloak_collision",
+	
+	"aiHints":{
+		"averageSpeedIncrease":100,
+	}
+}

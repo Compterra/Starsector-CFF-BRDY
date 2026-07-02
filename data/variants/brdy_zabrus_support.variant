@@ -1,0 +1,42 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "brdy_zabrus",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "brdy_zabrus_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brdy_comet",
+                "WS0006": "brdy_comet"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "brdy_mage_s",
+                "WS0016": "brdy_mage_s"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "br_rage_srm"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brvulcan",
+                "WS0003": "brvulcan",
+                "WS0004": "brvulcan"
+            }
+        }
+    ]
+}

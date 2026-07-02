@@ -1,0 +1,46 @@
+{
+	"id":"brphasecloak",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+	
+	"statsScript":"com.fs.starfarer.api.impl.combat.PhaseCloakStats",
+	"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	"blockActionsWhileChargingDown":false,
+	
+	"phaseHighlight":"_glow1",
+	"phaseDiffuse":"_glow2",
+	
+	"jitterColor":[45,106,70,45],
+	#"jitterColor":[255,100,255,150],
+	"jitterCopies":2,
+	"jitterRange":0.15,
+	"jitterRangeRadiusFraction":0.02,	
+	
+	"effectColor1":[65,146,100,255],
+	"effectColor2":[65,146,90,195],
+	
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	
+	"engineGlowColor":[119,220,237,45],
+	"engineGlowContrailColor":[119,220,237,25],
+	"engineGlowLengthMult":0.3,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":18,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.9,
+	"soundFilterGainHF":0.25,
+	
+	"shipAlpha":0.27,
+	
+	"useSound":"brphase_cloak_in",
+	#"deactivateSound":"system_phase_cloak_deactivate",
+	"deactivateSound":"brphase_cloak_out",
+	"outOfUsesSound":"system_phase_cloak_collision",
+	
+	"aiHints":{
+		"averageSpeedIncrease":35,
+	}
+}

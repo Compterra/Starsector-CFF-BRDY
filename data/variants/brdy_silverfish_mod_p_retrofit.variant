@@ -1,0 +1,34 @@
+{
+    "displayName": "Retrofit",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "brdy_silverfish_mod_p",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "brdy_silverfish_mod_p_retrofit",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "brdy_ag",
+                "WS0005": "brdy_ag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "voidspear_srm"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "br_minishard",
+                "WS0003": "br_minishard"
+            }
+        }
+    ]
+}

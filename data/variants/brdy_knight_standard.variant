@@ -1,0 +1,61 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "brdy_knight",
+    "hullMods": [
+        "magazines",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_knight_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "brdy_mage_m",
+                "WS0002": "brdy_mage_m"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "brdy_afmissilebig",
+                "WS0011": "brdy_afmissilebig",
+                "WS0012": "brdy_afmissilebig",
+                "WS0013": "brdy_afmissilebig"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "brdy_comet"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_plance",
+                "WS0004": "brdy_plance",
+                "WS0005": "brdy_plance",
+                "WS0006": "brdy_plance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "brdy_argussmall",
+                "WS0008": "brdy_argussmall",
+                "WS0014": "brdy_miniargus"
+            }
+        }
+    ],
+    "wings": [
+        "brdy_dipteron_wing",
+        "brdy_dipteron_wing"
+    ]
+}

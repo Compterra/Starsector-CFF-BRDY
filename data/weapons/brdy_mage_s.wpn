@@ -1,0 +1,47 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 600,
+  "fireSoundTwo": "brdy_wspr",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    5.5,
+    4,
+    5.5,
+    -4
+  ],
+  "hardpointSprite": "graphics/BR/weapons/wspr_hp.png",
+  "id": "brdy_mage_s",
+  "projectileSpecId": "br_tacmissileproj",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "SMALL",
+	"smokeSpec":{"particleSizeMin":20.0,
+				 "particleSizeRange":20.0,
+				 "cloudParticleCount":3,
+				 "cloudDuration":1.0,
+				 "cloudRadius":10.0,
+				 "blowbackParticleCount":3,
+				 "blowbackDuration":2.0,
+				 "blowbackLength":30.0,
+				 "blowbackSpread":10.0,
+				 "particleColor":[50,130,100,140]},
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretOffsets": [
+    0.5,
+    4,
+    0.5,
+    -4
+  ],
+  "turretSprite": "graphics/BR/weapons/wspr_turret.png",
+  "type": "MISSILE"
+}

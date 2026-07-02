@@ -1,0 +1,40 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 3,
+  "fluxVents": 15,
+  "goalVariant": true,
+  "hullId": "brdy_cetonia",
+  "hullMods": [
+    "fluxbreakers"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "brdy_cetonia_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "brdy_pcc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "brdy_afmissile",
+        "WS0015": "brdy_afmissile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "brvulcan",
+        "WS0002": "brvulcan",
+        "WS0003": "brvulcan"
+      }
+    }
+  ],
+  "wings": []
+}

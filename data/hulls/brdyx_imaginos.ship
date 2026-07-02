@@ -1,0 +1,239 @@
+{
+  "bounds": [
+    -37,
+    -26.5,
+    -8,
+    -40,
+    46,
+    -20.5,
+    23.5,
+    -14,
+    43,
+    -9,
+    43,
+    9,
+    23.5,
+    14,
+    46,
+    20.5,
+    -8,
+    40,
+    -37,
+    26.5,
+    -18,
+    -0
+  ],
+  "center": [
+    67,
+    62
+  ],
+  "collisionRadius": 86.214851,
+  "engineSlots": [
+    {
+      "angle": 173.722702,
+      "contrailSize": 13,
+      "length": 51,
+      "location": [
+        -34,
+        15.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ImaginosFlare",
+      "width": 13
+    },
+    {
+      "angle": -173.722702,
+      "contrailSize": 13,
+      "length": 51,
+      "location": [
+        -34,
+        -15.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ImaginosFlare",
+      "width": 13
+    },
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 56.5,
+      "location": [
+        -34,
+        11
+      ],
+      "style": "CUSTOM",
+      "styleId": "ImaginosFlare",
+      "width": 13
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 56.5,
+      "location": [
+        -34,
+        -11
+      ],
+      "style": "CUSTOM",
+      "styleId": "ImaginosFlare",
+      "width": 13
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7.882455,
+      "length": 19.045124,
+      "location": [
+        -34.5,
+        13
+      ],
+      "style": "CUSTOM",
+      "styleId": "ImaginosFlare",
+      "width": 7.882455
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7.882455,
+      "length": 19.045124,
+      "location": [
+        -34.5,
+        -13
+      ],
+      "style": "CUSTOM",
+      "styleId": "ImaginosFlare",
+      "width": 7.882455
+    }
+  ],
+  "height": 124,
+  "hullId": "brdyx_imaginos",
+  "hullName": "Imaginos",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 84.926437,
+  "spriteName": "graphics/BR/ships/scalarfrig.png",
+  "style": "BLACKROCKHULL_IMAGINOS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0009",
+      "locations": [
+        -4.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0010",
+      "locations": [
+        -4.5,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0007",
+      "locations": [
+        17.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        39.5,
+        0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -11.5,
+        37.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -11.5,
+        -37.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0011",
+      "locations": [
+        33.5,
+        23.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0012",
+      "locations": [
+        33.5,
+        -23.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0050",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+   "width": 134,    
+  "builtInMods":["brdimeng", "brimaginosregen", "scalar_rejector_tooltip", "high_maintenance"],  
+    "builtInWeapons":{
+    	"WS0008":"br_damocles",	
+    	"WS0009":"brlensflaresmall",	
+    	"WS0010":"brlensflaresmall2",
+    	"WS0001":"brdy_miniargusb",	
+    	"WS0002":"brdy_miniargusb",
+    	"WS0011":"brdy_miniargusb",	
+    	"WS0012":"brdy_miniargusb",
+    	"WS0050":"lights_imaginos"		
+}		
+} 

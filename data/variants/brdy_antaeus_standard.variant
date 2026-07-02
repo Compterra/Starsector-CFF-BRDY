@@ -1,0 +1,65 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 13,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "brdy_antaeus",
+    "hullMods": [
+        "targetingunit",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_antaeus_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "br_xlpde"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0020": "furylauncher",
+                "WS0021": "furylauncher"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "brdy_plance",
+                "WS0009": "brdy_plance",
+                "WS0010": "brdy_plance",
+                "WS0011": "brdy_plance",
+                "WS0012": "brdy_plance",
+                "WS0013": "brdy_plance",
+                "WS0017": "brdy_plance",
+                "WS0018": "brdy_plance",
+                "WS0033": "brdy_plance",
+                "WS0034": "brdy_plance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_antlaser",
+                "WS0002": "brdy_antlaser",
+                "WS0003": "brdy_antlaser",
+                "WS0004": "brdy_antlaser",
+                "WS0005": "brdy_antlaser",
+                "WS0006": "brdy_antlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "antshred",
+                "WS0015": "antshred",
+                "WS0016": "antshred"
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Heavy",
+    "fluxCapacitors": 10,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "brdy_kurmaraja",
+    "hullMods": [
+        "eccm",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_kurmaraja_heavy",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "scalaron_torpedo_med",
+                "WS0006": "scalaron_torpedo_med",
+                "WS0007": "scalaron_torpedo_small",
+                "WS0008": "scalaron_torpedo_small",
+                "WS0009": "scalaron_torpedo_small",
+                "WS0010": "scalaron_torpedo_small"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_solenoidlarge"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brvulcan",
+                "WS0004": "brvulcan",
+                "WS0011": "br_iwbattery",
+                "WS0012": "br_iwbattery",
+                "WS0015": "brvulcan",
+                "WS0016": "brvulcan"
+            }
+        }
+    ],
+    "wings": [
+        "brdy_vespa_wing",
+        "brdy_vespa_wing",
+        "brdy_mosquito_wing",
+        "brdy_mosquito_wing"
+    ]
+}

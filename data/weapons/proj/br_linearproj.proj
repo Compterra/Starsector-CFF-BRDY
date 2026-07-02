@@ -1,0 +1,23 @@
+{
+	"id":"br_linearproj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"width":8,
+	"fadeTime":0.35,
+	"fringeColor":[255,38,155,245],
+  "coreColor": [243,114,255,235],
+	"glowColor":[213,68,255,55],
+	"glowRadius":30,
+	"hitGlowRadius":25,	
+	"textureScrollSpeed":1.3,
+	"pixelsPerTexel":2,
+	#"bulletSprite":"graphics/BR/missiles/zigzagger_color.png",
+	"textureType": [
+    "graphics/BR/fx/brdy_smokey.png",
+    "graphics/BR/fx/brdy_smokey.png"
+  ],
+	#"bulletSprite":"graphics/BR/missiles/linearp.png",	
+}

@@ -1,0 +1,32 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 700,
+  "fireSoundTwo": "nadircannonfire",
+  	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+  "hardpointSprite": "graphics/BR/weapons/amlance_dummy.png",
+  "id": "hellb_cannon",
+  "muzzleFlashSpec": {
+    "length": 22,
+    "particleColor": [
+      195,
+      225,
+      235,
+      215
+    ],
+    "particleCount": 19,
+    "particleDuration": 0.1,
+    "particleSizeMin": 8,
+    "particleSizeRange": 10,
+    "spread": 18
+  },
+  "projectileSpecId": "nadir_cannon_shot",
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretSprite": "graphics/BR/weapons/amlance_dummy.png",
+  "type": "BALLISTIC"
+}

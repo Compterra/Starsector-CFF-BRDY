@@ -1,0 +1,28 @@
+{
+	"id":"brdy_ac",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":700,
+	"turretSprite":"graphics/BR/weapons/br1_base.png",
+	"turretGunSprite":"graphics/BR/weapons/br1_recoil.png",
+	"hardpointSprite":"graphics/BR/weapons/br1_hardpoint.png",
+	"hardpointGunSprite":"graphics/BR/weapons/br1_hardpoint_recoil.png",	
+	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[23.5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[24.5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":22.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":18.0,
+					   "particleSizeMin":8.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.10,
+					   "particleCount":19,
+					   "particleColor":[165,225,235,255]},
+	"projectileSpecId":"brdyac_shot",  # projectile that will be fired
+	"fireSoundTwo":"br1fire",
+}

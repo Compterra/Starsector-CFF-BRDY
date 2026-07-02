@@ -1,0 +1,38 @@
+{
+	"id":"achilles_stage2",
+	"specClass":"missile",
+    "onHitEffect":"data.scripts.weapons.AchillesOnHitEffect",	
+	"missileType":"HEATSEEKER",
+	"sprite":"graphics/BR/missiles/missile_achilles_stage2.png",
+	"size":[9,18],	
+	"center":[4,8],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[235,255,215,235],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":65, # purely visual
+	"maxFlightTime":9,
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":360,
+				  "maxSpeed":350,
+				  "acc":750,
+				  "dec":490},
+				  "engineSlots":[{"id":"ES1",
+					"loc":[-5.5, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[121,188,137,127],
+						"contrailDuration":1.8,
+						"contrailWidthMult":1.2,
+						"contrailSpawnDistMult":0,						
+						"contrailWidthAddedFractionAtEnd":1.9,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0.3f,
+						"contrailColor":[66,89,74,174],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+						},
+				    "width":5.0,
+				    "length":28.0,
+				    "angle":180.0}]
+} 

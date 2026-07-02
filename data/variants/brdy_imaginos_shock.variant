@@ -1,0 +1,36 @@
+{
+    "displayName": "Shock",
+    "fluxCapacitors": 7,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "brdyx_imaginos",
+    "hullMods": [
+        "hardened_subsystems",
+        "brassaultop",
+        "magazines"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_imaginos_shock",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0008": "br_damocles"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "br_fpde"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_miniargusb",
+                "WS0002": "brdy_miniargusb",
+                "WS0011": "brdy_miniargusb",
+                "WS0012": "brdy_miniargusb"
+            }
+        }
+    ]
+}

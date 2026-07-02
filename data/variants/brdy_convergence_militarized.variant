@@ -1,0 +1,48 @@
+{
+    "displayName": "Militarized",
+    "fluxCapacitors": 6,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "brdy_convergence",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "variantId": "brdy_convergence_militarized",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "brdy_mage_m"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "brdy_mage_s",
+                "WS0007": "brdy_mage_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "br_particlerifle"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_plance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "antshred",
+                "WS0004": "antshred"
+            }
+        }
+    ],
+    "wings": [
+        "brdy_krait_wing",
+        "brdy_krait_wing",
+        "brdy_krait_wing"
+    ]
+}

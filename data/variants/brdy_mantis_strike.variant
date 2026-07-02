@@ -1,0 +1,41 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 8,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "brdy_mantis",
+    "hullMods": [
+        "missleracks",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_mantis_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "furylauncher"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "brdy_2xfury",
+                "WS0004": "brdy_2xfury"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "br_minishard"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brvulcan",
+                "WS0005": "brvulcan"
+            }
+        }
+    ]
+}

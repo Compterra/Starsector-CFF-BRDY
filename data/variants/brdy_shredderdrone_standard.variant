@@ -1,0 +1,30 @@
+{
+  "displayName": "Attack Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "brdy_shredderdrone",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "brdy_shredderdrone_standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "antshred",
+        "WS0002": "antshred",
+        "WS0003": "antshred"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "brdy_dart_fighter2"
+      }
+    }
+  ],
+  "wings": []
+}

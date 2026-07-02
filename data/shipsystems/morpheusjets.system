@@ -1,0 +1,34 @@
+{
+	"id":"morpheusjets",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.MorpheusJetsStats",
+
+	"jitterColor":[109,210,147,35],
+	#"jitterColor":[255,100,255,150],
+	"jitterCopies":3,
+	"jitterRange":2,
+	"jitterRangeRadiusFraction":0.3,
+	
+	#"engineGlowColor":[140,242,195,185],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":2.5,
+	"engineGlowWidthMult":1.0,
+	"engineGlowGlowMult":2.1,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+	
+	"fadeActivationSoundOnChargedown":false,
+	
+	"useSound":"burstjet_use_morph",
+	#"loopSound":"burstjet_underlay_desdi",
+	#"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":27,
+	}
+}

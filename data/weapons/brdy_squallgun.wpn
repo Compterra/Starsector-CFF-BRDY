@@ -1,0 +1,48 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 400,
+  "fireSoundTwo": "brdy_squallgun_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/BR/weapons/strikegun_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    27,
+    0
+  ],
+  "hardpointSprite": "graphics/BR/weapons/strikegun_hardpoint_base.png",
+  "id": "brdy_squallgun",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "particleColor": [
+      255,
+      195,
+      95,
+      215
+    ],
+    "particleCount": 46,
+    "particleDuration": 0.3,
+    "particleSizeMin": 16,
+    "particleSizeRange": 18,
+    "spread": 10
+  },
+  "projectileSpecId": "brdy_squallgun_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/BR/weapons/strikegun_recoil.png",
+  "turretOffsets": [
+    26,
+    0
+  ],
+  "turretSprite": "graphics/BR/weapons/strikegun_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 7
+}

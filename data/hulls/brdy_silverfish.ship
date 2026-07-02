@@ -1,0 +1,222 @@
+{
+  "bounds": [
+    -42.5,
+    -8,
+    -47,
+    -23.5,
+    -18.5,
+    -29,
+    37,
+    -16.5,
+    58,
+    -0,
+    37,
+    16.5,
+    -18.5,
+    29,
+    -47,
+    23.5,
+    -42.5,
+    8
+  ],
+  "builtInMods": [
+    "brfluxmod"
+  ],
+  "builtInWeapons": {
+    "WS0004": "blinker",
+    "WS0005": "blinker2",
+    "WS0006": "blinker2",
+    "WS0007": "blinker",
+    "WS0008": "blinker"
+  },
+  "center": [
+    40,
+    75
+  ],
+  "collisionRadius": 86.782776,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 33,
+      "location": [
+        -47,
+        4.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 33,
+      "location": [
+        -47,
+        -4.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 12
+    },
+    {
+      "angle": 170.272415,
+      "contrailSize": 8.19474,
+      "length": 20.486862,
+      "location": [
+        -28,
+        28
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 8.19474
+    },
+    {
+      "angle": -170.272415,
+      "contrailSize": 8.19474,
+      "length": 20.486862,
+      "location": [
+        -28,
+        -28
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 8.19474
+    },
+    {
+      "angle": 135,
+      "contrailSize": 128,
+      "length": 20,
+      "location": [
+        23.5,
+        18.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 7
+    },
+    {
+      "angle": -135,
+      "contrailSize": 128,
+      "length": 20,
+      "location": [
+        23.5,
+        -18.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 7
+    }
+  ],
+  "height": 140,
+  "hullId": "brdy_silverfish",
+  "hullName": "Silverfish",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 85.513153,
+  "spriteName": "graphics/BR/ships/brdy_silverfish.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 160,
+      "id": "WS0001",
+      "locations": [
+        11,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 260,
+      "id": "WS0002",
+      "locations": [
+        -4,
+        13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 260,
+      "id": "WS0003",
+      "locations": [
+        -4,
+        -13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        45.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -10.5,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -10.5,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -62.5,
+        22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -62.5,
+        -22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 80
+}

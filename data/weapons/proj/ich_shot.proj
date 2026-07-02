@@ -1,0 +1,18 @@
+{
+	"id":"ich_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":8.0,
+	"hitGlowRadius":35,
+	"width":2,
+	"fadeTime":0.2,
+	"fringeColor":[255,200,40,230],
+	"coreColor":[255,245,190,255],
+	"glowColor":[235,150,100,80],
+	"glowRadius":10,		
+	"textureScrollSpeed":32.0,
+	"pixelsPerTexel":2.0,
+	"bulletSprite":"graphics/missiles/shell_large_yellow.png"
+}

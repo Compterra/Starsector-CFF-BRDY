@@ -1,0 +1,38 @@
+{
+    "displayName": "Militarized",
+    "fluxCapacitors": 4,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "brdy_stenos",
+    "hullMods": [
+        "targetingunit",
+        "brshields"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_stenos_militarized",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "scalaron_torpedo_small",
+                "WS0002": "scalaron_torpedo_small",
+                "WS0005": "scalaron_torpedo_med"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "brdy_espada"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "br_iwbattery",
+                "WS0007": "br_iwbattery"
+            }
+        }
+    ],
+    "wings": []
+}

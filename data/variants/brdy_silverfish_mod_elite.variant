@@ -1,0 +1,33 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "brdy_silverfish_mod",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "brdy_silverfish_mod_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "brdy_ag",
+                "WS0005": "brdy_ag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brdy_comet",
+                "WS0003": "brdy_comet"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brvulcan"}
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "displayName": "Close Combat",
+    "fluxCapacitors": 6,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "brdy_gonodactylus",
+    "hullMods": [
+        "brassaultop",
+        "brtarget"
+    ],
+    "permaMods": [],
+    "variantId": "gonodactylus_cc",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0006": "brdy_hammerclaw"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "brdy_fury",
+                "WS0018": "brdy_fury"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0019": "brdy_linear"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "br_minishard",
+                "WS0002": "br_minishard",
+                "WS0003": "br_minishard",
+                "WS0004": "br_minishard"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "br_iwbattery",
+                "WS0008": "brvulcan"
+            }
+        }
+    ]
+}

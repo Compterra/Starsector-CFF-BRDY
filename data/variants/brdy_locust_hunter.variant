@@ -1,0 +1,25 @@
+{
+    "displayName": "Hunter",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "brdy_locust",
+    "hullMods": ["brtarget"],
+    "permaMods": [],
+    "variantId": "brdy_locust_hunter",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_linear",
+                "WS0004": "brdy_linear"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "brvulcan"}
+        }
+    ]
+}

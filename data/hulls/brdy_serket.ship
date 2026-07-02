@@ -1,0 +1,159 @@
+{
+  "bounds": [
+    -11.5,
+    -12.5,
+    14.5,
+    -11,
+    4.5,
+    -7,
+    4.5,
+    7,
+    14.5,
+    11,
+    -11.5,
+    12.5
+  ],
+  "builtInWings": [],
+  "center": [
+    17.5,
+    22.5
+  ],
+  "collisionRadius": 26.004807,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 34,
+      "location": [
+        -11.5,
+        6.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 34,
+      "location": [
+        -11.5,
+        -6.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 34,
+      "location": [
+        -13,
+        9
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 34,
+      "location": [
+        -13,
+        -9
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 7
+    },
+    {
+      "angle": 125,
+      "contrailSize": 128,
+      "length": 22.405594,
+      "location": [
+        -11.5,
+        12.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 5.740865
+    },
+    {
+      "angle": -125,
+      "contrailSize": 128,
+      "length": 22.405594,
+      "location": [
+        -11.5,
+        -12.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 5.740865
+    },
+    {
+      "angle": -125,
+      "contrailSize": 128,
+      "length": 22.405594,
+      "location": [
+        -8.5,
+        -12.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 5.740865
+    },
+    {
+      "angle": 125,
+      "contrailSize": 128,
+      "length": 22.405594,
+      "location": [
+        -8.5,
+        12.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 5.740865
+    }
+  ],
+  "height": 45,
+  "hullId": "brdy_serket",
+  "hullName": "Serket",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 27.586229,
+  "spriteName": "graphics/BR/ships/serket.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        2.5,
+        7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        2.5,
+        -7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 35
+}

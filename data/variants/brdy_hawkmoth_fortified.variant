@@ -1,0 +1,54 @@
+{
+    "displayName": "Fortified",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "brdy_hawkmoth",
+    "hullMods": [
+        "brassaultop",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_hawkmoth_fortified",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brdy_plance",
+                "WS0006": "brdy_plance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "brdy_afmissilebig",
+                "WS0004": "brdy_afmissilebig"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "br_minishard"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "br_minishard"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brburst",
+                "WS0008": "brvulcan",
+                "WS0009": "brvulcan",
+                "WS0010": "brvulcan",
+                "WS0011": "brvulcan",
+                "WS0012": "brvulcan",
+                "WS0013": "brvulcan"
+            }
+        }
+    ]
+}

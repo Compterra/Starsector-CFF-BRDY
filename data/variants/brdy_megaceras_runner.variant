@@ -1,0 +1,41 @@
+{
+    "displayName": "Runner",
+    "fluxCapacitors": 3,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "brdy_megaceras",
+    "hullMods": [
+        "brdrive",
+        "magazines"
+    ],
+    "permaMods": [],
+    "variantId": "brdy_megaceras_runner",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "br_particlerifle"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "achilles_mrm"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "brdy_pcc",
+                "WS0005": "brdy_pcc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_miniargus",
+                "WS0002": "brdy_miniargus"
+            }
+        }
+    ]
+}

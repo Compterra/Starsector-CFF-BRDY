@@ -1,0 +1,29 @@
+{
+	"id":"brdy_linear",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/BR/weapons/br_linearturret.png",
+	"turretGlowSprite":"graphics/BR/weapons/br_lineartglow.png",
+	"hardpointSprite":"graphics/BR/weapons/br_linearhp.png",
+	"hardpointGlowSprite":"graphics/BR/weapons/br_linearhpglow.png",
+	"glowColor":[255,128,165,185],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":13.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":28.0,
+					   "particleSizeRange":29.0,
+					   "particleDuration":0.12,
+					   "particleCount":12,
+					   "particleColor":[255,128,165,115]},	
+	"autocharge":true,
+	"requiresFullCharge":false,
+	"projectileSpecId":"br_linearproj",
+	"fireSoundTwo":"brdy_linear_fire",
+}

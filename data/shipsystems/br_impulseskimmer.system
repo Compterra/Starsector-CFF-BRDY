@@ -1,0 +1,23 @@
+{
+	"id":"br_impulseskimmer",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	
+	
+	"jitterColor":[119,200,137,95],
+	"jitterCopies":14,
+	"jitterRange":8,
+	"jitterRangeRadiusFraction":0.6,
+
+    "renderCopyDuringTeleport":false,
+	
+	"range":500,
+	
+	"fadeActivationSoundOnChargedown":false,	
+	"useSound":"impskim_use",
+	
+	"aiHints":{
+		"averageSpeedIncrease":20,
+		"burstMovementPotential":500,
+	}
+}

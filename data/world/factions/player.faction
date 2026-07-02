@@ -1,0 +1,15 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/BR/portraits/BR_maleofficer1.png",
+			"graphics/BR/portraits/BR_maleofficer2.png",
+			"graphics/BR/portraits/BR_maleofficer3.png",
+			"graphics/BR/portraits/BR_maleofficer4.png",			
+		],
+		"standard_female":[
+			"graphics/BR/portraits/BR_femaleofficer1.png",
+			"graphics/BR/portraits/BR_femaleofficer2.png",
+			"graphics/BR/portraits/BR_femaleofficer3.png",				
+		],
+	},
+}

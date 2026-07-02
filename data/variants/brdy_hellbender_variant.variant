@@ -1,0 +1,29 @@
+{
+  "displayName": "Heavy Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "brdy_hellbender",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "brdy_hellbender_variant",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellb_cannon",
+        "WS0002": "hellb_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "br_tacmissile",
+        "WS0004": "br_tacmissile"
+      }
+    }
+  ]
+  }

@@ -1,0 +1,146 @@
+{
+  "bounds": [
+    -15.5,
+    -13,
+    1.5,
+    -14.5,
+    10,
+    -5.5,
+    10,
+    5.5,
+    1.5,
+    14.5,
+    -15.5,
+    13
+  ],
+  "center": [
+    22.5,
+    30
+  ],
+  "collisionRadius": 35.089172,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 20,
+      "location": [
+        -16,
+        3
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 20,
+      "location": [
+        -16,
+        -3
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 8
+    },
+    {
+      "angle": 153.434952,
+      "contrailSize": 5.813778,
+      "length": 15.428869,
+      "location": [
+        -13.5,
+        6
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 5.813778
+    },
+    {
+      "angle": -153.434952,
+      "contrailSize": 5.813778,
+      "length": 15.428869,
+      "location": [
+        -13.5,
+        -6
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 5.813778
+    }
+  ],
+  "height": 60,
+  "hullId": "brdy_bulwark",
+  "hullName": "Bulwark",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 34.383862,
+  "spriteName": "graphics/BR/ships/heavydronet.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 45,
+      "arc": 306.869904,
+      "id": "WS0001",
+      "locations": [
+        -3,
+        11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 284.250031,
+      "id": "WS0002",
+      "locations": [
+        -4,
+        -10.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 28.072487,
+      "id": "WS0003",
+      "locations": [
+        4,
+        -0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 28.072001,
+      "id": "WS0004",
+      "locations": [
+        1.5,
+        9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 28.072001,
+      "id": "WS0005",
+      "locations": [
+        1.5,
+        -9
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 45
+}

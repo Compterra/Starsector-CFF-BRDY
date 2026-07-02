@@ -1,0 +1,27 @@
+{
+	"specClass":"projectile",
+	"id":"brdy_nadirgun2",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/BR/weapons/amlance_dummy.png",
+	"hardpointSprite":"graphics/BR/weapons/amlance_dummy.png",	
+	"turretGlowSprite":"graphics/BR/weapons/stingerglow.png",
+	"hardpointGlowSprite":"graphics/BR/weapons/stingerglow.png",
+	"projectileSpecId":"br_wisp_shot",  # projectile that will be fired	
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"glowColor":[119,210,137,255],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":6.0,
+					   "particleSizeMin":20.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.12,
+					   "particleCount":12,
+					   "particleColor":[67,245,135,255]},
+	"fireSoundOne":"nadirgun2fire",	
+}
+

@@ -1,0 +1,12 @@
+{
+	"baseHullId":"brdy_zabrus",
+	"skinHullId":"brdy_zabrus_p",
+	"hullName":"Zabrus (P)",
+	"descriptionId":"brdy_zabrus",
+	"descriptionPrefix":"Rare among pirate fleets, this custom Blackrock hull remains dangerous despite degraded systems and inconsistent maintenance.",
+	"spriteName":"graphics/BR/ships/skins/brdy_zabrus_p.png",
+	"baseValueMult":0.9,
+	"builtInMods":["faulty_grid", "degraded_engines"],
+	"tags":["bp_rare", "pirate_bp", "pirates"],
+	"tech":"Blackrock"
+}

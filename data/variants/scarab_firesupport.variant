@@ -1,0 +1,32 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "brdy_scarab",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "scarab_firesupport",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_galecannon"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "voidspear_srm"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "antshred",
+                "WS0004": "antshred",
+                "WS0005": "antshred",
+                "WS0006": "antshred"
+            }
+        }
+    ]
+}

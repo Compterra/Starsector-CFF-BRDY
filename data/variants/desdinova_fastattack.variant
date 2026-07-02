@@ -1,0 +1,52 @@
+{
+    "displayName": "Fast Attack",
+    "fluxCapacitors": 9,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "brdy_desdinova",
+    "hullMods": ["brtarget"],
+    "permaMods": [],
+    "variantId": "desdinova_fastattack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "brdy_ag",
+                "WS0007": "brdy_ag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "brdy_2xfury",
+                "WS0009": "brdy_2xfury",
+                "WS0012": "brdy_2xfury"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "brdy_solenoid"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_scannon",
+                "WS0005": "brdy_thunderhead"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brvulcan",
+                "WS0003": "brvulcan",
+                "WS0010": "brdy_miniargus",
+                "WS0011": "brdy_miniargus"
+            }
+        }
+    ]
+}

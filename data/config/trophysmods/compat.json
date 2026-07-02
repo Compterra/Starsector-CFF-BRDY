@@ -1,0 +1,91 @@
+{
+  "affinities": {
+    "brassaultop": {
+      "base": 0.15,
+      "frigate": 0.25,
+      "destroyer": 0.45,
+      "cruiser": 0.65,
+      "capital": 0.85
+    },
+    "brtarget": {
+      "base": 0.2,
+      "cruiser": 0.45,
+      "capital": 0.75,
+      "weapons": {
+        "ballistic": 0.25,
+        "energy": 0.25,
+        "missile": 0.15
+      },
+      "categories": {
+        "targeting_core": -1000.0
+      }
+    },
+    "brdrive": {
+      "base": 0.1,
+      "destroyer": 0.35,
+      "cruiser": 0.55,
+      "capital": 0.75,
+      "categories": {
+        "brdy-engine-suite": -1000.0
+      }
+    },
+    "brshields": {
+      "base": 0.0,
+      "shield": 1.25,
+      "categories": {
+        "brdy-shield-suite": -1000.0
+      }
+    },
+    "brfluxmod": {
+      "base": -1000.0
+    },
+    "brdimeng": {
+      "base": -1000.0
+    },
+    "br_hardenedweaps": {
+      "base": -1000.0
+    },
+    "brimaginosregen": {
+      "base": -1000.0
+    },
+    "br_overtuneddrives": {
+      "base": -1000.0
+    },
+    "scalar_rejector_tooltip": {
+      "base": -1000.0
+    },
+    "scalar_repulsor_tooltip": {
+      "base": -1000.0
+    }
+  },
+  "category-affinities": {
+    "brdy-engine-suite": {
+      "categories": {
+        "brdy-engine-suite": -1000.0
+      }
+    },
+    "brdy-shield-suite": {
+      "categories": {
+        "brdy-shield-suite": -1000.0
+      }
+    }
+  },
+  "categories": {
+    "brtarget": [ "targeting_core" ],
+    "targetingunit": [ "targeting_core" ],
+    "dedicated_targeting_core": [ "targeting_core" ],
+    "brdrive": [ "brdy-engine-suite" ],
+    "augmentedengines": [ "brdy-engine-suite" ],
+    "unstable_injector": [ "brdy-engine-suite" ],
+    "safetyoverrides": [ "brdy-engine-suite", "targeting_core" ],
+    "brshields": [ "brdy-shield-suite" ],
+    "frontshield": [ "brdy-shield-suite" ],
+    "frontemitter": [ "brdy-shield-suite" ],
+    "adaptiveshields": [ "brdy-shield-suite" ],
+    "advancedshieldemitter": [ "brdy-shield-suite" ],
+    "hardenedshieldemitter": [ "brdy-shield-suite" ],
+    "stabilizedshieldemitter": [ "brdy-shield-suite" ],
+    "extendedshieldemitter": [ "brdy-shield-suite" ]
+  },
+  "common-pool": [ "brassaultop", "brtarget", "brdrive", "brshields" ]
+}

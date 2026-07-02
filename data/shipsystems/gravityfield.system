@@ -1,0 +1,22 @@
+{
+	"id":"gravityfield",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.ai.ReflectorAI",
+	
+    "jitterColor":[119,200,167,45],
+	"jitterCopies":1,
+	"jitterRange":0.1,
+	"jitterRangeRadiusFraction":0.05,
+
+	"statsScript":"data.shipsystems.scripts.GravityField",
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.9,
+	"soundFilterGainHF":0.30,	
+
+	"outOfUsesSound":"gun_out_of_ammo",
+    "useSound":"system_brakefieldactivate",
+	"deactivateSound":"system_brakefieldoff",
+	"loopSound":"system_brakefieldloop",
+}

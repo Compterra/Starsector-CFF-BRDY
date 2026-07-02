@@ -1,0 +1,12 @@
+{
+	"blackrock_internal":{
+		"name":"Blackrock Intelligence",
+		"logo":"graphics/BR/factions/crest_blackrock.png",
+		"icon":"graphics/BR/factions/crest_blackrock.png",
+		"image":"graphics/BR/factions/blackrock_drive_yards.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"blackrock_driveyards",
+		"type":"Intelligence Report",
+		"shortType":"Intel"
+	}
+}

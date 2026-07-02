@@ -1,0 +1,60 @@
+{
+	"BlackrockFlare":{
+		"engineColor":[131,237,113,121],
+		"contrailParticleSizeMult":2.23,
+		"contrailParticleDuration":1.68,
+		"contrailParticleFinalSizeMult":1.75,		
+		"contrailMaxSpeedMult":0.039,
+		"contrailAngularVelocityMult":0.49,
+		"contrailColor":[36,47,39,39],
+		"engineGlowGlowMult":2.2,
+		"contrailCampaignColor":[131,238,119,54],	
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+	"ImaginosFlare":{
+		"engineColor":[44,255,190,108],
+		"contrailParticleSizeMult":4.23,
+		"contrailParticleDuration":0.13,
+		"contrailParticleFinalSizeMult":0.15,		
+		"contrailMaxSpeedMult":-1,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[125,250,170,64],
+		"contrailCampaignColor":[125,250,170,54],			
+		"engineGlowGlowMult":1.35,
+		"type":"SMOKE" # GLOW or SMOKE
+	},	
+	"AJAX_MISSILE":{
+		"engineColor":[121,188,137,127],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":3.6,
+		"contrailParticleFinalSizeMult":3,
+		"engineGlowGlowMult":3,		
+		"contrailMaxSpeedMult":0.1,
+		"contrailAngularVelocityMult":0.1,
+		"contrailColor":[66,87,72,119],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+	"FURY_TORP":{
+		"engineColor":[201,234,82,240],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":3.6,
+		"contrailParticleFinalSizeMult":2.7,
+		"engineGlowGlowMult":5,		
+		"contrailMaxSpeedMult":0.1,
+		"contrailAngularVelocityMult":0.1,
+		"contrailColor":[81,87,52,119],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+	"PirateBRFlare":{
+		"engineColor":[88,107,69,147],
+		"contrailParticleSizeMult":2.23,
+		"contrailParticleDuration":1.98,
+		"contrailParticleFinalSizeMult":1.85,		
+		"contrailMaxSpeedMult":0.039,
+		"contrailAngularVelocityMult":0.49,
+		"contrailColor":[36,47,30,39],
+		"engineGlowGlowMult":2.2,
+		"type":"SMOKE" # GLOW or SMOKE
+	},	
+}	
+}

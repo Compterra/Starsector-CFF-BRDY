@@ -1,0 +1,37 @@
+{
+	"id":"scalarcloak",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+	
+	"statsScript":"data.shipsystems.scripts.ScalarCloakStats",
+	
+	"phaseHighlight":"_glow1",
+	"phaseDiffuse":"_glow2",
+	
+	"jitterColor":[115,160,148,255],
+	"jitterCopies":12,
+	"jitterRange":65,
+	"jitterRangeRadiusFraction":0.35,	
+	
+	"effectColor1":[255,255,255,165],
+	"effectColor2":[255,255,255,180],
+	
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+
+	"engineGlowWidthMult":1.1,	
+	"engineGlowLengthMult":1.4,
+	"engineGlowGlowMult":2,	
+	
+	#"soundFilterType":"LOWPASS",
+	#"soundFilterGain":0.94,
+	#"soundFilterGainHF":0.25,
+	
+	"fadeActivationSoundOnChargedown":false,	
+	
+	"shipAlpha":0.25,
+	
+	"useSound":"system_scloak_activate",
+	"loopSound":"system_scloak_loop",	
+	"outOfUsesSound":"system_phase_cloak_collision",
+}

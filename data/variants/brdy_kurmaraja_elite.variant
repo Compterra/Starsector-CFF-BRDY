@@ -1,0 +1,59 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 39,
+    "goalVariant": true,
+    "hullId": "brdy_kurmaraja",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "brdy_kurmaraja_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brdy_galecannon",
+                "WS0006": "brdy_galecannon",
+                "WS0011": "brdy_solenoid",
+                "WS0012": "brdy_solenoid"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "brdy_2xfury",
+                "WS0008": "brdy_2xfury",
+                "WS0009": "brdy_2xfury",
+                "WS0010": "brdy_2xfury"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "br_minishard",
+                "WS0016": "br_minishard"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_iwcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_argussmall",
+                "WS0004": "brdy_argussmall"
+            }
+        }
+    ],
+    "wings": [
+        "brdy_serket_wing",
+        "brdy_serket_wing",
+        "brdy_serket_wing",
+        "brdy_serket_wing"
+    ]
+}
