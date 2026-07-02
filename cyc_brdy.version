@@ -1,13 +1,15 @@
 {
-    "masterVersionFile":"https://bitbucket.org/thegneissplace/brdy/downloads/cyc_brdy.version",
+    "masterVersionFile":"https://raw.githubusercontent.com/Compterra/Starsector-CFF-BRDY/main/cyc_brdy.version",
     "modName":"Blackrock Drive Yards",
-    "modThreadId":4018,
-    "modNexusId":21,
+    "modThreadId":35651,
+    "modURL":"https://fractalsoftworks.com/forum/index.php?topic=35651.0",
     "modVersion":
     {
-        "major":0,
-        "minor":9,
-        "patch":"6-CFF"
+        "major":1,
+        "minor":0,
+        "patch":0
     },
-    "starsectorVersion":"0.98a-RC8"
+    "starsectorVersion":"0.98a",
+    "directDownloadURL":"https://github.com/Compterra/Starsector-CFF-BRDY/archive/refs/heads/main.zip",
+    "changelogURL":"https://raw.githubusercontent.com/Compterra/Starsector-CFF-BRDY/main/blackrock_changelog.txt"
 }
