@@ -1,8 +1,7 @@
 package data.scripts.util;
 
 import com.fs.starfarer.api.Global;
-
-import java.lang.reflect.Method;
+import lunalib.lunaSettings.LunaSettings;
 
 public final class BRDYSettings {
 
@@ -18,10 +17,6 @@ public final class BRDYSettings {
     private static boolean shipMasteryPackages = true;
     private static boolean nexCorvusGeneration = true;
     private static float effectScale = 1f;
-
-    private static Class<?> lunaSettingsClass = null;
-    private static Method lunaGetBoolean = null;
-    private static Method lunaGetFloat = null;
 
     private BRDYSettings() {
     }
@@ -39,17 +34,15 @@ public final class BRDYSettings {
         nexCorvusGeneration = true;
         effectScale = 1f;
 
-        if (!lunaLibExists || !loadLunaLib()) {
-            BRDYFx.resetParticleEngineCache();
-            return;
+        if (lunaLibExists) {
+            useParticleEngine = getBoolean("brdy_enableParticleEngine", useParticleEngine);
+            graphicsLibLights = getBoolean("brdy_enableGraphicsLibLights", graphicsLibLights);
+            graphicsLibDistortions = getBoolean("brdy_enableGraphicsLibDistortions", graphicsLibDistortions);
+            shipMasteryPackages = getBoolean("brdy_enableShipMasteryPackages", shipMasteryPackages);
+            nexCorvusGeneration = getBoolean("brdy_enableNexCorvusGeneration", nexCorvusGeneration);
+            effectScale = clamp(getFloat("brdy_effectScale", effectScale), 0.25f, 1.5f);
         }
 
-        useParticleEngine = getBoolean("brdy_enableParticleEngine", useParticleEngine);
-        graphicsLibLights = getBoolean("brdy_enableGraphicsLibLights", graphicsLibLights);
-        graphicsLibDistortions = getBoolean("brdy_enableGraphicsLibDistortions", graphicsLibDistortions);
-        shipMasteryPackages = getBoolean("brdy_enableShipMasteryPackages", shipMasteryPackages);
-        nexCorvusGeneration = getBoolean("brdy_enableNexCorvusGeneration", nexCorvusGeneration);
-        effectScale = clamp(getFloat("brdy_effectScale", effectScale), 0.25f, 1.5f);
         BRDYFx.resetParticleEngineCache();
     }
 
@@ -58,7 +51,7 @@ public final class BRDYSettings {
     }
 
     public static boolean isLunaLibEnabled() {
-        return lunaLibExists && lunaSettingsClass != null;
+        return lunaLibExists;
     }
 
     public static boolean graphicsLibLightsEnabled() {
@@ -96,30 +89,11 @@ public final class BRDYSettings {
         }
     }
 
-    private static boolean loadLunaLib() {
-        if (lunaSettingsClass != null && lunaGetBoolean != null && lunaGetFloat != null) {
-            return true;
-        }
-
-        try {
-            lunaSettingsClass = Class.forName("lunalib.lunaSettings.LunaSettings");
-            lunaGetBoolean = lunaSettingsClass.getMethod("getBoolean", String.class, String.class);
-            lunaGetFloat = lunaSettingsClass.getMethod("getFloat", String.class, String.class);
-            return true;
-        } catch (Throwable ex) {
-            lunaSettingsClass = null;
-            lunaGetBoolean = null;
-            lunaGetFloat = null;
-            Global.getLogger(BRDYSettings.class).warn("LunaLib is enabled but its settings API was not available; using Blackrock defaults.", ex);
-            return false;
-        }
-    }
-
     private static boolean getBoolean(String fieldId, boolean fallback) {
         try {
-            Object value = lunaGetBoolean.invoke(null, MOD_ID, fieldId);
-            if (value instanceof Boolean) {
-                return ((Boolean) value).booleanValue();
+            Boolean value = LunaSettings.getBoolean(MOD_ID, fieldId);
+            if (value != null) {
+                return value.booleanValue();
             }
         } catch (Throwable ex) {
             Global.getLogger(BRDYSettings.class).warn("Could not read LunaLib boolean setting " + fieldId, ex);
@@ -129,12 +103,9 @@ public final class BRDYSettings {
 
     private static float getFloat(String fieldId, float fallback) {
         try {
-            Object value = lunaGetFloat.invoke(null, MOD_ID, fieldId);
-            if (value instanceof Float) {
-                return ((Float) value).floatValue();
-            }
-            if (value instanceof Number) {
-                return ((Number) value).floatValue();
+            Float value = LunaSettings.getFloat(MOD_ID, fieldId);
+            if (value != null) {
+                return value.floatValue();
             }
         } catch (Throwable ex) {
             Global.getLogger(BRDYSettings.class).warn("Could not read LunaLib float setting " + fieldId, ex);

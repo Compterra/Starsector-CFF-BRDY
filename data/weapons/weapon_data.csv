@@ -72,6 +72,7 @@ Lens Flare,brlensflare,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,2
 Lens Flare,brlensflare2,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21034
 Lens Flare,brlensflaresmall,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21035
 Lens Flare,brlensflaresmall2,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,21036
+Target Painter,target_painter,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,"hide_in_codex,no_drop,no_sell,no_drop_salvage,no_bp_drop,no_dealer",,,,,,,,,,,,,,21037
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Scalaron Pulse Beam,brdy_miniargusb,1,,350,275,330,,400,0,360,,,,,ENERGY,,300,0.02,0.24,0.26,0.6,,,,,1000000000,,,,,,,"PD, SYSTEM, SHOW_IN_CODEX",,,Blackrock,,Point Defense,,,,,,,,,,21039
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
