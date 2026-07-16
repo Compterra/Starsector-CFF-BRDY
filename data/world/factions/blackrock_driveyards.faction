@@ -1,6 +1,7 @@
-{
+﻿{
    id:"blackrock_driveyards",
    "color":[255,108,69,255],
+   "showInIntelTab":true,
    #"secondaryUIColor":[159,226,159,255],
    #"secondarySegments":4,
 	"baseUIColor":[255,108,69,255],
@@ -324,3 +325,4 @@
 	},
 },
 }
+
