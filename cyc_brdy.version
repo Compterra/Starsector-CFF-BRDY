@@ -7,10 +7,11 @@
     {
         "major":1,
         "minor":0,
-        "patch":2
+        "patch":3
     },
     "starsectorVersion":"0.98a-RC8",
     "directDownloadURL":"https://github.com/Compterra/Starsector-CFF-BRDY/archive/refs/heads/main.zip",
     "changelogURL":"https://raw.githubusercontent.com/Compterra/Starsector-CFF-BRDY/main/blackrock_changelog.txt"
 }
+
 
