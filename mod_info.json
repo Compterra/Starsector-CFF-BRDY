@@ -2,7 +2,7 @@
 	"id":"blackrock_driveyards",
 	"name":"Blackrock Drive Yards",
 	"author":"cycerin & co.",
-	"version":"1.0.0",
+	"version":"1.0.1",
 	"description":"A restored Blackrock Drive Yards fork for Starsector 0.98a. Adds the Blackrock faction, its corporate worlds, distinctive ships, weapons, fighters, hullmods, missions, and compatibility polish for modern library mods. Nexerelin compatible. LazyLib, GraphicsLib and MagicLib required.",
 	"gameVersion":"0.98a-RC8",
 	"dependencies": [

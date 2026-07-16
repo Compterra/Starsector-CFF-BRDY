@@ -1,5 +1,10 @@
 Changelog:
 
+1.0.1
+- Corrected Gneiss and Rama market industry limits, duplicate patrol/military chains, and Preclusion's missing planetary conditions.
+- Hardened Dimensional venting AI, missile behavior, and ship-system scripts against combat edge-case crashes.
+
+
 0.9.5a
 - Fixed a crash caused by the Gridfire MRM homing AI
 - Fixed Blackrock-only hullmods appearing in multiple unintended hullmod categories
